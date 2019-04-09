@@ -1,0 +1,254 @@
+# A laboratory guide for the observation, isolation, and culturing of zygomycetes with an emphasis on selected taxa of Zoopagomycotina {#lab_zoopago}
+
+_Nicole Reynolds, Gerald Benny, and Matthew E. Smith_
+
+Department of Plant Pathology, University of Florida, Gainesville FL 32611
+
+## Introduction
+
+Zoopagomycotina (phylum Zoopagomycota (@Spatafora_2016)) comprises endo- or ectoparasitic fungi that attack other fungi (mycoparasites) or small animals such as nematodes, rotifers, and amoebae (@Hibbett_2007).  Most species can be obtained from soil or leaf litter, but some are found in herbivore dung.  Ectoparasitic and predaceous species penetrate the host via a haustorium whereas endoparasitic species produce thalli directly inside the host.  Predaceous taxa in the genera _Acaulopage_ and _Zoophagus_ utilize short lateral hyphae coated with a sticky adhesive to trap prey (@Drechsler_1935; @Sommerstorff_1911).  Others such as species of _Amoebophilus_ and _Cochlonema_ produce gluey spores that adhere to the host and later germinate and penetrate the host cuticle.  Sexual reproduction is unknown for most species. Homothallic and heterothallic forms have been inferred based on observations of zygospore formation, but the mating system remains essentially unknown for this subphylum (@Benjamin_1979).  Indeed, many aspects of the basic biology of these fungi such as dispersal mechanisms, host/parasite interactions, geographic distribution, and life cycle remain unclear (@Benny_2016).  
+
+The subphylum Zoopagomycotina is among the least studied groups of fungi due in large part to the obligate nature of their parasitic associations.  These fungi cannot be found unless the appropriate host organism is also present in the sample.  Even if the host is present, it may take up to several months of incubation for some of these parasites to appear on culture plates (@Drechsler_1938; @Duddington_1955).  Once obtained, maintenance of these co-cultures over time is labor intensive and often unsustainable due to the unknown nutritional or habitat requirements of the host organisms and/or the parasites.  Furthermore, the majority of species have not been obtained in axenic culture which means that molecular phylogenetic studies are challenging for many taxa.  As a result, although five families are named, the evolutionary relationships between taxa have not been tested.  However, mycoparasitic members of the Piptocephalidaceae are some of the easiest to collect from soil or dung and also to grow in culture due to their association with common host fungi (@Benny_2016).  The Piptocephalidaceae contains three genera (_Kuzhuaea_, _Piptocephalis_, and _Syncephalis_) that are all haustorial mycoparasites of fungi (primarily members of the Mortierellomycotina and Mucoromycotina) (@Benjamin_1979; @Benny_2005).  _Piptocephalis_ species can be recognized by the typically tall, aerial, dichotomously branched hyphae and sporophores.  In contrast, _Syncephalis_ species usually form networks of thin, cobweb-like aerial hyphae that produce short, unbranched sporophores.  _Syncephalis_ sporophores are generally more difficult to observe under the dissecting microscope relative to _Piptocephalis_ species, but the tufts of cottony hyphae are an easily recognized feature of _Syncephalis_.
+
+In this exercise we provide information and guidance for obtaining fresh materials of Zoopagomycotina in the laboratory. Our methods emphasize common mycoparasitic taxa in the genera _Piptocephalis _and _Syncephalis_ because these are ubiquitous and may therefore be the easiest taxa in Zoopagomycotina to observe in a classroom laboratory setting. These fungi can also be co-cultured on their hosts and kept for a longer term than the predaceous species. However, some of the techniques outlined here may also be used to obtain predaceous Zoopagomycotina fungi that attack small animals such as nematodes, rotifers, and amoebae. Several other sources are helpful for methods and tips for growing zygomycete fungi in the lab and may be also be helpful for this laboratory. In particular, Benny (-@Benny_2008) and Benny et al. (@Benny_2016) contain figures and additional information on zygomycete culturing techniques as well as recipes for culture media and additional historical reference lists.  For more complete information on nematode-trapping fungi and the zygomycete species that attack other small animals see Barron (@Barron_2004), Drechsler (@Drechsler_1935) and Duddington (@Duddington_1955).
+
+Below we go over the process of collecting Zoopagomycotina fungi in four different sections: 
+
+1. Soil and Dung Collection 
+2. Incubation of Soil and Dung
+3. Viewing and Identification of Mycoparasitic Fungi
+4. Isolation of Fungi from Samples
+
+Two appendices are included to provide commonly used media recipes and methods for preserving dual cultures of mycoparasites for longer term storage.  Preserved cultures are useful for creating culture collections that can be grown out and used as demonstration cultures for students to view as examples during laboratory activities.
+
+## Supplies
+
+Although the list of supplies may vary slightly depending on the species of Zoopagomycotina that you hope to see, below is the generic list of all supplies used for obtaining Zoopagomycotina from soil and dung:
+
+*   Deep plastic or glass petri dishes with lids (e.g. 100 x 80 mm Pyrex glass crystallizing dishes). If lids are not available, then clear plastic or glass plates or Parafilm may be used as covers
+*   Standard size plastic and/or glass petri dishes
+*   Sterile filter paper discs
+*   Distilled water
+*   Low nutrient agar media (see appendix)
+*   Trowel, spoon, or similar device for scooping soil
+*   Clean plastic and paper bags
+*   Lab gloves
+*   Antibacterial antibiotics and benomyl (see appendix)
+*   Dissecting microscope
+*   Light microscope
+*   Bunsen burner or alcohol lamp 
+*   Sharpie or other permanent markers
+*   Parafilm
+*   Microscope slides and coverslips
+*   Tissue stain for slide preparations, such as lactophenol cotton blue
+*   70% or 95% ethanol for bench and tool sterilization
+*   Some or all of these flame-resistant isolation tools: fine-tipped forceps, tungsten wire loop, insect minuten pin with handle, nichrome wire with handle, small metal spatula, scalpel (Fig. \@ref(fig:ch2fig1))
+
+```{r ch2fig1, echo=FALSE, fig.align='center', fig.width = 12, fig.cap=" Tools used for isolating, transferring, and culturing microfungi.  From left to right: insect minuten pin with pin vice handle, two examples of fine-tipped forceps, a harpoon-like mini spatula with vice handle, nichrome wire with a vice handle, tungsten wire loop, metal-handled scalpel, and small spatula.  Fine-tipped forceps are useful for collecting segments of hyphae (e.g. for slide making or isolation in culture) whereas the insect minuten pin, nichrome wire, and loop may be used for transferring spores.  The scalpel or spatulas are needed for cutting agar plates."}
+knitr::include_graphics("img/Fig1_Ch2.png", dpi = 75)
+```
+
+
+## Soil and Dung Collection
+
+Different taxa are commonly associated with different substrates (e.g. soil vs. litter vs. dung) so multiple substrates can be used in order to maximize Zoopagomycotina diversity.  For example, _Syncephalis_ species are more common from soil samples (@Benny_2016), whereas predaceous taxa like _Zoopage_ species may be more common in decaying leaf litter (@Duddington_1955). 
+
+### Soil Collection
+
+1. Find a location to sample.  Nutrient rich and moist locations such as a gardens, compost heaps, beneath trees or shrubs, etc. may yield better results. Mesic forest habitats often yield many species of Zoopagomycotina. 
+
+2. Use a clean spoon or trowel to scoop a small amount (up to 250 mL/1 cup) of topsoil and place in a small, clean plastic bag.  If desired, also collect decaying leaf litter laying on the soil.
+
+3. Keep soil and leaf litter refrigerated until ready to plate on media. (Although few studies have empirically tested the effects of refrigeration, anecdotal evidence suggests that fresher soil yields the highest diversity).
+
+### Dung Collection
+Rodent and rabbit dung are rich sources of _Piptocephalis_ and _Syncephalis_ species but isolates have also been obtained from the dung of horses, cows, raccoons, squirrels, goats, and bats.  The most important aspect of dung collection is that it must be relatively fresh.  The dung should still have moisture and have a shiny, brown appearance.  Old dung is often drier, is white or green, and has a "crusty" appearance.  
+
+1. The type of dung collected will depend on the surrounding habitat.  Wooded areas are typically good for collecting dung from a variety of small mammals such as squirrel, deer, rabbit, raccoon, and mouse.  Even arthropod dung (e.g. cockroach or earwig) has produced some interesting Zoopagomycotina taxa and could be tested.  Local farms with herbivores may be a valuable source as well.  For identification of scats see Halfpenny (-@Halfpenny_2008) or similar source.
+
+2. Place the dung in an appropriate container and refrigerate until ready to place in a moist chamber.  Firm dung (e.g. mouse or rabbit pellets) should be kept in paper bags rather than in plastic bags.
+
+>Note: 
+Field collected dung could potentially contain nematodes or other disease agents so it should be handled with laboratory gloves. In some areas of the USA (e.g. the Southwest) rodents may act vectors for Hanta virus so it may not be appropriate to use rodent dung from all locations. 
+
+## Incubation of Soil and Dung
+
+Two main approaches have been used to view and isolate Zoopagomycotina species from soil and dung, incubation and plating. These approaches are outlined briefly here.
+
+### Soil Plating
+
+1. Choose a low-nutrient media plate to use for isolation. The choice of plate will depend on the desired fungal groups. For mycoparasitic taxa it is typical to use plates that include antibacterial antibiotics and the anti-fungal compound benomyl to reduce growth by 'molds' (e.g. _Aspergillus_ and _Penicillium_ spp.).  For predaceous fungi we recommend water agar plates without antibiotics or benomyl and with plenty of moisture. Host animals such as nematodes or amoeba are often more prolific if extra water is added to the plate (see Appendix below for agar and antibiotic recipes).
+2. Use a spoon or small scoop to gather 1-2 grams of soil or litter and gently sprinkle evenly across one side of the plate (Fig. \@ref(fig:ch2fig2)). One side of the plate is left clear of soil to enable easier viewing of the fungi. 
+3. Label the plate with the collection code, date, media type. Store in a dark cabinet or container for several days.  Do <span style="text-decoration:underline;">not</span> seal the plate with Parafilm.
+4. The plates should be observed under a dissecting microscope to look for fungi.
+
+
+```{r ch2fig2, echo=FALSE, fig.align='center', fig.width = 12, fig.cap=" Example of a soil sample sprinkled on an agar plate.  A small amount of soil spread on half of the plate helps to minimize overgrowth of fungi as well as enable easier visualization of fungi that grow out over the agar.  This example has a minimal amount of soil, but more could be used depending on the size and consistency of the soil particles."}
+knitr::include_graphics("img/Fig2_Ch2.jpg", dpi = 75)
+```
+
+
+### Dung Incubation in Moist Chambers
+
+1. Plastic or glass petri dishes lined with filter paper are used for dung incubation.  Standard size (i.e. 100 x 15 mm) petri dishes are too shallow for most types of dung, but may be appropriate for mouse or rat dung.  Deeper dishes are better for allowing the growth of tall, aerial fungi and are best for larger dung like cow or horse (Fig. \@ref(fig:ch2fig3)).
+2. Divide the dung into smaller portions that will fit in the center of the dishes.  For very small dung (e.g. mouse), several pellets may be evenly spaced across the dish.  The idea is to leave enough space around the dung for fungi of interest to grow out.
+3. Wet the filter paper with enough distilled water to saturate the paper (but avoid having standing water in the bottom of the dish because this will promote bacterial growth).  Do not parafilm the dishes.
+4. Moist chambers can be incubated for several days before fungi appear, but they should be checked regularly to ensure the filter paper stays moist and to watch for overgrowth by other organisms (e.g. bacteria, _Aspergillus_ and _Penicillium_ spp).
+
+
+```{r ch2fig3, echo=FALSE, fig.align='center', fig.width = 12, fig.cap="Moist chamber set up for small (A) and larger (B) dung samples.  Several pellets of rat (A, left) and mouse (A, right) dung can be evenly spaced out on a standard size petri dish lined with filter paper(s).  Larger dung can be incubated in a tall glass container with a lid, also lined with filter paper(s) (B).  It is important to leave space around the dung pieces to allow room for air flow and fungal growth.  Filter papers should be wetted up to the point of saturation with distilled water and monitored to prevent dessication.  Do not Parafilm the dishes."}
+knitr::include_graphics("img/Fig3_Ch2.png", dpi = 75)
+```
+
+
+## Viewing and Identification of Mycoparasitic Fungi
+
+### Slide Preparation to Examine Fungi
+
+Slides should be made of fungi of interest for identification purposes.  Fungal hyphae can be collected with a sterilized fine instrument (e.g. loop) and placed in a drop of distilled water or ethanol on a microscope slide.  If using ethanol, a drop of 2% KOH should be added to rehydrate the hyphae.  A drop of stain such as lactophenol cotton blue may be placed next to the cover slip and allowed to diffuse across the sample.  If slides are to be kept, excess liquid should be removed from the slide by placing a Kimwipe or paper towel beside the coverslip and allowing it to absorb the excess.  Clear fingernail polish can be applied around the edges of the coverslip to create a seal.  The area around the coverslip should be as clean and dry as possible to ensure the polish adheres.
+
+### Morphological Features of Mycoparasitic Genera
+
+**_Piptocephalis_**:  Common hosts: _Cokeromyces, Umbelopsis, Mucor_, and _Mortierella_ (Fig. \@ref(fig:ch2fig4))
+
+Morphology (Fig. \@ref(fig:ch2fig5)): Hyphae and sporophores dichotomously branched; hyphae often tall and aerial (sometimes reaching the lid of the plate) and a buff to tan color; spores are produced in clusters on apical head cells; spores may be dry or suspended in a liquid drop; zygospores typically have an ornamented surface and are subtended by tongs-like suspensors. *Piptocephalis* species are more common in herbivore dung samples.
+
+
+**_Syncephalis_**:  Common hosts: _Mucor, Mortierella, Zygorhynchus_, and _Rhizopus_ (Fig. \@ref(fig:ch2fig4))
+
+Morphology (Fig. \@ref(fig:ch2fig6)): Typically forming networks of fine, aerial, cobweb-like hyphae; sporophores are short, unbranched, have rhizoids at the base, and often are formed in clusters; sporophores and hyphae are hyaline; spores are produced at the apex of the sporophores and are usually suspended in a liquid drop at maturity; galling of host hyphae may also be observed; zygospores have an ornamented surface and apposed suspensors. _Syncephalis_ species are more common in soil samples.
+
+**_Kuzhuaea_**:  Host: _Umbelopsis_ (Fig. \@ref(fig:ch2fig4))
+
+Morphology (Fig. \@ref(fig:ch2fig5)): Dichotomously branched hyphae; spores formed in zig-zag chains; zygospores ornamented with apposed suspensors.
+
+Molecular evidence suggests that the monotypic _Kuzhuaea_ is actually a species of _Piptocephalis_ (@White_2006).
+
+
+```{r ch2fig4, echo=FALSE, fig.align='center', fig.width = 12, fig.cap="Examples of common hosts for *Piptocephalis* and *Syncephalis* species.  *Cokeromyces* (A), *Umbelopsis* (B), *Mucor* (C), and *Mortierella* (F, G) are often associated with *Piptocephalis* species while *Mucor* (C), *Zygorhynchus* (D), *Rhizopus* (E), and *Mortierella* (F, G) are frequently found with *Syncephalis* species.  Species from both genera of mycoparasites are able to grow on various different Mucoromycotina hosts, and occasionally may associate with ascomycetes (i.e. *Penicillium* or *Endomyces*).  Some *Mortierella* species require special conditions in order to sporulate in culture (e.g. limited nutrients), so they may appear as masses of undifferentiated hyaline hyphae (G).  However, *Mortierella* species frequently have a characteristic zonate growth pattern on media plates (F)."}
+knitr::include_graphics("img/Fig4_Ch2.png", dpi = 75)
+```
+
+```{r ch2fig5, echo=FALSE, fig.align='center', fig.width = 12, fig.cap="*Piptocephalis* (A, B) and *Kuzhuaea* (C) under the dissecting microscope and _Kuzuhaea_ sporophores stained and viewed under the compound microscope (D).  The dichotomous branching of these species is evident.  *Piptocephalis* species typically have longer, aerial hyphae (A) that are often honey or buff colored when mature.  Some species produce spores in liquid drops when mature (B) whereas others remain dry.  _Kuzuhaea_ hyphae (C) are smaller and produce spores in chains, which can be observed under a compound microscope (D)."}
+knitr::include_graphics("img/Fig5_Ch2.png", dpi = 75)
+```
+
+
+```{r ch2fig6, echo=FALSE, fig.align='center', fig.width = 12, fig.cap="*Syncephalis* species in culture.  On media plates, the presence of a *Syncephalis* species may be indicated by the tufts of fine, cobweb-like hyphae that are formed over the host (A).  Under the dissecting microscope *Syncephalis* sporophores (B, C, D) are hyaline, relatively short compared to the host (and compared to *Piptocephalis*), typically unbranched (but may be curved as in B), and sometimes are produced in clusters (C).  Red arrows indicate immature (B, C) and mature (D) sporangia.  In most species, liquid drops will form around the spores on mature sporangia.  The green arrow indicates the rhizoids that attach the sporophores to the hyphae of the host fungus.  The yellow arrow shows the fine network of thin hyphae that are produced throughout cultures of *Syncephalis* species (D).  Note: the circular objects in B are water droplets."}
+knitr::include_graphics("img/Fig6_Ch2.png", dpi = 75)
+```
+
+
+## Isolation of Fungi from Soil and Dung Samples 
+
+If resources are available, students may try to isolate particular fungi of interest on culture media plates.  These methods are optional and depend on the time and supplies allocated to these laboratory activities.  Isolating and culturing of fungi enable students to learn sterile technique and further practice their microscopy skills as well as become more familiar with microfungi morphology.
+
+### Isolation from Soil Plates
+
+1. For Zoopagomycotina taxa, it is necessary to include both host and parasite when culturing and transferring living material from one plate to another.  Therefore, plates should be inspected under a dissecting microscope to locate a spot on the plate where both host and parasite are growing but contamination from other fungi is not observed.  This may not always be possible, but if an appropriate site is found then a small section of the agar may be cut from the plate and placed on a new, clean plate.
+1. Flame sterilize a small scalpel or spatula and allow to cool.  
+2. Carefully cut out a small square of agar where hyphae and spores of both the host and parasite are growing.
+3. Using sterile technique, gently place the cut piece onto a clean media plate.
+4. Try to minimize the amount of time that the lid is off the clean media plate in order to reduce the possibility of contamination.  Remember to write the date and collection information on the new plate.
+2. If there is no place on the plate where host and parasite are growing away from other fungi, it may be possible to isolate them using a loop tool or fine tipped forceps (Fig. \@ref(fig:ch2fig2)).
+1. Locate hyphae and spores of the host and parasite with the dissecting microscope.
+2. Flame sterilize a tungsten wire loop or fine tipped forceps and allow to cool.
+3. While looking at the fungi under the microscope, carefully touch the loop to the spores of the host and the parasite or grab a few hyphae/sporophores with the forceps.  
+4. Scrape the clean plate with the loop containing the spores and tissue.  If there is difficulty in removing the tissue from the loop, it may be helpful to gently stab the agar with the loop.  If using forceps, hold them vertically and stab them directly down into the agar.  Try not to gouge or tear the agar.
+
+### Isolation from Incubated Dung
+
+1. While looking at the sample under the dissecting microscope, use a flame sterilized insect minuten pin, nichrome wire, or tungsten loop (Fig. \@ref(fig:ch2fig1)) to carefully collect spores from the fungus of interest.  If it's a mycoparasite, make sure to gather spores of both host and parasite.  Try not to touch any other fungus with the tool to avoid contamination.
+2. Stab a clean agar plate with the tool to deposit the spores.  Be careful not to tear or gouge the agar.
+3. Alternatively, sterilized fine tipped forceps can be used to pluck sporophores and place them onto a clean plate.
+
+These methods work well for _Piptocephalis_ and _Syncephalis_ when they are growing on fungal hosts that grow rapidly in pure culture.  However, Zoopagomycotina (e.g. species of _Acaulopage, Amoebophilus, Cochlonema, Endocochlus , Zoopage_) that attack small animal hosts (i.e. amoebae, rotifers, nematodes) will be much more challenging to locate, identify, and maintain in dual cultures. The only successful cultures of these fungi have been obtained when cultures of the host nematodes or amoeba are maintained separately and inoculated (typically with soil or leaf litter as well). For example, cultures of the nematode _Caenorhabditis elegans_ may be purchased from Carolina Biological Supply.  It is also important to remember that these fungi are often very small and may not appear on plates for weeks (or even months), so they may not be encountered over the timeframe of a classroom laboratory activity. 
+
+## Appendix 1 - Media Recipes
+
+### Benomyl stock solution
+
+Also known as Benlate, this fungicide has low acute toxicity, but did produce teratogenic (@Cummings_1992) and carcinogenic effects (@NRC_1987) in rats and mice. Accordingly, personal protective equipment including gloves and lab coat are recommended when handling this substance. Benomyl is not soluble in water so the stock solution is colloidal and requires shaking to resuspend the compound prior to use.
+
+1. Measure out 0.2 grams of Benomyl.
+2. Add the Benomyl to 100 mL of sterile, distilled water.  Keep the stock solution refrigerated. Shake or stir prior to use. (A sterile stir bar can be added into the bottom of the stock solution for easier and more even mixing of the compound).
+
+### Nutrient-poor media recipes
+
+Benomyl stock solution can be added at 2 mL per 1 L of media to any of the following recipes.  Benomyl is autoclavable, so it can be added before or after sterilization.  Typically, two different antibacterial antibiotics are added after sterilization.  Chloramphenicol, streptomycin, and ampicillin are commonly used.  Additional media recipes used for different zygomycetes can be found in Benny et al. (-@Benny_2016).
+
+<span style="text-decoration:underline;">Clarified V8 juice medium</span> (CV8) (@Benny_2016)
+
+1. Clarified V8 juice stock solution
+  1. Filter V8 juice through cheese cloth, Miracloth, or vacuum filter using filter paper to remove pulp.
+2. Add powdered CaCO<sub>3</sub> (calcium carbonate) at 3 g/L and mix.
+3. Dilute cV8 solution with an equal volume of water.
+4. CV8 stock solution may be aliquoted into 50 mL portions (e.g. 50 mL tubes) and frozen until use.
+1. CV8 medium preparation (1 L)
+5. Thaw one 50 mL portion of CV8 stock solution.
+6. Measure and add 18 g agar.
+7. Fill with 950 mL of water to reach 1 L volume.
+8. Mix well and autoclave.
+
+<span style="text-decoration:underline;">1/10 Wheat germ medium</span> (Wg10) (@Benny_2016)
+
+1. Measure 3 g of wheat germ and add to 300 mL of distilled water.
+2. Heat on hot plate or in microwave until boiling for ca. 30 seconds.
+3. Filter solution through cheese cloth or Miracloth.
+4. Add 0.5 g of dextrose (glucose) to the supernatant.
+5. Add 18 g agar.
+6. Fill to 1 L volume with distilled water, mix, and autoclave.
+
+<span style="text-decoration:underline;">2% Water agar medium</span> (WA) (@Lichtwardt_1986)
+
+1. Measure 20 g agar.
+2. Add 1 L distilled water and autoclave.
+
+Notes on media types and optimal usage: CV8 and Wg10 media with antibiotics and benomyl are commonly used for soil sprinkle plates and for isolation of fungi from mixed dung and soil cultures.  These nutrient poor media are particularly useful for obtaining cultures of mycoparasitic Zoopagomycotina (e.g. _Piptocephalis_ and _Syncephalis_) because they allow for the growth of common hosts (e.g many species of Mucoromycotina) but impair common 'molds' that belong to Ascomycota (_Aspergillus_ and _Penicillium_ spp). However, it is important to remember that most species of _Piptocephalis_ will not grow vigorously on Benomyl and the use of Benomyl also inhibits the growth of some fungi that are known hosts (e.g. many _Mortierella_ spp.). WA is the optimum medium of choice for predaceous Zoopagomycotina fungi and the amount of agar can be modified as desired. The use of less agar creates a softer substrate that amoebae can move through more easily.  It is also important to be aware of mites.  Mites are common contaminates on culture plates containing soil and leaf litter, and they can spread very rapidly from plate to plate causing damage to the fungi you're trying to grow.  To prevent contamination of axenic or dual cultures, soil plates should be kept in an entirely different container, cabinet, room, refrigerator, etc. from clean plates.
+
+## Appendix 2 - Preservation of Dual Host-Parasite Cultures for Later Use
+
+The following methods work well for medium to long-term preservation of saprophytic zygomycete cultures in general, but specifically for _Piptocephalis_ and _Syncephalis_ once a dual culture free from contaminating bacteria and fungi has been obtained.  Preservation and maintenance of other Zoopagomycotina taxa that utilize small animal hosts will require alternate methods.
+
+
+1. 
+<span style="text-decoration:underline;">Water plugs – we recommend water plugs at room temperature for medium-term preservation (1-2 years maximum)</span>(Supp. Fig. \@ref(fig:ch2supfig1))
+
+
+1. Fill culture slant tubes approximately half full with distilled water and autoclave.
+2. Locate areas on the plate where both host and parasite are sporulating.
+3. Using a flame sterilized small circular die punch (approximately 1 cm in diameter) or a small spatula tool, cut the agar containing host and parasite into approximately 1 cm by 1cm (or 1 cm diameter) pieces.  Very small pieces tend to revive poorly but large chunks do not fit well in most tubes – be sure to adjust the size of agar blocks to the aperature of the tubes you are using.
+4. Use a flame sterilized spatula or other tool to scoop the agar chunks up and place them into the sterilized water tube.  It is best not to overfill the water tube, so generally around 12- 20 chunks are sufficient, depending on the volume of the tube.
+5. Flame sterilize the opening of the tube when finished adding the agar chunks.
+6. Replace the lid on the tube.  Parafilm is recommended around the lid.
+7. Water plugs can be stored at room temperature or in a refrigerator until ready to use. 
+8. When ready to revive the culture, use a sterile tool to scoop out an agar chunk from the tube and place on a clean agar plate.
+
+
+2. 
+<span style="text-decoration:underline;">10% glycerol and -80 freezer preparation – we recommend deep freezing for long-term preservation (2+ years up to 10 years)</span>
+
+
+1. Make and autoclave a stock solution of glycerol (10%) and distilled water (90%).
+2. Aliquot glycerol stock solution into sterile 2 mL microcentrifuge tubes.  Fill tubes using only 1 mL of liquid.
+3. Locate areas on the plate where both host and parasite are sporulating.
+4. Using a sterilized spatula or similar tool, gently scrape the hyphae of both fungi from the surface of the agar.  Be careful not to puncture or collect any of the agar on the spatula.  Collect a pea-sized amount of tissue, making sure to collect spores from both the host and the parasite.
+5. Deposit the collected tissue into the glycerol tube and immediately place in a -80 freezer.
+6. When ready to revive the culture, thaw and place the contents of the tube into a nutrient rich liquid medium such as MEYE (recipe below).
+7. Once the fungi start to grow in the liquid medium, the tissue can be transferred to an agar plate.
+
+<span style="text-decoration:underline;">Malt extract-yeast extract (MEYE) (nutrient rich) liquid medium</span>
+
+1. Measure 3 g malt extract, 3 g yeast extract, 5 g peptone, and 10 g dextrose.
+2. Add 1 L distilled water and mix.
+3. Aliquot liquid media into small slant culture tubes.  Tubes need only be filled to approximately ½ volume.
+4. Autoclave tubes of liquid media and store in the refrigerator until needed.
+
+
+```{r ch2supfig1, echo=FALSE, fig.align='center', fig.width = 12, fig.cap="Preservation of axenic or dual cultures as water plugs.  Circular 'cork borers' (sometimes called 'die punches') (A) are helpful for cutting the agar into equally sized pieces, but a scalpel or spatula may be used instead.  Approximately 15-20 agar pieces should be cut from the culture (B) and each piece should include sporulating tissue of both host and parasite (if working with mycoparasites).  Agar chunks are placed into a labeled tube containing autoclaved distilled water and then sealed with Parafilm (C).  Water plugs may be stored at room temperature or in a refrigerator until needed. We recommend up to a maximum of two years of storage."}
+knitr::include_graphics("img/SupFig1_Ch2.png", dpi = 75)
+```
+
+***
+
+## References
