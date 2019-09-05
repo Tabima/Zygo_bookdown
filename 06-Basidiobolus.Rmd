@@ -1,0 +1,70 @@
+# Zoopagomycota: Entomophthoromycotina: Basidiobolus {#Basidiobolus}
+
+_Joseph W. Spatafora<sup>1</sup>, Jason E. Stajich<sup>2</sup>_
+
+
+1. Department of Botany and Plant Pathology, Oregon State University, Corvallis, OR 97330; 2. Department of Plant Pathology & Microbiology, University of California-Riverside, Riverside, CA 92521.
+
+## Introduction
+
+_Basidiobolus_ (Basidiobolomycetes, Basidiobolales) is a genus of fungi with an unusual combination of life history traits and morphologies (Humber 2012).  It is most commonly isolated from the dung of insectivorous amphibians and reptiles including frogs, geckos and lizards.  Spores pass through the disgestive system of the animal and are dispersed with its dung. _Basidiobolus_, as its name implies, produces forcibly discharged spores that are ejected from the dung.  These spores are asexual, however, and are called primary conidia or blastoconidia (Fig. 1a).  Blastoconidia are globose and have multiple germination options.  They may germinate hyphae that are septate; they may undergoe repetitive germination to produce another blastoconidium, or produce a capilloconidium (Fig. 1b).  Capilloconidia are not forcibly ejected; rather, they possess a sticky tip that adheres to small insects.  The capilloconidia are then dispersed with the phoretic insect, and when the insect is consumed by an insectivorous amphibian or reptile, the life cycle begins anew (Fig. 2). Sexual reproduction is by gametangial conjugation and zygospore formation.  Zygospores are typically smooth and thick-walled.  The zygospore forms in one of the gametangia, however, typically giving zygospores a beaked appearance (Fig. 1c).
+
+```{r ch6fig1, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "Spore stages of _Basidiobolus_ a) Primary, blastoconidia (http://www.mycology.adelaide.edu.au/Fungal_Descriptions/Zygomycetes/Basidiobolus/). B) Blastoconidium germinating to produce a secondary capilloconidia [http://www.microbeworld.org/component/](http://www.microbeworld.org/component/)jlibrary/?view=article&id=4564). C) Zygospores (http://www.mycology.adelaide.edu.au/Fungal _Descriptions/Zygomycetes/Basidiobolus/."}
+```
+
+_Basidiobolus_ is a member of the Zoopagomycota but its relationship to the other subphyla is poorly resolved (Spatafora et al. 2016).  It is currently classified in the Entomphthoromycotina, but current molecular and genome scale phylogenies suggest that it might be best classified within its own subphylum (Gryganskyi et al. 2013).
+
+_Basidiobolus_ is considered a commensal with its amphibian or reptile host but its complete ecological role in nature is unknown.  It can an opportunistic pathogen of mammals (basidiobolomycosis, Gugnani 1999) resulting in subcutaneous infections (e.g., Anaparthy & Deepika, 2014) and rare infections of the gastrointestinal tract (Geramizadeh et al. 2015).
+
+```{r ch6fig2, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "Life cycle of _Basidiobolus ranarum_ (Webster and Weber, 2007)."}
+
+```
+
+## Materials
+
+### <span style="text-decoration:underline;">Water agar</span>
+
+- 20 g agar
+- 1 L dH2O
+
+### <span style="text-decoration:underline;">PDA</span>
+
+- 17 g Potato Dextrose Agar (Difco)
+- 1 L H2O
+
+### <span style="text-decoration:underline;">CMA</span>
+
+- 17 g Corn Agar (Difco)
+- 1 L H2O
+
+## Isolation
+
+Collect appropriate animal (e.g., frog, lizard, gecko) and hold in a container until it deficates.  Containers should be a suitable size to hold the animal comfortably and humanely and allow for appropriate air exchange.  Release animal after dung collection.
+
+1. Prepare 2% water agar plates.
+2. Cut small piece (2x2 mm) of agar from water agar plates and mix with dung pellet using scapel or dissecting needles.
+3. Place agar/dung mixture in the middle of the inner surface of petri dish lid.
+4. Place agar containing petri dish bottom on top of the petri dish lid. Parafilm petri dish and store upside down to allow for primary conidia to be ejected on to agar surface. Examine every 24 hours for spore shoot and germination.
+
+Or
+
+1. Prepare 2% water agar plates.  Also pour a very thin layer of water agar in the lid half of the petri dish.  Allow agar to solidify in petri dish lid then close petri dishes.
+2. Place sterile filter paper on agar surface of petri dish lid.  Moisten with dH2O but not enough to create standing water.
+3. Using forceps, take a dung pellet and smear across the surface of the moistened filter paper.
+4. Close petri dish, parafilm petri dish, and store upside down to allow for primary conidia to be ejected on to agar surface. Examine every 24 hours for spore shoot and germination.
+5. When germination is observed, transfer germinating spore to nutrient rich agar medium (e.g., PDA)
+6. Once colony has established (3-7 days depending on species) remove small amount of inoculum and place in water droplet or lactophenol cotton blue on microscope slide and gently cover with cover slip.
+7. Observe the following traits: septate hyphae, conidiophore, primary blastoconidia, secondary capilloconidia, zygospores.
+
+## Additional resources
+
+- [Zygolife culturing techniques videos](https://www.youtube.com/watch?v=tyVJNsp-WbA&list=PLEFF-Vc5lo2bxLDw7-rWF4lE9opWwb7fi)
+
+***
+
+## References
+
+
+
+
+

@@ -1,0 +1,73 @@
+# Pilobolus (Mucoromycotina, Mucoromycota) {#Pilobolus}
+
+_Joseph W. Spatafora_
+
+Department of Botany and Plant Pathology, Oregon State University, Corvallis, OR 97330.
+
+## Introduction 
+
+_Pilobolus _(pilos (Gr.) = felt, skullcap + bolus (Gr.) = ball) is a common coprophilous member of Mucorales that can be used to demonstrate phototropic sporangiophore and forcibly discharged sporangia.  In this laboratory you will learn to setup a dung chamber, identify _Pilobolus_ and the main characters associated with its asexual reproduction, and establish cultures.
+
+## Materials and recipes
+
+
+### <span style="text-decoration:underline;">B-agar</span>
+- 17g corn meal agar
+- 2g dextrose
+- 3g sucrose
+- 1g yeast extract
+- 1000ml dH<sub>2</sub>O
+
+### <span style="text-decoration:underline;">Simplified Hemin Agar (SHA)</span>
+
+- 10 mg Hemin (dissolved in 37.5 ml 0.1N NaOH)
+- 10 g Sodium acetate (CH3COONa- 3H20)
+- 10 mg thiamine-HCl
+- 0.66 g (NH4)2SO4
+- 1.0 g K2HPO4
+- 0.5 g MgS04-7H20
+- 15 g agar (omit for broth medium)
+- 1 liter dH2O
+
+> Note: if amending with antibiotics, cool to 55C after autoclaving and Streptomycin and Ampicillin for final concentrations of 30 ug/ml and 100 ug/ml, respectively.
+
+## Dung collection
+
+Just about any form of herbivore dung will work. I have had best results working with dung collected from wild deer, elk and rabbit, but horse also works well if they are grazing in pastures with _Pilobolus_.  Collect fresh dung that is still moist and not desiccated into a plastic ziplock bag.  Use plastic gloves to collect the dung and label the bag with collection information (e.g., host, locality, date, collector).  Place the dung into a refrigerator to keep cool or until you are able to setup the dung chambers.  Typically dung is collected the day before so that storage is not more than 24 hours.
+
+```{r ch9fig1, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "Herbivore dung that typically contain _Pilobolus_.  a) rabbit, b) deer, c) elk, d) horse."}
+```
+
+## Dung chamber set up and incubation
+
+A dung chamber can be made from any available sealable container, such as a clean medium size plastic container in which you typically purchase cottage cheese, yogurt or salsa.  The wider the mouth of the container the better, as it will make handling easier, and you want it tall enough to hold the dung, but not too tall to prevent examining under a dissecting scope.  Fold a paper napkin into a shape so that it fits in the base of the container.  Wet the napkin with tap water so that it is saturated but pour off any standing water.  Place a small (60 mm) petri dish lid (or bottom) open side up, inside the container on the saturated paper napkin.  The petri dish lid/bottom will serve as a stage to hold the dung.  Place enough dung onto the Petri dish stage to fill it.  This will typically be 3-5 pellets of deer dung or one piece of horse dung.  Mist the dung with a small amount of water.  Close lid and incubate at room temperature for 24-48 hours.
+
+```{r ch9fig2, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "Dung chamber.  Small plastic container, paper towel, and a 60mm petri dish lid or bottom."}
+```
+
+## _Pilobolus_ observation.
+
+_Pilobolus_ sporangia are macroscopic and readily observed with the naked eye.  Sporangiophores are erect and elevate the sporangium off the surface of the dung.  Sporangiophores are typically 1-3 cm in length, but can be much longer in some cases.  They are anchored in the dung by a swollen base called a trophocyst.  The sporangiophore terminates in a subsporangial vescicle (SV); the sporangium is formed atop the SV and is the “hat” of _Pilobolus_.  At the junction between the sporangiophore and SV is a carotinoid ring (CR) that is used to detect light and orient the sporangium towards the light.  The SV focuses the light increasing the turgor pressure within the SV, resulting in the sporangium being forcibly ejected from the tip of the SV.  The sporangium is shot towards the light, and thus the light gap, increasing the efficiency of dispersal.  Sporangia can be shot up to 2 meters and the sporangial flight represents some of the fastest speeds and strongest g-forces documented in nature (Yaffetto et al. 2008; [https://www.youtube.com/watch?v=DEj8uidzP4I](https://www.youtube.com/watch?v=DEj8uidzP4I)).  Sporangia stick onto vegetative, are consumed by grazing herbivores, pass through the digestive tract of the host animal, and are deposited with the dung starting the whole process over again, a phenomenon called gut-passage syndrome.
+
+```{r ch9fig3, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= " _Pilobolus_ sporangiophores with sporangia fruiting on dung surface. (http://es.treknature.com/gallery/Europe/Netherlands/South/photo294436.htm)."}
+```
+
+
+## Slide preparation.
+
+Place a drop of water onto a standard glass microscope slide.  Using a blunt dissecting needle, gently excavate the dung from around the base of the sporangiophore so that the trophocyst is exposed.  Lift the sporangiophore from the dung and place it in the droplet of water on the microscope slide.  Gently apply a cover slip and observe under a compound light microscope.  Starting at the base of the structure observe the trophocyst, sporangiophore, carotenoid ring, subsporangial vesicle and sporangium.  You will likely notice many sporangia that have been discharged and are stuck to the sides of the container.  Using your dissecting needle pick a few and make a microscope slide as described above.  Observe under a compound microscope and then break the sporangium by applying pressure to the cover slip with the eraser end of a pencil.  Observe again to see the individual sporangiospores contained with each sporangium.
+
+```{r ch9fig4, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= " _Pilobolus_ sporangiophore/sporangium"}
+```
+
+
+## Isolation and culturing
+
+Some species of _Pilobolus_ can be cultured on simple media such as B-agar but others require more complicated agar with dung, coprogen, or hemin (Hesseltine et al. 1953, Leventin & Caroselli 1976).  Also, the fact that _Pilobolus_ forcibly ejects its sporangia facilitates its isolation.  Pick a sporangium from the walls of the dung chamber using a flame sterilized dissecting needle.  Place the sporangium in 30% H<sub>2</sub>O<sub>2</sub> for 30 sec, then transfer the sporangium to sterile H<sub>2</sub>O for 30 sec. Sterilization can be performed in large droplet on a plastic surface (e.g., parafilm) or in adjacent wells of a spot plate.  Then transfer the surfaced sterilized sporangium with a flame sterilized dissecting needle to agar plates.  To further avoid contamination by bacteria the agar plates can be amended with antibiotics, typically a combination of Streptomycin and Ampicillin.  Observe daily for germination.  The hyphae will appear to emerge from the sporangium but are actually germinating sporangiospores.  Hyphae tend to be large diameter and sparse.  Sporangia typically start to appear within one to two weeks of hyphal growth.
+
+```{r ch9fig5, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "_Pilobolus_ culture on B-agar."}
+```
+
+***
+
+### References

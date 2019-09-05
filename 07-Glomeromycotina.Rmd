@@ -1,0 +1,123 @@
+# Mucoromycota: Glomeromycotina (arbuscular mycorrhizae) {#Glomeromycotina}
+
+<i>Matthew E. Smith<sup>1</sup> and Joseph W. Spatafora<sup>2</sup></i>
+
+1.Department of Plant Pathology, University of Florida, Gainesville FL 32611; 2. Department of Botany and Plant Pathology, Oregon State University, Corvallis, OR 97330.
+
+## Introduction 
+
+Arbuscular mycorrhizae (AM) of Glomeromycotina, Mucoromycota are the most common form of mycorrhizae on the planet.  These fungi occur in all terrestrial ecosystems and form symbioses with ~74% of all plant species (Brundrett, 2009). Based on fossil data these fungi are an ancient group with early records from the Ordovician, approximately 460 million years ago (Redecker et al. 2000). Since the vast majority of vascular plant species form AM associations and they can also be found in many early-diverging and non-vascular plants, it is generally accepted that these fungi were present on the roots of the very earliest terrestrial plants. It has been hypothesized that the AM symbiosis likely facilitated the colonization of land by enhancing plant nutrition and enhancing survival (Brundrett, 2002; Bidartondo et al 2011). AM associations are particularly dominant in grasslands and prairies in temperate ecosystems as well as in tropical ecosystems including forests.  However, AM fungi can be difficult to observe due to their cryptic nature. In this lab you will learn basic techniques to isolate spores from soil (Fig. 1a) and also stain and observe arbuscles (Fig. 1b) and vesicles (Fig. 1c) of AM fungi directly in plant roots.
+
+```{r ch7fig1, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "a) _Glomus_-type spore (photo from American Society for the Advancement of Science).. b) arbuscule (photo by K. Wex). c) vesicle (photo by K. Wex)."}
+
+```
+
+**AM spores** are globose to subglobose and are produced terminal or subterminal, according to species, on specialized hyphae. The spores tend to be quite large (often larger than 100 μm) and they often have refractive contents inside.  Sexual reproduction has never been documented in AM fungi and AM spores are assumed to be asexual propagules.  For this reason they have been referred to as azygospores or chlamydospore-like.  Spores are produced in the soil and typically in close proximity to the plant root.
+
+**Arbuscules** are specialized haustoria that are formed within the cortex cells of the fine roots of plants. **Hyphae** grow along the root surface where they penetrate and grow between epidermal cells through the production of **appressoria** (Fig. 4).  A hypha will then penetrate the cell wall of cortex cells, but not the cell membrane, forming a highly branched, shrub or tree-like haustorium called an arbuscule. Arbuscules are produced by all AM fungi and are the sites of nutritional exchange between the fungus and plant. The fungus receives simple carbohydrates (glucose) from the plant and in exchange the plant receives water and nutrients (e.g., phosphorus, nitrogen, etc.) from the fungus.
+
+**Vesicles** are not produced by all AM fungi but are frequently observed in the roots of plant hosts.  Vesicles are globose to oblong and stain a dark blue to black.  They can be produced within or between the cells of fine roots.  Vesicles are assumed to be storage organs whereby the fungus can retain nutrients inside of the plant (where they are safe from marauding soil organisms). However, the exact function of vesicles has not been definitively shown.
+
+## Collection of host plant and soil for observation of AM spores, arbuscules and vesicles.
+
+### Materials and supplies
+
+- 3 Soil Sieves: 850 um (No. 20), 250 um (No. 60) and 38 um (No. 60)
+- 5 gal plastic bucket for washing into (optional: soil can clog drains if you are washing directly into a sink)
+- Centrifuges-Sorvall RC-2B or similar centrifuge
+- 50 ml, round bottom tubes for Sorvall centrifuge
+- Water bottles with bent spout, filled with distilled water.
+- Beakers: 250 ml and 100 ml
+- Petri dishes
+- Rubber tube (long enough to attach to tap water faucet).
+- Compound microscopes
+- Dissecting microscopes
+- Microscope slides
+- Microscope cover slips
+- Dropper bottle with dH2O
+- Transfer loop
+- Plastic funnel (for washing materials into 50 ml tubes)
+
+### Recipes
+
+_50% sucrose (w/w)_ - 50 g. sucrose + distilled water to 100 ml
+
+### **Collect an AM host plant** (Fig. 5)
+
+- _Grass hosts_.  Native or introduced grasses work well, but they will be colonized more heavily if collected from well-watered environments or during the rainy season.  Use a shovel or trowel to dig up grass plants making sure to collect the fine root system and ample soil.  Place the plant including roots and soil in a plastic bag and store in a refrigerator or cool place.
+- _Onions_.  Onions starts also work well for observing AM fungi.  Grow onion starts in forest, grassland/prairie, or agricultural soils.  Soils can be collected and used to grow onion starts in small plastic pots.  Mycorrhizal inoculum can also be purchased at a local gardening store but it is not necessary.  Onion starts will need to be grown for 1-2 months prior to staining.
+- _Other hosts_. The vast majority of vascular plants form AM associations so you can look for AM spores, hyphae, vesicles and arbuscules with almost any host plant. If no grasses or onions are available just try a convenient plant to see what you find!
+
+### _Soil removal._  
+
+Remove the aerial portion of the plant and place the root system in a 2L beaker with tap water.  Soak the root system to remove soil.  Gently wash root system of onion/grass plant under running tap water to remove remaining soil debris.  Do this gently so as to retain as much of the fine root system as possible.  The soil:water mixture will be used for spore isolation and the cleaned root system will be stained for arbuscules and vesicles.  Store roots in a plastic bag with a wet paper towel in a refrigerator until ready for use.
+
+## Isolating Arbuscular Mycorrhizae spores.
+
+1. Stack three soil sieves in order of 850 um (No. 20), 250 um (No. 60) and 38 um (No. 60) from top to bottom.
+2. Stir the soil:water mixture and pour onto the 850 um sieve.
+3. Wash the spores and finer soil particles through the 850 um sieve using tap water.
+
+> NOTE: Water will flow more slowly through the finer mesh sieves. Be sure not to allow water to overflow the finer mesh sieves.  If needed remove and wash spores and finer soil particles through the 250 um sieve and then the 38 um sieves.
+
+4. Repeat until all the soil:water mixture has been filtered and wash water runs clear through 38 um sieve.
+5. Collect the retained material (screening) from the 250 um and 38 um sieves into separate beakers with water from a squeeze bottle.
+6. Place screenings into a 50ml round-bottom centrifuge tube and add tap water.  Screening volume to tap water should be approximately 1:2. You will have two tubes corresponding to screenings from 250 um and 38 um screenings. Balance tubes and spin for 5 min at 4000 rpm. A gentle spray of water from a squirt bottle or faucet is useful to wash the screenings into the tube and a funnel is also helpful.
+7. Discard supernatant (which tends to contain dead organic materials) and retain pellet (which will contain spores). Resuspend pellet in 50% sucrose solution, mix well.  Balance tubes and spin for 5 min at 4000 rpm.
+8. The supernatent contains the AM spores. Pour the supernatant over 38 um sieve and rinse gently with water to remove the sucrose.
+9. Collect washed spores using a Buchner funnel and filter paper or alternatively you can pour directly into a clean petri dish.  NOTE: Perform separately for each screening so you will have two sets of filter paper, a >250 um and a >38-250 um.  Store in petri dish.
+10. Make a slide mount in water of spores from the filter paper using a transfer loop. Alternatively, for spores that are in water in a petri dish you can examine the entire contents of the dish in a dissecting microscope. A small suction pipette can be used to transfer individual spores to a slide for light microscopy.
+
+#### Troubleshooting
+
+1. Be careful not to overflow water on finer mesh screens, you will lose spores.
+2. Do not leave the spores in sucrose solution for too long – they can rupture or become misshapen.
+
+## Staining for Arbuscular Mycorrhizae
+
+### Supplies
+
+- Hot plates (preferably 2 or more with spinner bars)
+- 2L glass beakers (3)
+- Screened root containers (1-2 per person)
+- 1L 10% KOH (weight/volume; 10 grams in 1 L dH2O)
+- 50 ml Schaeffers black ink
+- 1L household white vinegar
+- Hot pads/hot gloves
+- Forceps (2 per person)
+- Microscope slides
+- Microscope cover slips
+- Dropper bottle with dH2O
+- Safety goggles
+- Timer
+- Funnel
+- Metal spatula
+- Lab coat (to protect clothes from any errant drops of 10% KOH)
+
+### Recipes.
+
+1. _10% KOH._  Add 10 grams of KOH to 1 L of dH2O in 1L Pyrex Bottle.  Dissolve by gentle agitation with stir bar on magnetic plate or repeated inversion.
+2. _5% Schaeffers Black Ink solution._  Add 50 ml of Schaeffers Black Ink to 950 ml of standard household white vinegar in 1L Pyrex bottle.  Mix gently be repeated inversion.
+3. _Acidified rinse water._  Place a few drops to a teaspoon of white vinegar in 2L beaker and fill with water.  Place beaker under a very slowly running tap water faucet.
+
+### Procedure 
+
+1. _Loading root container._  Remove a small section of the fine root system with forceps and place in a screened, root container (Fig. 6).  Do not over-pack root container, as the roots need to be accessible to the clearing and staining reagents.  The screen will prevent the roots from being forced out of the openings of the root container.
+2. _Clearing root system_ Place root containers in 2L beaker containing 10% KOH solution and boil for 3 minutes.  Occasionally stir with metal spatula to distribute root containers
+3. _Rinsing root system._  After 3 minutes of boilding, remove the root containers from the KOH using tongs and place them in a new 2L beaker. Rinse five times with tap water.
+4. _Staining root system_. Place rinsed root containers in 2L beaker containing 5% Schaeffer Black ink solution and boil for 3 minutes. Occasionally stir with metal spatula to distribute root containers.
+5. _Destaining root system.  _Place stained root containers in 2L beaker containing acidified water.  Rinse for 5 minutes, discard water and repeat 3 times.  This rinse can be performed under a slow running tap or on a magnetic plate with a spinner bar.  The destaining step will remove the ink from most of the plant cell but retaining it in fungal structures of hypha, arbuscules and vesicles. Occasionally stir with metal spatula to distribute root containers
+6. _Slide preparation._ After destaining, remove the roots from the root container and place on a piece of foil or paper towel. Spread the roots out with forceps and place a small amount of fine roots in a drop of water on microscope slide and slowly place cover slip avoiding the introduction of air bubbles.  Gently press cover slip with blunt end of forceps.
+7. _Microscopy.  _Place the slide on the compound microscope stage.  Starting with the 10X objective, find an area of roots that appears to possess concentrations of stain then adjust to higher magnification objectives as needed.  Observe hyphae, appressoria, abuscules and vesicles.
+
+### Troubleshooting
+
+1. For the sake of efficiency, start heating KOH and Ink:Vinegar solutions at the beginning of the exercise on individual hot plates.
+2. The quality of the staining will vary from root to root and sample to sample, so be persistent and make numerous slides and examine multiple fine roots.
+3. Arbuscules are dynamic structures and are constantly being formed and degraded in plant roots.  Also, the clearing and staining procedure will be harsher for certain plants and roots.  For these reasons some arbuscules will appear fuzzy, but be persistent and look at as many stained cortex cells as possible for well-defined arbuscules.
+4. There will likely be numerous other fungi present in the roots of these plants.  They will be typically observed as brown hyphae and other specialized cells such as hyphal coils. These are not AM fungi but are referred to as root endophytes. These are typically filamentous species of Ascomycota and their regular septa can sometimes been seen.
+
+***
+
+## References
+
