@@ -1,0 +1,207 @@
+# Laboratory Guide to Predatory Zoopagomycota {#predatory}
+
+_Kevin R. Amses, William J. Davis, Timothy Y. James_
+
+University of Michigan, Department of Ecology and Evolutionary Biology, Ann Arbor, MI 48109
+
+## Introduction
+
+Zoopagomycota was erected to accommodate three lineages of the former Zygomycota: Zoopagomycotina, Kickxellomycotina, and Entomophthoromycotina (@Spatafora_2016). The Zoopagomycotina is of particular interest, because it contains several taxa that prey on rotifers, nematodes, and amoebae. Herein, we will give a brief overview of the predatory genera and focus on three exemplar species: _Stylopage hadra_ Drechsler, _Acaulopage tetraceros_ Dreschler, and _Zoophagus insidians_ Sommerstorff. The methods provided for these three can be used for many of the other taxa. More detailed instructions can be found in _The Nematode-Destroying Fungi_, the chapter “Fungal parasites and predators of rotifers, nematodes, and other invertebrates” in _Biodiversity of Fungi: Inventory and Monitoring Methods_, and Benny (-@Benny_2008). Illustrations of some of these taxa can be found at zygomycetes.org and in George Barron’s image collection (https://atrium.lib.uoguelph.ca/xmlui/handle/10214/3956).
+
+## _Stylopage hadra_ (Zoopagomycotina) Laboratory
+
+### Establishing mixed cultures of nematode-trapping species of _Stylopage hadra_
+
+In this lab we will establish cultures of _Stylopage hadra_ from soil by baiting with living nematodes. To do so, forest or agricultural soils are sprinkled onto 0.25x Corn Meal Agar (CMA, see recipe below) to make a line of soil down the center of the plate, and the prey items are added. Culturing _Stylopage hadra_ requires more time and careful observation than it does involved techniques. Within 2–3 weeks, the reproductive propagules of predatory _Stylopage hadra_ (conidia) can be observed above the surface of the media. It’s also important to note that not all soils will yield _Stylopage hadra_, so when in need collect soils from as many different areas as you can, including those with current or past agricultural activity. Productive soils may yield _Stylopage hadra_ for at least six months after initial collection if stored in a sealed jar at 4°C. For the purposes of today’s lab, we will be baiting _Stylopage hadra_ by using _Caenorhabditis elegans_ as prey.
+
+### Materials
+
+* 0.25x Corn Meal Agar (CMA) plates (see recipe below)
+* Nematode Growth Medium (NGM) plates containing _Caenorhabditis elegans _(see recipe below)
+* Soils and/or leaf mold from forested or agricultural areas
+* P-1000 micropipettes
+* Sterile distilled water
+* Parafilm
+
+### Protocols
+
+1. Acquire two 0.25x CMA plates.
+2. Sprinkle soil particulates and/or leaf mold from provided jars of material onto plates to form a band of soil down the middle of the plate (about an inch thick). **NOTE:** Sterile technique is not very important here because we are literally sprinkling soil from nature onto plates.
+3. Using the provided P-1000 micropipettes, pipette 1000 ul of sterile water onto a plate containing the nematode _Caenorhabditis elegans_. 
+4. Swirl the plate around to distribute the water. Recollect the water by tipping the plate at a slight angle and pipetting up the water that accumulates at the lower edge of the plate. Pipette this water, now filled with nematodes, onto one of your 0.25x CMA plates.
+5. Repeat step 3 for your other 0.25x CMA plate (i.e. 1000 ul of nematode water pipetted onto each 0.25x CMA plate).
+6. Leave the plates open to allow water to evaporate before covering and parafilming.
+7. That’s it! By about three weeks after establishment, the cultures you just made should be evidencing characteristic growth of nematode-trapping species of _Stylopage _(see following section for description and depiction of morphology).
+
+### Media Recipes
+
+<span style="text-decoration:underline;">0.25x Corn Meal Agar (CMA) [from BD BBL Corn Meal Agar (Fisher Cat # B11132)]</span>
+
+* 4.25 g BD BBL Corn Meal Agar
+* 11.25 g agar
+* 1000 ml final volume in water
+
+
+<span style="text-decoration:underline;">0.25x Corn Meal Agar (CMA) [from scratch]**</spam>
+
+* 0.5 g corn meal (infusion from solids)
+* 15 g agar
+* 1000 ml final volume in water
+
+<span style="text-decoration:underline;">Nematode Growth Media (NGM) (Corsi, Wightman, & Chalfie, 2015)<span>
+
+* 3 g NaCl
+* 2.5 g Peptone
+* 17 g Agar
+* 1 ml 1M CaCl<sub>2</sub>
+* 1 ml 1M MgSO<sub>4</sub>
+* 25 ml 1M KPO<sub>4</sub>
+* 1 ml 5 mg/ml cholesterol
+* 1000 ml final volume in water
+
+### Observing predation of _C. elegans_ by _Stylopage_ _hadra_ in mixed culture</span>
+
+For the purposes of today’s lab, we have provided mixed cultures of _Stylopage hadra_, a nematode-trapping member of the genus, that were prepared three weeks ago in the same way as you just did above. The goal here is to get an opportunity to look at _S. hadra_ capturing and consuming nematodes and to familiarize yourself with the few characteristic structures that _S. hadra_ forms in culture. Get a culture plate and notice the areas that are circled on the underside of the plate in red sharpie. These are areas where _S. hadra_ has been seen growing.
+
+Look around this area under a dissecting or compound microscope. You should be able to see the characteristic conidia that are produced by _S. hadra_. _S. hadra_ produces relatively large ellipsoid conidia (~50 microns) that are borne either terminally or axially on aerial conidiophores. A single conidiophore can bear anywhere from one to a few of these conidia.
+
+Find an area where there are lots of _S. hadra_ conidiophores and focus instead on the agar surface. Do you see any captured nematodes? Depending on the stage of digestion, you may only be able to see the rough outline of what once was a nematode. Look around until you’re confident that you’ve found a recently captured nematode.
+
+```{r ch3fig1, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "Line drawings adapted from @Drechsler_1932B and @Drechsler_1937)that depict the conidial and conidiophore morphology of two genera of nematode-trapping ascomycetes (left and center) in comparison to _Stylopage hadra_ (right). Notice the grouping of uniseptate conidia in _Arthrobotrys _into large clusters. Also note the absence of internal septa in the conidia on _S. hadra_."}
+
+```
+
+Now take the parafilm off of your plate and make a wet mount using the dissecting tools provided. Do your best to make sure that the captured prey item ends up on the slide. After locating the captured nematode on the microscope, take a look at it under high magnification (400x or 1000x with oil if possible). Are there aseptate hyphae attached to the nematode at any point? Can you see the characteristic swollen _S. hadra_ haustorium? Do you see hyphae inside the nematode body?
+
+Did you get any conidia onto your wet mount? If so, notice that they should lack internal septa. This is an important diagnostic difference in between species of _Stylopage_ and other species of nematode-trapping fungi in the Ascomycota (e.g. _Arthrobotrys_ spp._ _or _Monacrosporium_ spp.). Species of _Arthrobotrys_ are commonly-isolated from soils. They produce conidia with a single internal septum that are borne in large clusters on aerial conidiophores (see @ref(fig:ch3fig1) above). Species of _Monacrosporium_ bear a more striking resemblance to_ S. hadra_ on the dissecting microscope as a single conidium is borne apically on an aerial condiophore (see Figure 1 below). However, upon examination under the compound microscope, it should be obvious that conidia of _Monacrosporium spp._ have multiple internal septa (see @ref(fig:ch3fig1) above). Additionally, species in the genera _Arthrobotrys_ and _Monacrosporium_ develop specialized trapping structures with varied morphology (e.g. constricting rings, adhesive networks, adhesive pegs). Recall that _S. hadra_ does not produce specialized trapping structures, but instead captures prey items onto undifferentiated, but sticky, vegetative mycelium.
+
+## _Acaulopage tertaceros_ Laboratory
+
+### Finding _A. tetraceros_ in the environment
+
+_Acaulopage tetraceros_ is the most reported species of the genus (e.g., @Jones_1959; @Park_1971; @Saikawa_2002; @Michel_2014, -@Michel_2015) and is easily distinguished from other members of the genus based on its four-horned spores (@Drechsler_1935A). It is readily recovered by plating moist soil onto weak cornmeal (@Drechsler_1935B) or 0.1% sea salt water agar plates ( @Michel_2014, -@Michel_2015) as done in the _Stylopage_ protocol. Drechsler recovered this species from agricultural soils containing decaying plant material (@Drechsler_1935B), but it seems any soil rich in organic matter is a candidate (@Saikawa_2002). Decaying dicot vegetable matter from streams is also a good source for a long-spored variety of this species (@Jones_1959; @Park_1971). Once the material is plated, parafilm and incubate the plates for a week. Begin checking the plate(s) daily inverted on a compound microscope or under a stereomicroscope with transillumination. You will first see trapped amoeba invaded with hyphae. Within a week of seeing such amoeba, you should begin to see spores.
+
+#### Establishing a mixed culture
+
+This procedure is taken from Michel et al. (-@Michel_2014, -@Michel_2015).
+
+##### Materials
+
+* Amoeba culture
+* 0.1% sea salt water agar plates
+* Environmental sample with _Acaulopage tetraceros_
+
+#### Protocol
+
+1. Streak 24 hr old amoeba culture onto a water agar plate.
+2. Transfer _Acaulopage tetraceros_ hyphae and/or spores onto the plate.
+3. Watch for growth of hyphae and the formation of new traps/newly trapped amoeba.
+4. Aseptically transfer hyphae with newly trapped amoeba to a fresh water agar plate inoculated with amoeba.
+5. Repeat until a xenic, mixed culture is established.
+
+#### Media recipe
+
+<span style="text-decoration:underline;">Amoeba media (SA agar from @Saikawa_2002)</span>
+
+* 0.2 g KNO3
+* 0.02 g MgSO4*7H2O
+* 0.1 g KH2PO4
+* 0.2 g K2HPO4
+* 0.02 g NaHCO3
+* 0.02g Na2SiO3
+* 20 g agar
+* 1 L water
+
+<span style="text-decoration:underline;">Water agar with 0.1% sea salt</span>
+
+* 15 g agar
+* 0.1g sea salt
+* 1 L water
+
+## _Zoophagus insidians_ Laboratory
+
+### Finding _Z. insidians_ in the environment
+
+_Zoophagus insidians_ is the most common species in the genus. It can be usually found associated with decaying vegetable matter collected from ponds, streams, bogs, fens, etc. Additionally, it can occasionally be observed by baiting a water sample with hemp or sesame seeds; however, the baits will likely be overgrown with oomycetes and/or zoosporic fungi.
+
+#### Establishing a mixed culture
+
+This procedure is taken from @Tanabe_2000
+
+##### Materials
+
+* Environmental sample with _Zoophagus insidians_
+* Rotifer culture (Can be purchased from Carolina Biological)
+* LE medium
+* Water agar plates
+
+##### Protocol
+
+1. Overlay a water agar plate with LE medium.
+2. Inoculate with rotifers.
+3. “Clean” strands of _Zoophagus insidians_ by transferring them through a series of sterile water droplets.
+4. Transfer to the rotifer-inoculated water agar plate.
+5. Watch for new growth and entrapment of rotifers.
+6. Repeat until the culture is free of contaminants.
+
+##### Media recipe
+
+<span style="text-decoration:underline;">Water agar</span>
+
+* 15g agar
+* 1L water
+
+<span style="text-decoration:underline;">LE medium from Wanabe and Hiroki (2004) pg. 58</span> **MISSING REF**
+
+L solution:
+1. Dry white part of lettuce at 90C for 16-18hrs without scorching.
+2.  Add 300 mg dried lettuce to 100 mL boiling mixture of distilled and tap water (9:1).
+3. Boil for 30 mins, stirring occasionally.
+4. Filter the supernatant.
+
+E solution:
+1. Hard boil an egg.
+2. Crush the yolk of the hardboiled egg.
+3. Add 300 mg of crushed egg yolk to 100 mL mixture of distilled and tap water (9:1).
+4. Boil for 30 mins, stirring occasionally.
+5. Filter the supernatant.
+
+Combine L and E solutions in equal proportions. pH adjust to 6.7-7.0 with 1 N NaOH. Sterilize by autoclaving for at least 15 mins.
+
+## Synopsis of Predatory Genera
+
+### _Stylopage_
+
+The genus _Stylopage_ is comprised of putatively obligate predators of soil nematodes or amoebae. First described in 1935 by Charles Drechsler, the genus presently contains seventeen species and is based mostly on morphological traits (@Barron_1977; @Drechsler_1935A, -@Drechsler_1935B, @Drechsler_1939; @Duddington_1955). As predatory fungi of amoebae and nematodes, species of _Stylopage_ physically trap prey items to a free-living vegetative mycelium prior to chemical digestion. Unlike some other trapping fungi that you may be familiar with, species of _Stylopage_ do not produce specialized trapping structures like rings, coils, or pegs to facilitate prey capture (@Drechsler_1935A, @Drechsler_1937). Species of _Stylopage_ are so far uncultured under axenic conditions, the reasons for which remain unclear but could be related to their reliance on trapping for nutrition. For this reason, isolation of species of _Stylopage_ must involve maintenance and purification of highly mixed cultures.
+
+### _Acaulopage_
+
+The genus _Acaulopage_ was described in 1935 to include amoeba predators whose conidia are borne directly on the hyphae rather than on a conidiophore as in _Stylopage_ (@Drechsler_1935B). It contains approximately 26 species all of which prey on naked or testate amoeba. Similar to _Stylopage_, amoeba are trapped on sticky patches along otherwise undifferentiated hyphae (@Drechsler_1935B). _Acaulopage tetraceros_ can be kept in mixed culture with amoebe and bacteria (Michel et al. -@Michel_2014, -@Michel_2015).
+
+### _Zoophagus_
+
+This genus was described in 1911 based on _Zoophagus insidians_ (@Sommerstorff_1911). It includes approximately five species; all but one prey on rotifers using specialized trapping structures that are similar but different to those used by rotifer-trapping ascomycetes (@Whisler_1974, @Morikawa_1993). The genus was originally placed in Oomycota (@Prowse_1954) and was later moved into Zoopagles (Dick_1990). Molecular phylogenies inferred using rDNA, however, consistently place _Zoophagus insidians_ as sister to the Kickxellomycotina (@Tanabe_2000, @White_2006).  _Zoophagus insidians_ can be kept in mixed culture with rotifers (@Tanabe_2000).
+
+### _Cystopage_
+
+This genus, described in 1941, traps nematodes on sticky patches along otherwise undifferentiated hyphae (@Drechsler_1941). Chlamydospores are borne laterally or intercalaryly on hyphae. The genus contains approximately seven species. No species has been cultured, and molecular data does not exist.
+
+### _Rhopalomyces_
+
+The genus _Rhopalomyces_ contains approximately 11 species that prey on nematodes and rotifers.
+
+###  _Verrucephalum_
+
+This monotypic genus was described in 2014 to accommodate a species observed trapping nematodes in bat dung (@Degawa_2014). The spores are darkly pigmented and borne subapically on the sporangiophore (@Degawa_2014). Nematodes are captured on enlarged appressoria (@Degawa_2014).
+
+### _Helicocephalum_
+
+_Helicocephalum_ was described in 1891 by Thaxter to accommodate fungi that prey on adult nematodes and nematode eggs with spores borne in an apical spiral (@Thaxter_1891). The number of species in this genus is uncertain as species of this genus can be confused with “helicosporus deuteromycetes” (www.zygomycetes.org).
+
+### _Brachymyces_
+
+This monotypic genus was described in 1980 based on _Brachymyces megasporus_ Barron. This species preys on rotifers and potentially amoeba. It was found by baiting garden soil with bdelloid rotifers. It can be distinguished by its large, brown, apically borne conidia held in clusters of 1-4 (@Barron_1980).
+
+***
+
+## References

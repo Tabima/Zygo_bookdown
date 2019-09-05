@@ -1,0 +1,227 @@
+# Zoopagomycota: Kickxellomycotina laboratory with an emphasis on trichomycetes {#Kickxellomycotina}
+
+<i>Yan Wang<sup>1</sup>, Nicole Reynolds<sup>2</sup>, Matthew E. Smith<sup>2</sup>, Merlin M. White<sup>3</sup></i>
+
+1. Department of Plant Pathology and Microbiology, University of California Riverside, Riverside CA 92521; 2. Department of Plant Pathology, University of Florida, Gainesville FL 32611; 3. Department of Biological Sciences, Boise State University, Boise ID 83725
+
+## Introduction
+
+Kickxellomycotina includes several distinct groups of microscopic fungi. Fungi in this group are either saprobes, obligate symbionts of insects, or mycoparasites. The monophyly of this lineage was recently confirmed by an eight-gene molecular phylogeny (Tretter et al. 2014). Morphologically they are regularly “septate” with a disciform septal pore and a lenticular plug (Hibbett et al. 2007; Spatafora et al. 2016) and produce few-spored sporangia called merosporangia.  Saprophytic species are mainly included in the order Kickxellales and may be cultured from dung or soil.  Species of _Coemansia_ are most commonly encountered from these substrates and are recognizable by their yellow color and comb-like arrangement of sporocladia (a specialized branch of the sporophore bearing merosporangia) (Fig. 1). Most of the mycoparasitic species in Kickxellomycotina are members of Dimargaritales and are also found in dung and soil.  Similar to some members of the Zoopagomycotina, species of Dimargaritales are haustorial parasites of mucoralean hosts such as _Cokeromyces_.  They are recognized by the dense clusters of white, two-spored merosporangia at the apex of the hyphae (Fig. 1). This lab is focused on the insect-associated species of Kickxellomycotina that belong to the order Harpellales. These fungi are also known as “trichomycetes”.  Trichomycetes was formerly a class of fungi that included four orders, but molecular evidence found that two of those orders were actually protists that are not closely related to fungi (Benny & O’Donnell 2000; Cafaro 2005; Ustinova et al. 2000) (Table 1).  Now the term “trichomycetes” is used to refer to the polyphyletic group of organisms (i.e. fungi and protists) that inhabit the digestive tracts of arthropods and attach to the gut lining via a holdfast (Fig. 1).  However, due to their morphological and ecological similarities, trichomycetologists still study both the fungal and the protist groups.  Indeed, some hosts (e.g. black fly larvae) may be simultaneously co-infected with protist and fungal trichomycetes. The trichomycetes are generally considered commensals (e.g. having no negative impact on the host organism). However, some species have been reported to have insect biocontrol potential due to pathogenic effects observed on mosquito larvae by _Smittium morbosum_ as well as the development of cysts in the ovaries of some hosts (Sweeney 1981; White et al. 2006). Recently, a comparative genomic study revealed an ancient horizontal gene transfer of a ubiquitin gene from mosquito hosts to their gut endosymbiont _Zancudomyces culisetae_ for unknown reasons (Wang et al. 2016). Several hypotheses are still under testing.
+
+The trichomycetes have been documented from almost every group of non-predaceous mandibulate arthropods including decapods (e.g. crabs, crayfish, shrimp, etc.), amphipods (e.g. sandhoppers), brachiopods (e.g. water fleas), dipterans (e.g. mosquito, black fly, and midge larvae), isopods (i.e. pill bugs or rollie pollies), ephemeropteran (mayfly) and plecopteran (stonefly) nymphs, diplopods (i.e. millipedes), coleopterans (i.e. beetles), and collembolans (i.e. springtails).  They have also been collected from diverse habitats ranging from deep-sea hydrothermal vents (VanDover and Lichtwardt, 1986) to terrestrial caves (Manier, 1964; Reeves et al., 2000) and from tropical forests (White et al., 2000) to freshwater streams or lakes (Lichtwardt et al., 2001).  Trichomycetes have been found within dissected arthropods essentially everywhere researchers have looked for them, including all continents except Antarctica (but no one has looked yet!).
+
+The arthropod gut is a distinctive microhabitat that has likely influenced the convergent evolution of some morphological features of fungal and protist trichomycetes – e.g. all of these organisms have a thallus-like growth form that includes a holdfast structure to attach to the gut lining.  The lining of the arthropod gut is chitinous and is shed along with the exoskeleton during molting.   This leaves a relatively short window of time for trichomycetes to colonize, grow, and reproduce in the host before they are shed with the gut (Lichtwardt 1986).
+
+In insects, the gut is usually structurally divided into a foregut, midgut, and hindgut (Fig. 2).  Between the midgut and hindgut are Malpighian tubules (that function like a kidney in mammals), which can help you distinguish the regions of the gut during dissections.  Different species of trichomycetes inhabit different regions of the gut.  For example, _Stachylina_ and _Harpella_ are genera found exclusively in the midgut, whereas _Genistellospora_ and _Smittium_ are only in the hindgut (Lichtwardt 1986).
+
+**Table 1.**  Orders of fungal and protist trichomycetes and some of their features.  Note that the protist trichomycetes were recently reclassified under a different taxonomic scheme (Reynolds et al. 2017), but the older fungal names (listed here in parentheses) are still used in the online trichomycete monograph (http://www.nhm.ku.edu/~fungi/Monograph/Text/Mono.htm) (Lichtwardt et al. 2001) and online identification key ([http://keyserver.lucidcentral.org/key-server/data/0b08020c-0f0c-4908-8807-030c020a0002/media/Html/home.htm](http://keyserver.lucidcentral.org/key-server/data/0b08020c-0f0c-4908-8807-030c020a0002/media/Html/home.htm)).
+
+
+<table>
+  <tr>
+   <td>Order
+   </td>
+   <td>Host
+   </td>
+   <td>Asexual Spores
+   </td>
+   <td>Sexual Spores
+   </td>
+   <td>Morphology
+   </td>
+  </tr>
+  <tr>
+   <td>Harpellales
+   </td>
+   <td>Larval aquatic Insecta
+   </td>
+   <td>Trichospore
+   </td>
+   <td>Zygospore (biconical)
+   </td>
+   <td>Septate or aseptate; branched or unbranched; midgut or hindgut
+   </td>
+  </tr>
+  <tr>
+   <td>Asellariales
+   </td>
+   <td>Isopoda or Collembola
+   </td>
+   <td>Arthrospore or Sporangiospore
+   </td>
+   <td>Zygospore (round)
+   </td>
+   <td>Branched; septate; hindgut
+   </td>
+  </tr>
+  <tr>
+   <td>Eccrinida
+<p>
+(Eccrinales)
+   </td>
+   <td>Diplopoda, Crustacea, Insecta
+   </td>
+   <td>Sporangiospore
+   </td>
+   <td>?
+   </td>
+   <td>Usually posterior portion of gut, but sometimes anterior; aseptate
+   </td>
+  </tr>
+  <tr>
+   <td>Eccrinida
+<p>
+(Amoebidiales)
+   </td>
+   <td>Aquatic Crustacea or Insecta
+   </td>
+   <td>Cystospore; dispersal amoebae
+   </td>
+   <td>?
+   </td>
+   <td>Attached to the exoskeleton; aseptate
+   </td>
+  </tr>
+</table>
+
+On the other hand, millipede and isopod guts are not as structurally divided, and appear more like a long, straight tube during dissection.  Protist trichomycetes are associated with millipedes, whereas either protist or fungal trichomycetes (or both!) may be found in isopods.  The most common protist trichomycete in millipedes is _Enterobryus_, which usually has long thalli of consistent width with a curved base and rectangular-shaped spores.  Protist trichomycete thalli are unbranched and aseptate (except at the tips of the hyphae where spores are being produced).  The protist trichomycetes _Amoebidium_ and _Paramoebidium_ produce dispersal amoebae as part of their asexual lifecycle that crawl a short distance, encyst, and subsequently produce cystospores (Reynolds et al 2017).
+
+
+```{r ch4fig1, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "Examples of species of Kickxellomycotina.  _Coemansia_ (A) species belong to Kickxellales and have distinctive comb-like arrangement of their sporangia.  _Dispira_ (B) species are mycoparasites in the Dimargaritales. They are typically collected from soil or dung.  _Genistellospora_ (C) species are examples of fungal trichomycetes. They are collected from the hindguts of arthropod hosts.  _Paramoebidium_ (D) species are protist trichomycetes that are also found in the hindgut of host arthropods."}
+
+```
+
+```{r ch4fig2, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "Example of an insect digestive tract.  This mosquito larva has a midgut region that is lined with a clear, chitinous peritrophic matrix.  The midgut is separated from the hindgut by the Malpighian tubules.  The hindgut also has a chitinous lining, but it is slightly more opaque than the midgut and surrounded by epithelial cells that need to be removed during dissection in order to see the trichomycetes inside the gut.  Some species of trichomycetes may grow out beyond the anus of the host and can be seen prior to dissection."}
+
+```
+
+### Asexual spores
+
+Trichomycetes produce specialized asexual spores of varying types, including arthrospores, trichospores, and cystospores. An arthrospore is a special type of asexual spore, with a rounded rectangular shape, that is formed by the disarticulation of the thallus branches (e.g. the thallus is divided up into sections). Asellariales (an order of trichomycetes found in association with isopods or collembolans) is the only order in Kickxellomycotina known to produce arthrospores. Arthrospores have a similar shape and size compared to trichospores and are thought to be an equivalent form of generative cells (Fig. 3). Trichospores are an elongated ovoid shape with zero to many appendages that are attached to the end of the spore (Fig. 3). Cystospores are only found in the protist trichomycetes and are formed from an encysted dispersal amoeba (Fig. 4).  The main function of asexual spores is to transmit the fungus from one individual to another and increase the population.
+
+### Sexual spores
+
+Zygospores of Kickxellomycotina species have not been observed consistently within groups and remain unknown for some species. The zygospores that have been observed have various shapes, from globose, lanceolate or biconical, to coiled. The fungal trichomycetes typically produce biconical zygospores (Fig. 5) that may or may not have appendages.  The zygospores have a thick outer wall that is often pigmented. This tough outer wall is believed to be important for long term survival of Kickxellomycotina species during unfavorable conditions. Sexual reproduction and sexual spores in the protist trichomycetes have not been observed.
+
+### Holdfast
+
+The holdfast is either a specialized basal cell of the fungal thallus or secreted by the basal cell that attaches to the gut linings of arthropods for the trichomycetes. The shape of the holdfast varies from horseshoe-shaped, disk-like, to needle shaped, and sometimes glue is produced to secure the attachment (Fig. 3).  The protist trichomycetes use a secreted glue to attach to the gut lining, which can sometimes form a cup-like or clamp-like structure (Fig. 4).
+
+```{r ch4fig3, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "Asexual spores (A-D) and holdfast (E) of fungal trichomycetes.  Arthrospores (A) are formed by the septation and subsequent fragmentation of thalli. Arthrospores are found in members of the Asellariales.  Trichospores (B-D) are the asexual spores of fungal trichomycetes. Trichospores often have appendages (B and C, black arrows) and a collar (C, white arrow).  The holdfast (E, circled) is found at the base of the thallus and may be formed by a separate cell or from a glue-like substance secreted from the thallus, or both."}
+
+```
+
+```{r ch4fig4, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "Stages of the asexual cycle (A-E) and the holdfast (F) of protist trichomycetes.  Species of Amoebidiales produce dispersal amoebae (A, circled) that encyst (B, C) to produce cystospores (D).  On the other hand, most members of the Eccrinales produce spores directly from the tips of the thallus (E).  The holdfast of protist trichomycetes is formed by secreted glue and may form a cup-like structure (F, arrow)."}
+
+```
+
+```{r ch4fig5, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "Zygospores, the sexual spores of the fungal trichomycetes.  There are four types of zygospores produced by fungal trichomycetes, three of which are biconical (I-III), and one of which is spear-like (IV).  As with other Zoopagomycota, sexual spores are formed following the conjugation of two hyphae.  The shape of the zygospore is an important diagnostic feature for identification of fungal trichomycete species. However, zygospores have not been observed for some species."}
+
+```
+
+
+## Laboratory
+
+This lab will focus on methods of collecting and identifying the fungal and protist trichomycetes in the following sections:
+
+1. Trichomycete Host Collection
+2. Host Dissection
+3. Slide Preparation and Identification of Trichomycetes
+
+An appendix on the axenic culturing of Kickxellales species (including fungal trichomycetes) is also provided to facilitate long-term storage of specimens.
+
+**Supplies **(Fig. 6)
+
+- Sorting pans (such as this white dishwashing tub)
+- Aquatic sampling nets
+- Chest fishing waders or tall rubber boots
+- Plastic disposable pipettes
+- Sterile containers (such as small plastic food containers with lids)
+- Ziplock bags
+- Dissecting microscope
+- Compound microscope
+- Distilled water in an eye-dropper container
+- Slides and coverslips
+- Lactophenol cotton blue stain
+- Clear nail polish
+- Fine-tip forceps (two pairs)
+- Micro dissecting needles with bent insect mounting pins (a pair)
+
+```{r ch4fig6, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "Examples of equipment used for collection and dissection of arthropod hosts of trichomycetes. A white tub (A) is useful for sorting aquatic insect hosts because the light background enables easier visualization of insects.  Large and small nets (B) are used for scooping hosts and debris whereas plastic pipettes (C) are useful for sucking up small insects (such as midge larvae) during sorting.  Hosts of interest are sorted and placed into plastic containers (D) along with extra water to bring back to the lab.  Fine-tipped forceps (E) and micro dissecting needles mounted on handles (F) are used for dissecting hosts under a dissecting microscope."}
+
+```
+
+### **<span style="text-decoration:underline;">Trichomycete Host Arthropod Collection</span>**
+
+Many species of fungal and protist trichomycetes are commonly found in non-predaceous immature aquatic insects – e.g. mayfly and stonefly nymphs and black fly, mosquito, and midge larvae.  Other fungal and protist trichomycetes may be found in terrestrial arthropod hosts such as millipedes, isopods, and beetles.
+
+
+
+#### Aquatic Insect Collection
+
+Insect larvae may be obtained from either lentic (i.e. still water) or lotic (i.e. fast flowing) aquatic environments using the aquatic sampling net. Insect larvae may hide underneath the rocks or on debris near the bank. A successful strategy to trap arthropod hosts is to kick the rocks before netting the hosts in the flowing water. One special habitat for black fly larvae is the surface of rocks and twigs around very rapidly flowing areas. Here are several additional suggestions:
+
+*   Scrape the rocks and sediment at the bottom of the water with your foot.
+*   Hold the sampling net downstream to catch the debris.
+*   Dump the contents of the net into a sorting pan with some clean water.
+*   Look for host insects and sort them into smaller containers of water using a plastic pipette or forceps.
+*   Mosquito larvae float near the surface of standing water pools and may be collected with a small net or scooped directly into a container.
+
+Sorting pans are good to check the health and condition of the hosts and move the hosts of interest to containers using the pipettes. Care must be taken not to collect predaceous insects such as perlid stonefly nymphs or phantom midge larvae because they will eat your trichomycete hosts!  Extra samples with water and debris can be stored in ziplock bags in 4˚C for future investigation (it’s always good to dissect live hosts, since the dead gut can be degraded through time).
+
+#### Terrestrial Arthropod Collection
+
+Moist, nutrient rich habitats such as landscaped gardens, compost piles, and thick leaf litter are good places to collect millipedes, collembolans, and isopods.  Some beetles and their larvae are hosts to trichomycetes but they may be less commonly encountered.
+
+* Using your fingers or forceps, gently pick up the host and place in a clean container.
+* Add some organic debris to the container.
+* Make sure to keep the lid loosely closed on the container or puncture holes in the lid for air flow.
+* Store hosts in a refrigerator or at room temperature and monitor them to prevent drying out until dissection.
+
+### **<span style="text-decoration:underline;">Host Dissection</span>**
+
+You will need two pairs of fine-tipped forceps, one in each hand.  Dissections should be conducted under a dissecting microscope.  A link to instructional videos about insect dissections is provided in the Additional Resources section below.
+
+* Use the forceps in one hand to hold the host still and with the other forceps remove the head (Fig. 7, B).
+* In a drop of distilled water, use one forceps to gently grasp one of the posterior segments – two or three segments above the anus.  Use the other forceps to hold the anterior part of the body in place and gently pull the posterior segments away from the body.  If you do this carefully, you can sometimes pull out the entire digestive tract intact! (Fig. 7, C)
+* Move the hindgut to a slide with a clean drop of distilled water.  Use dissecting pins to gently tear the gut into small pieces (Fig. 7, D).  If the gut is full of debris that is clouding visibility, you may need to transfer the gut pieces to a new, clean drop of distilled water for further dissecting.
+* Shred the gut into as small pieces as possible and inspect for clumps or strands of thalli and look for spores.  Some trichomycetes grow in branched clusters of thalli that look like little trees or bouquets of flowers!
+* When trichomycetes are found, pick out and remove any large clumps of host tissue, as this will impede your vision of the slide on the compound microscope.
+* If dissecting a dipteran host (i.e. fly larvae such as black flies, mosquitoes, midges, etc.) be sure to separate the midgut into a clean water drop on a fresh slide to look for trichomycetes.  The peritrophic matrix of the midgut is a clear lining, so trichomycetes may be easily observed once the food debris is cleaned out. To remove the food particles, gently shake the gut lining in the water drop, and if needed, lift the gut in and out of the water several times to allow the food to wash out.  Try to keep the peritrophic matrix intact if possible.
+
+
+```{r ch4fig7, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "Schematic drawing of a mayfly nymph dissection.  First remove the head of the insect using the forceps (B).  Grasp the anterior portion of the body with one set of forceps and the posterior segments (star) with the other set of forceps and gently pull the posterior away from the body (C).  The digestive tract may come out in one whole piece, but if not, make sure to dissect the body of the host to get all the gut pieces.  Move the gut to a fresh drop of water on the slide and use the dissecting pins to tear the hindgut into pieces (D) to find trichomycetes.  If dissecting a dipteran host, be sure to collect and inspect the midgut separately from the hindgut."}
+
+```
+
+### **<span style="text-decoration:underline;">Slide Preparation and Identification of Trichomycetes</span>**
+
+*   Use forceps to grasp fungal tissue and put it in the center of a clean slide.
+*   Add a drop of 95% ethyl alcohol to wet the specimen and minimize air bubbles.
+*   Add a drop of distilled water and carefully place a coverslip on top of the fungal specimen.
+*   Place one drop of lactophenol cotton blue on the edge of the coverslip and let it infiltrate completely under the coverslip (10-30 min).
+*   Seal the edge using the clear nail polish to store the slide permanently.
+*   Trichomycetes may be identified using online interactive keys ([http://keyserver.lucidcentral.org/key-server/data/0b08020c-0f0c-4908-8807-030c020a0002/media/Html/home.htm](http://keyserver.lucidcentral.org/key-server/data/0b08020c-0f0c-4908-8807-030c020a0002/media/Html/home.htm)) based on information about features such as the host, spore size, holdfast type, and location in the digestive tract (i.e. midgut vs. hindgut).  Protist trichomycetes will be aseptate and usually unbranched whereas fungal trichomycetes are septate and often branched.
+
+## <span style="text-decoration:underline;">Appendix 1:  Axenic culturing </span>
+
+Axenic cultures are important to study the physiology, morphogenesis, phylogeny, and genomics of fungi. For teaching purposes it may be useful to create a small culture collection in order to have living material for students to view in class.  Unfortunately not all taxa in Kickxellomycotina can be cultured based on our current knowledge and technology.  Kickxellales species can be cultured on MEYE agar, Harpellales species favor the BHI or TGv agar and mycoparasites (Dimargaritales) can be grown on fungal hosts (typically Mucoromycota species) on plates with MEYE, PDA, or YpSs. It is worth noting that some mycoparasites (species of _Dimargaritales_, _Dispira_, and _Tieghemiomyces_) can grow without a host on a protein-rich medium (e.g. beef, egg, or swordfish) (Benny 2008; Benny et al. 2016), but they will grow slowly and sporulate weakly.  See Benny (2008) and Benny et al. (2016) for additional media recipes and culturing techniques.
+
+The following recipes work well for culturing Kickxellomycotina species and should be supplemented with antibiotics such as ampicillin, chloramphenicol, or streptomycin (see Benny et al. 2016):
+
+*   BHIv/10—10 % brain-heart infusion agar + vitamins: brain-heart infusion agar (Difco), 3.7 g; thiamine-HCl, 200 μg; biotin, 50 μg; 50 agar, 15 g; glass-distilled water, 1 l (Lichtwardt 1986).
+*   MEYE—malt extract-yeast extract agar: malt extract, 3 g; yeast extract, 3 g; peptone, 5 g; dextrose, 10 g; agar, 15 or 20 g; distilled water, 1 l (Benjamin 1958, 1959; Benny and Benjamin 1975).
+*   PDA—potato dextrose agar: potatoes (peeled and cut), 200 g (boil extract 10 min in 700 ml distilled water, filter, adjust final volume to 1 l); dextrose, 20 g; agar, 15 g (Schipper 1969—pH 6.6; Benjamin 1958, 1959—pH not mentioned).
+*   TGv—tryptone-glucose medium + salts and vitamins: tryptone (Difco), 20 g; glucose, 5 g; KH2PO4, 0.28 g; K2HPO4, 0.35 g; (NH4)2SO4, 0.26 g; MgCl2•6H2O, 0.10 g; CaCl2•2H2O, 0.07 g; thiamine-HCl, 200 μg; biotin, 50 μg; 50 g agar, 15 g; glass-distilled water, 1 l (Lichtwardt 1986).
+*   YpSs—Emerson’s yeast-phosphate-soluble starch agar: soluble starch, 15 g; yeast extract, 4 g; K2HPO4, 1.0 g; MgSO4•7H2O, 0.5 g; agar, 20 g [15 g used later; Benny and Benjamin 1975]; distilled water, 1 l (Benjamin 1959).
+
+## <span style="text-decoration:underline;">Additional Resources:</span>**
+
+[http://zygomycetes.org/](http://zygomycetes.org/)  - descriptions and images of orders, families, and genera of zygomycetes.
+
+[http://www.nhm.ku.edu/~fungi/Monograph/Text/Mono.htm](http://www.nhm.ku.edu/~fungi/Monograph/Text/Mono.htm) - online version of the trichomycete monograph including information about life cycles, hosts, culturing, and taxonomy.
+
+[http://keyserver.lucidcentral.org/key-server/data/0b08020c-0f0c-4908-8807-030c020a0002/media/Html/home.htm](http://keyserver.lucidcentral.org/key-server/data/0b08020c-0f0c-4908-8807-030c020a0002/media/Html/home.htm) - interactive keys for trichomycete identification, including both fungal and protist species.
+
+[https://www.youtube.com/user/TrichoVideos](https://www.youtube.com/user/TrichoVideos) - a series of videos made by Dr. Merlin White at Boise State University about the collection, dissection, and identification of trichomycetes.
+

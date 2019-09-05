@@ -1,0 +1,107 @@
+# [Mortierellomycotina (Soil Molds) Laboratory](https://mycorrhizas.info/download/pdf/3_9.pdf) {#Mortierellomycotina}
+
+<i>Jesse Uehling<sup>1</sup> and Greg Bonito<sup>2</sup></i>.
+
+1.Department of Biology, Duke University, Durham, NC 90338; 2. Department of Plant, Soil and Microbial Sciences, Michigan State University, East Lansing, MI 48824.
+
+## Background
+
+Mortierellomycotina, (Mucoromycota) are among the most common soil fungi on the planet, and occur on all continents and terrestrial ecosystems (Wagner et al. 2013). Divergence date estimates indicate these fungi comprise a lineage that split from AM fungi and other Mucoralean fungi between 358-508 million years ago during the Cambrian-Devonian geologic periods (Uehling et al. 2017). In addition to occurring in soils, Mortierellomycotina fungi can be cultured from plant rhizospheres. However, they do not form distinctive morphological structures on or within plant roots. Consequently, they have evaded morphological detection in studies on plant-fungal interactions, and their functional interaction with plants is still not well characterized. Given Mortierellomycotina fungi are readily culturable from soils and plant roots, they are well suited for lab study and experimentation.
+
+Mortierellomycotina fungi are characterized by producing coenocytic hyphae, although septae are formed in old or damaged hyphae (Spatafora et al. 2017). Hydrophilic mycelium is favorable for soil bacteria activity (Kohlmeier et al. 2005), which use mycelial networks for transportation and dispersal. Many species within the Mortierellomycotina are known to harbor endobacteria within their hyphae. The origin and functioning of these endosymbiosis is still open to debate (Uehling et al. 2017).
+
+Mortierellomycotina fungi can be difficult to observe in nature due to the cryptic nature of these microfungi. However, species in this lineage can be readily isolated from soil, roots or dung for study. They often exhibit rapid growth making them suitable for laboratory and experimentation. Still some species within Mortierellomycotina have evaded isolation, or exhibit only limited growth. In this lab, you will learn basic techniques to isolate these fungi from soil and also stain, observe and study these fungi in pure culture and with microscopy.
+
+Here are some structures that you are likely to encounter:
+
+- **Sporangium (Figure 2) **(pl. sporangia) are enclosed vessels that produce asexually produced sporangiospores, and a born upon terminal hyphae known as sporangiophores. Single or multiple spores can be produced within a sporangium, and some species fail to produce sporangia (e.g. _M. chlamydospora_).
+- **Columella (Figure 2)** is a sterile tissue found at the tip of a sporangiophore that forms a septum between the active protoplasm below and the developing spores inside the upper portion of the sporangial head. The columella of Mortierellomycotina fungi characteristically is flat or slightly convex.
+- **Sporangiospores (Figure 2) ** are globose to subglobose and elongated are produced terminal or subterminal, according to species, on specialized hyphae. Sporangiospores are mitotically produced and tend to be small (often larger than 2-10 μm). Spores are produced on sporangia in the soil.
+- **Chlamydospores (Figure 3) ** are asexually produced spores that form intercalary within or between hyphal cells, or sometimes on terminal hyphae. These structures are generally thick walled and serve as resting spores when resources become limited or conditions unfavorable.
+- **Zygospores (Figure 4) ** are sexual spores produced by many species of Mortierellomycotina, yet zygospores are not frequently observed. Zygospores can be  produced by homothallic species, or by heterothallic species when they mate. Mating appears to occur under low nutrient conditions.
+- **Stylospores (Figure 5) ** are highly ornamented, hyaline, asexual reproductive propagules.
+
+## Classroom activities
+
+
+#### Supplies
+
+- Forceps
+- Petri plates
+- 10/50 mL conicals for soils
+- Sterile razor blades
+- Congo red
+- Oil Red O (for lipid staining)
+- Nile blue
+- Slides
+- Cover slips
+- Kim wipes
+- Parafilm
+- Sterile crab / shrimp shells
+- Antibiotic stocks (or media containing) Streptomycin, Chloramphenicol, Ampicillin, or Tetracyclin (60ug/mL)
+
+#### Recipes 
+
+**_Malt extract media_**
+- 15 grams malt extract
+-	15 grams agar
+-	1 Liter water
+
+**_Hay infusion agar media_. ** for mating assays.
+- Bring 50g hay to boil in 1.5 L of water. Cool and use cheesecloth to filter particulate matter out
+- 15 grams agar
+
+**_10% KOH. _**
+- Add 10 grams of KOH to 1 L of dH2O in 1L Pyrex Bottle. Dissolve by gentle agitation with stir bar on magnetic plate or repeated inversion.
+
+#### Procedure
+
+### Smelling and observation station
+
+1. Observe the morphological variation and aroma of different isolates of _Mortierella _either harboring or without bacterial endosymbionts. Collect a ballot and describe the smell of each fungal culture. We will compare and discuss the results as a class. This exercise can be modified for isolates that have not been analyzed for endobacterial presence, as _Mortierella _have a characteristic scent.
+2. Observe the characteristic rosette like concentric rings of _Mortierella_ cultures. This growth form is characteristic for the group **(Figure 1). **
+
+### Collect soils, dung, or fresh plant roots to use for _Mortierella_ isolation
+
+1. _Soils_. Fresh or even dried soils work well for isolating _Mortierella_. Use a spoon, knife or hand trowel to collect a handful of mineral soil below leaf litter. Place soil in a plastic, wax or paper bag. Soils can be air dried or stored in a refrigerator or cool place and later used for baiting experiments detailed below.
+2. _Dung_. _Mortierella _can be isolated from animal dung. Herbivore dung is preferable, but different species of these fungi can also be isolated from dung obtained from omnivores and frass obtained from insects.  Fresh or air-dried dung samples can be used.
+3. _Roots & non-vascular plants_. Use a shovel, trowel or rake to dig up plant roots taking care to collect fine roots. Non-vascular plants can also be collected. Place the plant or roots in a plastic bag together with some field soil or a wet paper towel to keep moist and store in a refrigerator or cool place until use.
+
+### _Isolation of Mortierellomycotina._
+
+1. _Substrate Baiting_. Many kinds of substrates can be used to bait _Mortierella_ out of soils. Because many species of _Mortierella_ are able to break down chitin, shrimp or crab exoskeletons works well for baiting _Mortierella_ out of soils. This approach is successful due to the expansion in gene families involved in chitinolytic metabolism (Uehling et al. 2017). Other substrates that have been used successfully to bait for _Mortierella_ include hibiscus hips and dried insects. Baits are first boiled in water and then autoclaved before use. Baits are then placed on top or gently nestled into moistened soil in a petri dish (**Figure 6).** Soil should be moistened just enough to promote growth, standing water will cultivate other microbial growth. Petri dishes are then sealed and incubated at room temperature. After 1 week, plates are open and shrimp skeletons are removed with forceps, rinsed under tap water, washed in 0.1% solution of tween 20 and then surface sterilized by soaking in hydrogen peroxide for 1 minute. Inoculated and surface sterilized baits are then placed on fresh MEA plates, often with antibiotics (see trouble shooting below) and incubated at room temperature, upside down. that incubation temperature for _Mortierella_ isolation – 5C is selective for many _Mortierella_ species. Conspecific isolates can be paired to produce zygospores, and often form asexual spores in monoculture conditions. Slides can be prepared by mounting tissues in water or KOH, and adding dyes such as Congo red or Nile blue to more easily visualize hyphae and spores.
+
+2. _Soil particle isolation_. Many soil collections contain _Mortierella_ and related fungi. A particularly successful isolation technique is to use an inverted agar plate to catch spores ejected from fungi found in soil particles. A soil sample is sprinkled (~.25 grams fresh soil) is sprinkled on the inverted lid of a petri lid from a dish containing agar media. After ~3 days the soil is removed and the plate sealed with parafilm to avoid contaminants.
+
+#### _Cytoplasmic streaming_. 
+
+Prepare a slide of _Mortierella_ for live cell imaging by applying a thin layer of media on a microscope slide. Inoculate the edge with a small agar block and incubate overnight in a moist chamber. To view, remove agar block with a razor and gently apply a coverslip. At high magnification you can see vesicle trafficing. Which direction do vesicles flow? Do they cell contents stream at the same rate?
+
+#### _Lipid staining_. 
+
+Stain live _Mortierella_ slides with ‘Oil Red O’ to observe lipid trafficking.
+
+### Review
+
+1. **_Mortierella _isolation:** Selective techniques, media, & culturing
+2. **_Mortierella_ morphology:** Vegetative and reproductive structures
+3. **Chemical ecology of _Mortierella_:** Smelling station / volatiles
+4. **Cellular characteristics:** Cytoplasmic streaming / Gravitropism / Phototrophism
+
+### Discussion questions
+
+1. How does **spore** diversity and architecture influence species dispersal?
+2. Why do soil fungi exhibit **phototropism**?
+3. Describe the **odor** of _Mortierella_. Does it differ between species, strains or if the isolate is infected with **endobacteria**?
+4. What differences do you notice between cultures of _Mortierella_, **strains** of a single species, or **isolates** with/without endobacteria?
+5. What **chemical interactions** that may occur between Mortierellomycotinia fungi, plants and bacteria?
+
+### Troubleshooting
+
+Microscopic features are challenging to discern and sometimes hard to find in _Mortierella_ isolates, so be persistent and make numerous slides and examine multiple cultures.
+
+Soil bacteria often associated closely with _Mortierella_ species. To avoid plate containments, include one or more of the following antibiotics into your media; Streptomycin, Chloramphenicol, Ampicillin, or Tetracyclin (60ug/mL).
+
+***
+
+## References
