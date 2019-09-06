@@ -6,20 +6,46 @@
 
 ## Background
 
-Mortierellomycotina, (Mucoromycota) are among the most common soil fungi on the planet, and occur on all continents and terrestrial ecosystems (Wagner et al. 2013). Divergence date estimates indicate these fungi comprise a lineage that split from AM fungi and other Mucoralean fungi between 358-508 million years ago during the Cambrian-Devonian geologic periods (Uehling et al. 2017). In addition to occurring in soils, Mortierellomycotina fungi can be cultured from plant rhizospheres. However, they do not form distinctive morphological structures on or within plant roots. Consequently, they have evaded morphological detection in studies on plant-fungal interactions, and their functional interaction with plants is still not well characterized. Given Mortierellomycotina fungi are readily culturable from soils and plant roots, they are well suited for lab study and experimentation.
+Mortierellomycotina, (Mucoromycota) are among the most common soil fungi on the planet, and occur on all continents and terrestrial ecosystems (@Wagner_2013). Divergence date estimates indicate these fungi comprise a lineage that split from AM fungi and other Mucoralean fungi between 358-508 million years ago during the Cambrian-Devonian geologic periods (@Uehling_2017). In addition to occurring in soils, Mortierellomycotina fungi can be cultured from plant rhizospheres. However, they do not form distinctive morphological structures on or within plant roots. Consequently, they have evaded morphological detection in studies on plant-fungal interactions, and their functional interaction with plants is still not well characterized. Given Mortierellomycotina fungi are readily culturable from soils and plant roots, they are well suited for lab study and experimentation.
 
-Mortierellomycotina fungi are characterized by producing coenocytic hyphae, although septae are formed in old or damaged hyphae (Spatafora et al. 2017). Hydrophilic mycelium is favorable for soil bacteria activity (Kohlmeier et al. 2005), which use mycelial networks for transportation and dispersal. Many species within the Mortierellomycotina are known to harbor endobacteria within their hyphae. The origin and functioning of these endosymbiosis is still open to debate (Uehling et al. 2017).
+```{r ch8fig1, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "_Mortierella_ isolates exhibiting characteristic rosette like growth."}
+knitr::include_graphics("img/Ch8_Fig1.jpg", dpi = 75)
+```
+
+
+Mortierellomycotina fungi are characterized by producing coenocytic hyphae, although septae are formed in old or damaged hyphae (@Spatafora_2016). Hydrophilic mycelium is favorable for soil bacteria activity (@Kohlmeier_2005), which use mycelial networks for transportation and dispersal. Many species within the Mortierellomycotina are known to harbor endobacteria within their hyphae. The origin and functioning of these endosymbiosis is still open to debate (@Uehling_2017).
 
 Mortierellomycotina fungi can be difficult to observe in nature due to the cryptic nature of these microfungi. However, species in this lineage can be readily isolated from soil, roots or dung for study. They often exhibit rapid growth making them suitable for laboratory and experimentation. Still some species within Mortierellomycotina have evaded isolation, or exhibit only limited growth. In this lab, you will learn basic techniques to isolate these fungi from soil and also stain, observe and study these fungi in pure culture and with microscopy.
 
 Here are some structures that you are likely to encounter:
 
-- **Sporangium (Figure 2) **(pl. sporangia) are enclosed vessels that produce asexually produced sporangiospores, and a born upon terminal hyphae known as sporangiophores. Single or multiple spores can be produced within a sporangium, and some species fail to produce sporangia (e.g. _M. chlamydospora_).
-- **Columella (Figure 2)** is a sterile tissue found at the tip of a sporangiophore that forms a septum between the active protoplasm below and the developing spores inside the upper portion of the sporangial head. The columella of Mortierellomycotina fungi characteristically is flat or slightly convex.
-- **Sporangiospores (Figure 2) ** are globose to subglobose and elongated are produced terminal or subterminal, according to species, on specialized hyphae. Sporangiospores are mitotically produced and tend to be small (often larger than 2-10 μm). Spores are produced on sporangia in the soil.
-- **Chlamydospores (Figure 3) ** are asexually produced spores that form intercalary within or between hyphal cells, or sometimes on terminal hyphae. These structures are generally thick walled and serve as resting spores when resources become limited or conditions unfavorable.
-- **Zygospores (Figure 4) ** are sexual spores produced by many species of Mortierellomycotina, yet zygospores are not frequently observed. Zygospores can be  produced by homothallic species, or by heterothallic species when they mate. Mating appears to occur under low nutrient conditions.
+- **Sporangium (Fig. \@ref(fig:ch8fig2)) **(pl. sporangia) are enclosed vessels that produce asexually produced sporangiospores, and a born upon terminal hyphae known as sporangiophores. Single or multiple spores can be produced within a sporangium, and some species fail to produce sporangia (e.g. _M. chlamydospora_).
+
+```{r ch8fig2, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "_Mortierella elongata_ sporangium illustrating no discernable collumella and sporangiospores."}
+knitr::include_graphics("img/Ch8_Fig2.jpg", dpi = 75)
+```
+
+- **Columella (Fig. \@ref(fig:ch8fig2))** is a sterile tissue found at the tip of a sporangiophore that forms a septum between the active protoplasm below and the developing spores inside the upper portion of the sporangial head. The columella of Mortierellomycotina fungi characteristically is flat or slightly convex.
+
+- **Sporangiospores (Fig. \@ref(fig:ch8fig2)) ** are globose to subglobose and elongated are produced terminal or subterminal, according to species, on specialized hyphae. Sporangiospores are mitotically produced and tend to be small (often larger than 2-10 μm). Spores are produced on sporangia in the soil.
+
+- **Chlamydospores (Fig. \@ref(fig:ch8fig3)) ** are asexually produced spores that form intercalary within or between hyphal cells, or sometimes on terminal hyphae. These structures are generally thick walled and serve as resting spores when resources become limited or conditions unfavorable.
+
+```{r ch8fig3, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "Intercalary chlamydospores, image from @Wagner_2013."}
+knitr::include_graphics("img/Ch8_Fig3.png", dpi = 75)
+```
+
+- **Zygospores (Fig. \@ref(fig:ch8fig4)) ** are sexual spores produced by many species of Mortierellomycotina, yet zygospores are not frequently observed. Zygospores can be  produced by homothallic species, or by heterothallic species when they mate. Mating appears to occur under low nutrient conditions.
+
+```{r ch8fig4, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "Zygospore from _Mortierella elongata_ showing thick, pigmented wall structure."}
+knitr::include_graphics("img/Ch8_Fig4.jpg", dpi = 75)
+```
+
 - **Stylospores (Figure 5) ** are highly ornamented, hyaline, asexual reproductive propagules.
+
+```{r ch8fig5, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "Stylospores exhibiting hyaline, ornamented cell walls. Image from @Wagner_2013."}
+knitr::include_graphics("img/Ch8_Fig5.png", dpi = 75)
+```
 
 ## Classroom activities
 
@@ -59,7 +85,7 @@ Here are some structures that you are likely to encounter:
 ### Smelling and observation station
 
 1. Observe the morphological variation and aroma of different isolates of _Mortierella _either harboring or without bacterial endosymbionts. Collect a ballot and describe the smell of each fungal culture. We will compare and discuss the results as a class. This exercise can be modified for isolates that have not been analyzed for endobacterial presence, as _Mortierella _have a characteristic scent.
-2. Observe the characteristic rosette like concentric rings of _Mortierella_ cultures. This growth form is characteristic for the group **(Figure 1). **
+2. Observe the characteristic rosette like concentric rings of _Mortierella_ cultures. This growth form is characteristic for the group **(Fig. \@ref(fig:ch8fig1)). **
 
 ### Collect soils, dung, or fresh plant roots to use for _Mortierella_ isolation
 
@@ -69,7 +95,11 @@ Here are some structures that you are likely to encounter:
 
 ### _Isolation of Mortierellomycotina._
 
-1. _Substrate Baiting_. Many kinds of substrates can be used to bait _Mortierella_ out of soils. Because many species of _Mortierella_ are able to break down chitin, shrimp or crab exoskeletons works well for baiting _Mortierella_ out of soils. This approach is successful due to the expansion in gene families involved in chitinolytic metabolism (Uehling et al. 2017). Other substrates that have been used successfully to bait for _Mortierella_ include hibiscus hips and dried insects. Baits are first boiled in water and then autoclaved before use. Baits are then placed on top or gently nestled into moistened soil in a petri dish (**Figure 6).** Soil should be moistened just enough to promote growth, standing water will cultivate other microbial growth. Petri dishes are then sealed and incubated at room temperature. After 1 week, plates are open and shrimp skeletons are removed with forceps, rinsed under tap water, washed in 0.1% solution of tween 20 and then surface sterilized by soaking in hydrogen peroxide for 1 minute. Inoculated and surface sterilized baits are then placed on fresh MEA plates, often with antibiotics (see trouble shooting below) and incubated at room temperature, upside down. that incubation temperature for _Mortierella_ isolation – 5C is selective for many _Mortierella_ species. Conspecific isolates can be paired to produce zygospores, and often form asexual spores in monoculture conditions. Slides can be prepared by mounting tissues in water or KOH, and adding dyes such as Congo red or Nile blue to more easily visualize hyphae and spores.
+1. _Substrate Baiting_. Many kinds of substrates can be used to bait _Mortierella_ out of soils. Because many species of _Mortierella_ are able to break down chitin, shrimp or crab exoskeletons works well for baiting _Mortierella_ out of soils. This approach is successful due to the expansion in gene families involved in chitinolytic metabolism (@Uehling_2017). Other substrates that have been used successfully to bait for _Mortierella_ include hibiscus hips and dried insects. Baits are first boiled in water and then autoclaved before use. Baits are then placed on top or gently nestled into moistened soil in a petri dish (**Figure 6).** Soil should be moistened just enough to promote growth, standing water will cultivate other microbial growth. Petri dishes are then sealed and incubated at room temperature. After 1 week, plates are open and shrimp skeletons are removed with forceps, rinsed under tap water, washed in 0.1% solution of tween 20 and then surface sterilized by soaking in hydrogen peroxide for 1 minute. Inoculated and surface sterilized baits are then placed on fresh MEA plates, often with antibiotics (see trouble shooting below) and incubated at room temperature, upside down. that incubation temperature for _Mortierella_ isolation – 5C is selective for many _Mortierella_ species. Conspecific isolates can be paired to produce zygospores, and often form asexual spores in monoculture conditions. Slides can be prepared by mounting tissues in water or KOH, and adding dyes such as Congo red or Nile blue to more easily visualize hyphae and spores.
+
+```{r ch8fig6, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "_Mortierella_ baiting with chitin rich crab shells.."}
+knitr::include_graphics("img/Ch8_Fig6.jpg", dpi = 75)
+```
 
 2. _Soil particle isolation_. Many soil collections contain _Mortierella_ and related fungi. A particularly successful isolation technique is to use an inverted agar plate to catch spores ejected from fungi found in soil particles. A soil sample is sprinkled (~.25 grams fresh soil) is sprinkled on the inverted lid of a petri lid from a dish containing agar media. After ~3 days the soil is removed and the plate sealed with parafilm to avoid contaminants.
 

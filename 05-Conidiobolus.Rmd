@@ -6,9 +6,9 @@ Department of Botany and Plant Pathology, Oregon State University, Corvallis, OR
 
 ## Introduction
 
-_Conidiobolus_ (Entomophthorales) is a genus of insect pathogenic fungi in Zoopagomycotina (King 1976a, 1976b, 1977).  There are currently 46 described species (MycoBank; accessed June 29, 2017).  It is closely related to _Entomophthora_ and the “core” Entomophthorales, but molecular, but genome-scale phylogenies do not support the monophyly of _Conidiobolus_ (Gryganskyi et al. 2012, 2013). It is commonly found in forest soils and leaf litter in subtropical and tropical ecosystems.  It can be easily isolated on simple media (e.g., CMA, PDA, etc.), and thus is assumed to have a saprobic phase or as least saprobic potential in nature.  It is also an opportunistic pathogen of mammals (e.g., dogs, horses, sheep; e.g., Humber et al. 1989, Vilela et al. 2010) and humans (Chandler 2006).  Infections are most common in nasal cavities through inhalation of spores or parent soil material (Mackey et al. 2015, Rain et al. 2015).
+_Conidiobolus_ (Entomophthorales) is a genus of insect pathogenic fungi in Zoopagomycotina (@King_1976, @King_1976B, @King_1977).  There are currently 46 described species (MycoBank; accessed June 29, 2017).  It is closely related to _Entomophthora_ and the “core” Entomophthorales, but molecular, but genome-scale phylogenies do not support the monophyly of _Conidiobolus_ (@Gryganskyi_2012, @Gryganskyi_2013). It is commonly found in forest soils and leaf litter in subtropical and tropical ecosystems.  It can be easily isolated on simple media (e.g., CMA, PDA, etc.), and thus is assumed to have a saprobic phase or as least saprobic potential in nature.  It is also an opportunistic pathogen of mammals (e.g., dogs, horses, sheep; e.g., @Humber_1989, @Vilela_2010) and humans (@Chander_2017).  Infections are most common in nasal cavities through inhalation of spores or parent soil material (@Mackey_2015, @Jain_2015).
 
-_Conidiobolus_, as its name implies, produces ballistosporic conidia, which are the primary means of dispersal and which facilitate isolation into pure culture.  The conidia are formed on conidiophores and the forcible ejection of the primary conidium is by eversion of a columella (Fig. 1). The everted columella gives the primary conidium a nose or beaked (pyriform-spherical) appearance (Fig. 2). The primary conidium has multiple germination/dispersal options that are environmentally regulated.  They may germinate directly into hyphae (Fig. 3); germinate a conidiophore and produce a secondary conidium of approximately the same size (Fig. 4), or germinate to form multiple microconidia (Fig. 5). Some species, but not all, produce villose conidia or resting spores (Fig. 6).  Zygospores production is known from about half  the described species and they are globose, thick-walled, and smooth (Fig. 7).
+_Conidiobolus_, as its name implies, produces ballistosporic conidia, which are the primary means of dispersal and which facilitate isolation into pure culture.  The conidia are formed on conidiophores and the forcible ejection of the primary conidium is by eversion of a columella (Fig. \@ref(fig:ch5fig1)). The everted columella gives the primary conidium a nose or beaked (pyriform-spherical) appearance (Fig. \@ref(fig:ch5fig2)). The primary conidium has multiple germination/dispersal options that are environmentally regulated.  They may germinate directly into hyphae (Fig. \@ref(fig:ch5fig3)); germinate a conidiophore and produce a secondary conidium of approximately the same size (Fig. \@ref(fig:ch5fig4)), or germinate to form multiple microconidia (Fig. \@ref(fig:ch5fig5)). Some species, but not all, produce villose conidia or resting spores (Fig. \@ref(fig:ch5fig6))).  Zygospores production is known from about half  the described species and they are globose, thick-walled, and smooth (Fig. \@ref(fig:ch5fig7)).
 
 ## Isolation
 
@@ -51,31 +51,31 @@ _Conidiobolus_, as its name implies, produces ballistosporic conidia, which are 
 10. Once growth as commenced a fresh crop of primary conidia can be observed on the inside of the petri dish lid.  Using sterile technique and a transfer loop, transfer material from the petri dish lid into a drop of water or cotton blue on a microscope slide, place a cover slip, and observed stages described above.
 
 ```{r ch5fig1, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "Hyphae, conidiophores, and primary conidia. http://www.ijpmonline.org/viewimage.asp?img=IndianJPatholMicrobiol_2015_58_3_402_162933_f2.jpg"}
-
+knitr::include_graphics("img/Ch5_Fig1.png", dpi = 75)
 ```
 
 ```{r ch5fig2, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "Discharged primary conidium with nose or beak from eversion of columella. http://www.mycology.adelaide.edu.au/virtual/2006/ID2-Nov06.html"}
-
+knitr::include_graphics("img/Ch5_Fig2.png", dpi = 75)
 ```
 
 ```{r ch5fig3, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "Primary conidium germinating directly into hyphae. http://www.mycology.adelaide.edu.au/virtual/2006/ID2-Nov06.html"}
-
+knitr::include_graphics("img/Ch5_Fig3.png", dpi = 75)
 ```
 
 ```{r ch5fig4, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "Repetitive germination of primary conidium to form a secondary conidium, _C. coronatus_. http://www.naro.affrc.go.jp/org/fruit/epfdb/Zygomy/micro/NAJ005.gif"}
-
+knitr::include_graphics("img/Ch5_Fig4.png", dpi = 75)
 ```
 
 ```{r ch5fig5, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "Multiplicative germination producing microconidia of _C. coronatus_. [http://www.naro.affrc.go.jp/org/fruit/epfdb/Zygomy/micro/AJ003.gif](http://www.naro.affrc.go.jp/org/fruit/epfdb/Zygomy/micro/AJ003.gif)"}
-
+knitr::include_graphics("img/Ch5_Fig5.png", dpi = 75)
 ```
 
 ```{r ch5fig6, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "Villose conidia or resting spore of _C. coronatus_.  [http://www.naro.affrc.go.jp/org/fruit/epfdb/Zygomy/micro/AJ004.gif](http://www.naro.affrc.go.jp/org/fruit/epfdb/Zygomy/micro/AJ004.gif)"}
-
+knitr::include_graphics("img/Ch5_Fig6.png", dpi = 75)
 ```
 
-```{r ch5fig7, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "_C. lamprauges_ zygospores stained in lactophenol cotton blue. A) Hyphae with numerous zygospores. B) Enlargement of smooth, thick-walled zygospores. (from Vilela et al. 2010)."}
-
+```{r ch5fig7, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "_C. lamprauges_ zygospores stained in lactophenol cotton blue. A) Hyphae with numerous zygospores. B) Enlargement of smooth, thick-walled zygospores. (from Vilela_2010)."}
+knitr::include_graphics("img/Ch5_Fig7.png", dpi = 75)
 ```
 
 ***

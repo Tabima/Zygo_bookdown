@@ -1,0 +1,55 @@
+# Mucoromycota: Mucoromycotina (Mating Phycomyces) {#Mucoromycotina}
+
+<i>Jason E. Stajich<sub>1</sub>, Joseph W. Spatafora<sub>2</sub></i>.
+
+1. Department of Plant Pathology & Microbiology, University of California-Riverside, Riverside, CA_92521; 2.Department of Botany and Plant Pathology, Oregon State University, Corvallis, OR_97330.
+
+## Introduction.
+
+Sexual reproduction in fungi was first described in zygomycetes (@Blakeslee_1904) and it is among the Mucorales that it is best studied. Species may be homothallic (selfing) or heterothallic (outcrossing), a term first coined by Blakeslee.  In the heterothallic species mating occurs between isolates of the opposite mating type as determined by the mating type genes.  In Mucorales this is determined by the presence of either sexP (+) or sexM (-) gene at the mating type locus (@Alexopoulos_1996).  In homothallic species, both genes are presumed to be incorporated into the same genome.
+
+```{r ch10fig1, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "_Phycomyces_ life cycle from @Bergman_1969."}
+knitr::include_graphics("img/Ch10_Fig1.png", dpi = 75)
+```
+
+Early studies demonstrated that sexual reproduction is under pheromonal control (@Burgeff_1924).  Briefly, sexP (+) and sexM (-) strains release precursors of trisporic acid that are recognized by the opposite mating type and converted into trisporic acid.  This initiates a positive feedback loop that involves the build up of trisporic acid and an increase is production of carotenoids, which results in the production of more trisporic acid precursors.  The accumulation of trisporic acid inhibits asexual reproduction and induces zygospore formation.  The products of sexP and sexM genes likely function in the regulation of numerous pathways that control sexual reproduction and it is speculated that it is mating-type specific pheromones control zygotropism.
+
+Sexual reproduction initiates with the transformation of hyphae into zygophores, which are modified, slightly curved hyphal tips that are often rich in β-carotene.  Zygophores from + and – mating types are zygotrophic, that is they grow towards each other. The tips of the zygophores enlarge and touch forming progametangia.  The point at which the two progametangia meet and fuse is called the fusion septum (Fig. \@ref(fig:ch10fig2)b).  A gametangial septum forms near the tip of each progametangium resulting in the delimitation of a gametangium, the terminal cell of the zygophore, and a suspensor cell, the penultimate cell of the zygophore (Fig. \@ref(fig:ch10fig2)b). The fusion septum dissolves resulting in plasmogamy of the + and – gametangia and the formation of a multinucleate prozygosporangium (Fig. \@ref(fig:ch10fig2)c).  The prozygosporangium will enlarge and become pigmented and ornamented characteristic of the species (Fig. \@ref(fig:ch10fig2)d).  The zygospore forms inside of the zygosporangium and is the site of karyogamy and meiosis, ultimately form a germ sporangium with numerous sporangiospores.
+
+
+```{r ch10fig2, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "Example stages of sexual reproduction in _Phycomyces_. A) Culture plate of _Phyomyces_ types inoculated with + and – mating types after 4 days. Note lines of zygosporangia production. B) Early stage sexual reproduction showing gametangial and fusion septa, and young gametangia and suspensor cells. C) Breakdown of fusion septum and formation of prozygosporangium. D) Mature zygosporangium with appendages and suspensor cells."}
+```
+
+## Materials and recipes
+
+### <span style="text-decoration:underline;">Cornmeal agar ½ strength</span>
+
+- 8.5 g corn meal agar
+- 8.5 g agar
+-_1000ml dH<sub>2</sub>O
+
+### Strains
+
+_Phycomyces blakesleeanus _(+) [item #_156180] and (-) [item #_156181] mating type strains from Carolina Biological Supply.
+
+## Procedure
+
+_Phycomcyes blakeseeanus_ is a dung fungus that forms pronounced, easily recognized sporangiophores, is highly light sensitive, and has been used as model system for studies of phototrophism, gravitropism, carotenoid synthesis, zygomycete cell biology & sexual reproduction (@Bergman_1969). In this lab, you will mate + and – minus strains of _P. blakesleeanus_ and observe the multiple stages of sexual reproduction.  Mating in fungi is often affected by environmental factors such as nutrition and light.  For this reason, we will perform matings on nutrient poor agar, half-strength corn meal agar, and incubate our mating pairs in the dark.
+
+1. Prepare separate plates of + and – strains as a source of inoculum.  These can be maintained on a relatively nutrient rich agar such as PDA.
+2. Prepare half-strength corn meal agar (1/2 CMA) plates.
+3. Using a sterile loop or dissecting needles, inoculate + strain at the north and south quadrants of a ½ CMA plate. (Fig. \@ref(fig:ch10fig3))
+4. Using a sterile loop or dissecting needles, inoculate - strain at the east and west quadrants of a ½ CMA plate. (Fig. \@ref(fig:ch10fig3))
+
+```{r ch10fig3, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "Schematic of mating inoculation plate. + strains inoculated in N and S quadrants; - strains inoculated in E and W quadrants.  After incubation in dark at room temperature, mating will demarcated by interaction lines between the two mating types."}
+knitr::include_graphics("img/Ch10_Fig3.png", dpi = 75)
+```
+
+5. Seal plates with parafilm and place in dark at room temperature.  Be sure that the container is a dark as possible.
+6. After 3-5 days formation of gametangia and 7-10 days for zygospore formation can be observed at the interface where mycelium contacts opposite mating type at the boundary of a sector (Fig. \@ref(fig:ch10fig2)a, Fig. \@ref(fig:ch10fig3)).  Use a dissecting microscope to observed the interaction zones between + and -  mating types.
+7. While looking through stereoscope and using forceps and needle extract gametangia from plate and place on slide. Place in droplet of water and gently place coverslip on top to observe under the compound scope.
+8. You should be able to observe the following stages of sexual reproduction: zygophore, progametangium, gametangium, suspensor cell, fusion septum, gametangial septum, prozygosporangium, and zygosporangium.
+
+***
+
+## References

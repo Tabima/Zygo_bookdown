@@ -48,7 +48,7 @@ In this lab we will establish cultures of _Stylopage hadra_ from soil by baiting
 * 15 g agar
 * 1000 ml final volume in water
 
-<span style="text-decoration:underline;">Nematode Growth Media (NGM) (Corsi, Wightman, & Chalfie, 2015)<span>
+<span style="text-decoration:underline;">Nematode Growth Media (NGM) (Corsi, Wightman, & Chalfie, 2015)</span>
 
 * 3 g NaCl
 * 2.5 g Peptone
@@ -59,7 +59,7 @@ In this lab we will establish cultures of _Stylopage hadra_ from soil by baiting
 * 1 ml 5 mg/ml cholesterol
 * 1000 ml final volume in water
 
-### Observing predation of _C. elegans_ by _Stylopage_ _hadra_ in mixed culture</span>
+### Observing predation of _C. elegans_ by _Stylopage_ _hadra_ in mixed culture
 
 For the purposes of today’s lab, we have provided mixed cultures of _Stylopage hadra_, a nematode-trapping member of the genus, that were prepared three weeks ago in the same way as you just did above. The goal here is to get an opportunity to look at _S. hadra_ capturing and consuming nematodes and to familiarize yourself with the few characteristic structures that _S. hadra_ forms in culture. Get a culture plate and notice the areas that are circled on the underside of the plate in red sharpie. These are areas where _S. hadra_ has been seen growing.
 
@@ -67,8 +67,9 @@ Look around this area under a dissecting or compound microscope. You should be a
 
 Find an area where there are lots of _S. hadra_ conidiophores and focus instead on the agar surface. Do you see any captured nematodes? Depending on the stage of digestion, you may only be able to see the rough outline of what once was a nematode. Look around until you’re confident that you’ve found a recently captured nematode.
 
-```{r ch3fig1, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "Line drawings adapted from @Drechsler_1932B and @Drechsler_1937)that depict the conidial and conidiophore morphology of two genera of nematode-trapping ascomycetes (left and center) in comparison to _Stylopage hadra_ (right). Notice the grouping of uniseptate conidia in _Arthrobotrys _into large clusters. Also note the absence of internal septa in the conidia on _S. hadra_."}
+```{r ch3fig1, echo=FALSE, fig.align='center', fig.width = 12, fig.cap= "Line drawings adapted from @Drechsler_1935B and @Drechsler_1937)that depict the conidial and conidiophore morphology of two genera of nematode-trapping ascomycetes (left and center) in comparison to _Stylopage hadra_ (right). Notice the grouping of uniseptate conidia in _Arthrobotrys _into large clusters. Also note the absence of internal septa in the conidia on _S. hadra_."}
 
+knitr::include_graphics("img/Ch3_Fig1.png", dpi = 75)
 ```
 
 Now take the parafilm off of your plate and make a wet mount using the dissecting tools provided. Do your best to make sure that the captured prey item ends up on the slide. After locating the captured nematode on the microscope, take a look at it under high magnification (400x or 1000x with oil if possible). Are there aseptate hyphae attached to the nematode at any point? Can you see the characteristic swollen _S. hadra_ haustorium? Do you see hyphae inside the nematode body?
@@ -174,33 +175,73 @@ Combine L and E solutions in equal proportions. pH adjust to 6.7-7.0 with 1 N Na
 
 The genus _Stylopage_ is comprised of putatively obligate predators of soil nematodes or amoebae. First described in 1935 by Charles Drechsler, the genus presently contains seventeen species and is based mostly on morphological traits (@Barron_1977; @Drechsler_1935A, -@Drechsler_1935B, @Drechsler_1939; @Duddington_1955). As predatory fungi of amoebae and nematodes, species of _Stylopage_ physically trap prey items to a free-living vegetative mycelium prior to chemical digestion. Unlike some other trapping fungi that you may be familiar with, species of _Stylopage_ do not produce specialized trapping structures like rings, coils, or pegs to facilitate prey capture (@Drechsler_1935A, @Drechsler_1937). Species of _Stylopage_ are so far uncultured under axenic conditions, the reasons for which remain unclear but could be related to their reliance on trapping for nutrition. For this reason, isolation of species of _Stylopage_ must involve maintenance and purification of highly mixed cultures.
 
+```{r ch3fig2, echo=FALSE, fig.align='center', fig.width = 6, fig.cap= "Line drawing of the life cycle of _Stylopage hadra_ by George Barron (http:/hdl.handle.net/10214/5530). A. Aerial spores on conidiophores. B, C. Captured nematodes in different stages of digestion."}
+
+knitr::include_graphics("img/Ch3_Fig2.jpg", dpi = 75)
+```
+
 ### _Acaulopage_
 
 The genus _Acaulopage_ was described in 1935 to include amoeba predators whose conidia are borne directly on the hyphae rather than on a conidiophore as in _Stylopage_ (@Drechsler_1935B). It contains approximately 26 species all of which prey on naked or testate amoeba. Similar to _Stylopage_, amoeba are trapped on sticky patches along otherwise undifferentiated hyphae (@Drechsler_1935B). _Acaulopage tetraceros_ can be kept in mixed culture with amoebe and bacteria (Michel et al. -@Michel_2014, -@Michel_2015).
+
+```{r ch3fig3, echo=FALSE, fig.align='center', fig.width = 6, fig.cap= "Line drawings of _Acaulopage tetraceros_ illustrating the distinctive conidia and a captured amoeba, by George Barron. (http://hdl.handle.net/10214/5456)."}
+
+knitr::include_graphics("img/Ch3_Fig3.jpg", dpi = 75)
+```
 
 ### _Zoophagus_
 
 This genus was described in 1911 based on _Zoophagus insidians_ (@Sommerstorff_1911). It includes approximately five species; all but one prey on rotifers using specialized trapping structures that are similar but different to those used by rotifer-trapping ascomycetes (@Whisler_1974, @Morikawa_1993). The genus was originally placed in Oomycota (@Prowse_1954) and was later moved into Zoopagles (Dick_1990). Molecular phylogenies inferred using rDNA, however, consistently place _Zoophagus insidians_ as sister to the Kickxellomycotina (@Tanabe_2000, @White_2006).  _Zoophagus insidians_ can be kept in mixed culture with rotifers (@Tanabe_2000).
 
+```{r ch3fig4, echo=FALSE, fig.align='center', fig.width = 6, fig.cap= "Phase contrast micrograph of _Zoophagus insidians_ by George Barron (http://hdl.handle.net/10214/5598)."}
+
+knitr::include_graphics("img/Ch3_Fig4.jpg", dpi = 75)
+```
+
 ### _Cystopage_
 
 This genus, described in 1941, traps nematodes on sticky patches along otherwise undifferentiated hyphae (@Drechsler_1941). Chlamydospores are borne laterally or intercalaryly on hyphae. The genus contains approximately seven species. No species has been cultured, and molecular data does not exist.
+
+```{r ch3fig5, echo=FALSE, fig.align='center', fig.width = 6, fig.cap= "Line drawings of chlamydospores of _Cystopage ovispora_ based on Ho et al. (2015). Chlamydospores can be borne on a short lateral branch (left), directly on the hyphae (center), or intercalary (right)."}
+
+knitr::include_graphics("img/Ch3_Fig5.png", dpi = 75)
+```
 
 ### _Rhopalomyces_
 
 The genus _Rhopalomyces_ contains approximately 11 species that prey on nematodes and rotifers.
 
+```{r ch3fig6, echo=FALSE, fig.align='center', fig.width = 6, fig.cap= "Line drawing of _Rhopalomyces elegans_ by George Barron (http://hdl.handle.net/10214/6251) depicting aerial sporangiophores (left), predation on a nematode egg (top right), and different stages of adult nematode predation (middle and bottom right)."}
+
+knitr::include_graphics("img/Ch3_Fig6.jpg", dpi = 75)
+```
+
 ###  _Verrucephalum_
 
 This monotypic genus was described in 2014 to accommodate a species observed trapping nematodes in bat dung (@Degawa_2014). The spores are darkly pigmented and borne subapically on the sporangiophore (@Degawa_2014). Nematodes are captured on enlarged appressoria (@Degawa_2014).
+
+```{r ch3fig7, echo=FALSE, fig.align='center', fig.width = 6, fig.cap= "Modified line drawing of figure 2 from Degawa (2014) depicting a sporangiophore with a dark spore mass (right) and a captured nematode (left)."}
+
+knitr::include_graphics("img/Ch3_Fig7.png", dpi = 75)
+```
 
 ### _Helicocephalum_
 
 _Helicocephalum_ was described in 1891 by Thaxter to accommodate fungi that prey on adult nematodes and nematode eggs with spores borne in an apical spiral (@Thaxter_1891). The number of species in this genus is uncertain as species of this genus can be confused with “helicosporus deuteromycetes” (www.zygomycetes.org).
 
+```{r ch3fig8, echo=FALSE, fig.align='center', fig.width = 6, fig.cap= "Light micrograph of _Helicocephalum oligosporum_ depicting a young sporangiophore by George Barron (http://hdl.handle.net/10214/5481)."}
+
+knitr::include_graphics("img/Ch3_Fig8.jpg", dpi = 75)
+```
+
 ### _Brachymyces_
 
 This monotypic genus was described in 1980 based on _Brachymyces megasporus_ Barron. This species preys on rotifers and potentially amoeba. It was found by baiting garden soil with bdelloid rotifers. It can be distinguished by its large, brown, apically borne conidia held in clusters of 1-4 (@Barron_1980).
+
+```{r ch3fig9, echo=FALSE, fig.align='center', fig.width = 6, fig.cap= "Line drawings of _Brachymyces megasporus_ by George Barron (http://hdl.handle.net/10214/6171)."}
+
+knitr::include_graphics("img/Ch3_Fig9.jpg", dpi = 75)
+```
 
 ***
 

@@ -1,0 +1,2721 @@
+\documentclass[]{book}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Zygolabs: Zygomycete Fungi In Teaching And Research},
+            pdfauthor={Joseph W. Spatafora, Ying Chang, Jason E. Stajich, Derreck Carter-House, Yan Wang, Matthew E. Smith, Nicole Reynolds, Tim James, Kevin Amses, William Davis, Merlin White, Greg Bonito, Jessie Uehling, Robert Roberson},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{natbib}
+\bibliographystyle{apalike}
+\usepackage{longtable,booktabs}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\providecommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{Zygolabs: Zygomycete Fungi In Teaching And Research}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{Joseph W. Spatafora, Ying Chang, Jason E. Stajich, Derreck Carter-House, Yan Wang, Matthew E. Smith, Nicole Reynolds, Tim James, Kevin Amses, William Davis, Merlin White, Greg Bonito, Jessie Uehling, Robert Roberson}
+    \preauthor{\centering\large\emph}
+  \postauthor{\par}
+      \predate{\centering\large\emph}
+  \postdate{\par}
+    \date{2019-09-05}
+
+\usepackage{booktabs}
+\usepackage{amsthm}
+\makeatletter
+\def\thm@space@setup{%
+  \thm@preskip=8pt plus 2pt minus 4pt
+  \thm@postskip=\thm@preskip
+}
+\makeatother
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{preface}{%
+\chapter*{Preface}\label{preface}}
+\addcontentsline{toc}{chapter}{Preface}
+
+ZyGoLife is an interdisciplinary research consortium focused on advancing research and education of zygomycete fungi. ZyGoLife is funded by the National Science Foundation as part of the Genealogy of Life Program (DEB-1441604, DEB-1441715, DEB-1441677, DEB-1441728). It is based in numerous laboratories and institutions with research expertise in systematics, ecology, cell biology, genomics, and evolutionary biology.
+
+Zygomycetes are an important group of fungi with respect to evolutionary origins of terrestrial fungi, ecological processes in nature, and industrial uses by humans. They are, however, one of the more understudied groups of fungi. To advance the study of zygomycetes, ZyGoLife is producing \emph{ZyGoLabs: Zygomycete Fungi in Teaching and Research}. It is our hope that this effort will advance teaching and research of zygomycetes, and that it will entice more teachers to incorporate them in the classroom and more mycologists -- professors and students alike -- to study them. The title of the book is an homage to \emph{Zoosporic Fungi in Teaching and Research}, which is how many of us first learned the mycology of flagellated fungi.
+
+This version of \emph{ZyGoLabs: Zygomycete Fungi in Teaching and Research} is a prelease draft and served as the basis for the ZyGoLife Workshop held at the annual Mycological Society of America meeting on July 15, 2017 at the University of Georgia, Athens GA. It will be further developed over the near future and released as a formal publication.
+
+\emph{ZyGoLabs: Zygomycete Fungi in Teaching and Research} is dedicated to Gerald L. Benny, Kerry L. O'Donnell and Robert W. Lichtwardt. They carried the torch in zygomycete fungi research over the past 40 years, providing the foundation for today's researchers in zygomycete biology. This publication and indeed the ZyGoLife research consortium would not be possible without them.
+
+\hypertarget{intro}{%
+\chapter{Overview of zygomycete fungi}\label{intro}}
+
+\emph{Joseph W. Spatafora}
+
+Department of Botany and Plant Pathology, Oregon State University, Corvallis, OR 97331
+
+\hypertarget{overview-of-kingdom-fungi}{%
+\section{Overview of Kingdom Fungi}\label{overview-of-kingdom-fungi}}
+
+Fungi are frequently described as four groups -- chytridiomycetes, zygomycetes, ascomycetes and basidiomycetes -- that are defined by morphologies associated with reproduction. The chytridiomycetes are recognized based on their production of zoospores, characterized by a single posterior, whiplash flagellum. The zygomycetes are characterized by gametangial conjugation and the production of zygospores (Fig. \ref{fig:ch1fig1}a), aseptate (coenocytic) hyphae, and asexual reproduction typically by sporangia (Fig. \ref{fig:ch1fig1}b). The ascomycetes and basidiomycetes are diagnosed by the production of asci and basidia, respectively, possession of regularly septate hyphae, and a dikaryotic nuclear phase in their life cycle. The classification of Kingdom Fungi used here recognizes eight phyla (Fig. \ref{fig:ch1fig2}, Table \ref{tab:ch1tab1}) with the chytrids comprising three paraphyletic lineages including Cryptomycota/Microsporidia, Chytridiomycota and Blastocladiomycota. The zygomycetes are also paraphyletic and are classified in two phyla, Zoopagomycota and Mucoromycota. The monophyly of ascomycetes and basidiomycetes has been confirmed and they are classified as phyla Ascomycota and Basidiomycota, respectively, of the subkingdom Dikarya.
+
+\hypertarget{zygomycete-fungi}{%
+\section{Zygomycete fungi}\label{zygomycete-fungi}}
+
+Genome-scale phylogenies do not support the monophyly of zygomycetes and reject the zygospore as a synapomorphy for them (\citet{Spatafora_2016}). Rather the zygospore, as it is currently defined, arose in the MRCA of Zoopagomycota, Mucoromycota, Ascomycota and Basidiomycota, and lost in the MRCA of Dikarya (Ascomycota+Basidiomycota). Most zygomycetes are characterized by coenocytic hyphae and sporangial asexual reproduction, but lineages exist that are characterized by septate or compartmentalized hyphae (Fig. \ref{fig:ch1fig1}c) and/or asexual reproduction by formation of conidia (Fig. \ref{fig:ch1fig1}d). Importantly, it is with the emergence of the zygomycete fungi that we observe a loss of the fungal flagellum and the rise of the terrestrial, filamentous fungi. It is assumed that this loss of the flagellum in Kingdom Fungi corresponds to the transition to terrestrial environment and the emergence of terrestrial ecosystems.
+
+\hypertarget{zoopagomycota}{%
+\section{Zoopagomycota}\label{zoopagomycota}}
+
+Zoopagomycota is sister to Mucoromycota+Dikarya. It comprises three subphyla, Zoopagomycotina, Kickxellomycotina and Entomophthoromycotina. The primary ecologies of the phylum include pathogens and commensals of animals, parasites of other fungi and amoebae, and rarely as plant associates. The placement of Zoopagomycota as sister to the remainder of nonflagellated fungi suggests that diversification with animals and nonplant hosts occurred at least as early as diversification with terrestrial plants. Also, the loss of the flagellum in fungi corresponds to other modifications including the loss of the centriole. Most nonflagellated fungi of Mucoromycota, Basidiomycota and Ascomycota possess an organelle unique to fungi, the spindle pole body (SPB), which serves as the microtubule organizing center necessary for chromosome segregation during nuclear division. In contrast, Zoopagomycota lineages retain a functional centrosome that possesses a degenerate 9+2 microtubular system (\citet{McLaughlin_2015}). There is some evidence that \emph{Olpidium}, a genus of zoosporic fungus that retains its flagellum and infects nematodes and plant roots of Brassicaceae, may be closely related to Zoopagomycota (\citet{Sekimoto_2011}).
+
+Zoopagomycotina contains a single order Zoopagales (Ch2, Ch3). Species of the order include predators of nematodes (e.g., \emph{Stylopage}) and nematode eggs (e.g., \emph{Rhopalomyces}), predators of amoebae (e.g., \emph{Stylopage}, \emph{Zoopage}), and mycoparasites of mucoralean fungi (e.g., \emph{Syncephalis}). Hyphae are small in diameter, coenocytic, and they form haustoria on or within their hosts. Asexual reproduction is by conidia or sporangia according to species, and where known sexual reproduction is by production of zygospores. Many of these fungi are obligate symbionts and thus difficult to obtain in axenic culture, and for this reason there exists a paucity of molecular and genomic data.
+
+Kickxellomycotina comprises four orders, Asellariales, Dimargaritales, Harpellales and Kickxellales (Ch2, Ch4). Species of Kickxellomycotina possess hyphae that are regularly compartmentalized by bifurcate septa that are occluded by a lenticular plug (Fig \ref{fig:ch1fig1}c). Asellariales and Harpellales (Ch4) are associated with digestive tracts of aquatic stages of arthropods and comprise two of the four orders that have been treated previously as Trichomycetes (Lichtwardt 1986); the other two orders, Amoebidiales and Eccrinales, are members of Mesomycetozoea, not Kingdom Fungi (\citet{Benny_2000}, \citet{Cafaro_2005}). Asellariales has filamentous, branched thalli and reproduce asexually by disarticulation of the thalli into arthrospores (Ch 4). They occur in the digestive tracts of marine, aquatic and terrestrial species of isopods and Collembola where they are thought to function as commensals. Harpellales has branched or unbranched filamentous thalli and reproduce by trichospores, asexual spores with hair-like appendages (Ch. 4). They attach to the hindgut of aquatic stages of arthropods via a holdfast and are generally considered to be in a commensal relationship with their host. Dimargaritales species are haustorial parasites of other fungi with the best-known species occurring on mucoralean hosts (\citet{Benjamin_1965}), and Kickxellales (Ch 2) includes mycoparasites and saprobes isolated from soil. Both Dimargaritales and Kickxellales produce unique sporangia called merosporangia (Fig. \ref{fig:ch1fig1}e). These are cylindrical sporangia that arise from a bulbous structure, and one or more sporangiospores may occur in chains within the sporangium.
+
+Entomophthoromycotina (Ch. 5, Ch. 6) contains three classes each with a single order: Basidiobolomycetes and Basidiobolales, Entomophthoromycetes and Entomophthorales, and Neozygitomycetes and Neozygitales (\citet{Humber_2012}, \citet{Benny_2014}, \citet{Spatafora_2016}). These fungi are associated with animals as either commensals isolated from animal dung or as pathogens and parasites of insects. Many species are commonly isolated from soil and maintained in pure culture, which is consistent with a saprobic life cycle phase. Basidiobolales is typically isolated from amphibian dung although species are known to occur on the dung of other vertebrates. They produce conidiophores that forcibly eject a primary conidium, which if it lands on an appropriate substrate will germinate to form a mycelium, or if not, undergo repetitive germination, producing a second conidium (Ch 6). Under some conditions nonforcibly discharged capilliconidia are produced from forcibly discharged primary conidia. Capilliconidia adhere to the outer surface of insects. Dispersal is then achieved when spore-carrying insects are ingested by insectivorous animals, and after surviving gut passage, the fungus is subsequently excreted with the feces. The phylogenetic placement of Basidiobolales with molecular and genome scale data is problematic. In all current datasets, it is characterized by long and unstable branches and its relationship to other Entomophthoromycotina is unambiguous at this time (\citet{Gryganskyi_2012}). Entomophthorales, literally, insect destroyers, comprises pathogens of insects. Like Basidibolales, they also produce forcibly discharged conidia (Ch 5). They infect their hosts via spores and multiply within the host as one to two-celled hyphal bodies, which also can function as gametangia. Upon the host's death, the fungus ruptures through the cuticle segments producing forcibly discharged primary conidia. Frequently, infected hosts alight in perched or elevated positions, a phenomenon known as summit disease, which is thought to be an induced behavior or adaptation for spore dispersal of the pathogen (\citet{Gryganskyi_2017}). Neozygitales are pathogens of insects and mites. They were classified as a family within Entomophthorales, but were distinguished from Entomophthorales based on shape and size of chromosomes (\citet{Humber_2012}), although inadequate molecular data currently exist to test this hypothesis. \emph{Neozygites} produces adhesive capilliconidia similar to that of \emph{Basidiobolus.}
+
+\hypertarget{mucoromycota}{%
+\section{Mucoromycota}\label{mucoromycota}}
+
+Mucoromycota consists of three subphyla including Glomeromycotina, Mortierellomycotina and Mucoromycotina. Unlike Zoopagomycota, Mucoromycota is characterized by plant associations and plant based ecologies (e.g., mycorrhizae, root endophytes, decomposers, etc.). Some do exist as parasites of animals and other fungi, but these all represent opportunistic infections of hosts with compromised immune systems or relatively recent derivations from saprobic ecologies (\citet{Hoffmann_2013}). Mucoromycota is the sister group to Dikarya, which is also characterized by dominant plant associated life styles, suggesting that the MRCA of Mucoromycota and Dikarya corresponds to the origin of modern fungal-plant associations, or at least the evolutionary potential for such relationships.
+
+Glomeromycotina (Ch. 7) consists of the arbuscular mycorrhizae and \emph{Geosiphon}, a symbiont of cyanobacteria (\citet{Redecker_2014}). Arbuscular mycorrhizae are the most common form of mycorrhizae on the planet, and arbuscule fossils are present among the first land plant fossils (\citet{Taylor_2015}), confirming an ancient symbiosis. As such they are a central taxon in the development of hypotheses concerning the evolution of early land plants and terrestrial ecosystems. Despite this importance, they have been an enigma with respect to phylogenetics of Kingdom Fungi. Morphologically, they resemble zygomycetes in the production of coenocytic hyphae and terminal or subterminal spores that resemble azygospores, asexually formed zygospore-like structures produced terminally on a single hypha or suspensor cell. Sexual reproduction has never been observed for the group, preventing analysis of morphological characters traditionally used in classifications. Early molecular phylogenies based on the small subunit ribosomal DNA (SSU DNA) resolved the arbuscular mycorrhizae -- with varying statistical support depending on the analysis -- as separate from the zygomycetes and sister to Dikarya (\citet{Sch_2001}). However, genome-scale phylogenies and genome content analyses strongly support the arbuscular mycorrhizae as a member of Mucoromycota (\citet{Spatafora_2016}). Currently there are four orders of Glomeromycotina, Archaeosporales, Diversisporales, Glomerales and Paraglomerales with \emph{Geosiphon} being classified in Archaeosporales (\citet{Redecker_2014}).
+
+The relationship of Glomeromycotina to the other subphyla of Mucoromycota is unresolved, with some analyses resolving it as sister to Mortierellomycotina+Mucoromycotina, while others resolve it as sister group to Mortierellomycotina (\citet{Spatafora_2016}). The taxon sampling for both Glomeromycotina and Mortierellomycotina is sparse and expanded taxon sampling is needed to fully test these rival hypotheses. Mortierellomycotina, and its sole order Mortierellales, are commonly isolated soil fungi (Ch 8). They produce zygospores and sporangia similar to some species of Mucorales, the order in which they were previously classified, but molecular phylogenetics (\citet{Hoffmann_2011}) and genome-scale (\citet{Spatafora_2016}) phylogenies both strongly support the taxon as representing a distinct subphylum. These fungi have been demonstrated as root endophytes of plants, but their effect on the host fitness remains unknown. Mortierellales are also prolific producers of fatty acids, in particular arachidonic acid. Both Glomeromycotina and Mortierellomycotina possess intimate relationships with bacteria, and while facultative, show high levels of specificity and cospeciation (\citet{Bonfante_2017}), the fungus tends to grow better when cleared of the bacterium (\citet{Uehling_2017}).
+
+Mucoromycotina (Ch 9, Ch 10) contains the remainder of known zygomycete species and is classified in three orders: Mucorales, Umbelopsidales and Endogonales (\citet{Spatafora_2016}). Mucorales is one of the more commonly isolated groups of fungi, as many are fast growing, early colonizers of carbon rich substrates. Because many species culture relatively easily, Mucorales are well represented in culture collections and their zygospores and sporangia are well documented. They include taxa that cause economically significant pre- and postharvest diseases of fruits (e.g., \emph{Gilbertella, Mucor, Rhizopus}). They also significantly impact humans both beneficially through their use in industrial production of food (e.g., tempeh, \emph{Rhizopus}) and compounds used as food supplements (e.g., beta-carotene, \emph{Blakeslea}), and antagonistically as rare but increasingly diagnosed human mycoses (e.g., \emph{Mucor, Apophysomyces}). It is among Mucorales that sexual reproduction in fungi was first demonstrated and numerous species of Mucorales exhibit phototropic responses to light (Ch. 9, Ch. 10), making them important eukaryotic model organisms (e.g., \emph{Mucor mucedo, Phycomyces blakesleeanus}). Umbelopsidales was recently described for \emph{Umbelopsis }(\citet{Spatafora_2016}), a genus of soil-inhabiting fungi that also occurs as root endophytes. Endogonales are saprobic or ectomycorrhizal depending on the species (81). Saprobic species occur in heavily decayed woody substrates while mycorrhizal species associate with both early diverging land plants and vascular plants (Fig. \ref{fig:ch1fig1}f, Bidartondo et al.~2011). They have been argued as important organisms in the colonization of land by green plants (Field et al.~2014) and represent an independent origin of mycorrhizae relative to both Glomeromycotina and Dikarya.
+
+\begin{figure}
+
+{\centering \includegraphics[width=17.49in]{img/Ch1_Fig1} 
+
+}
+
+\caption{Zygomycete morphologies. a) Zygosporangium of *Cunninghamella homothallica*. b) Sporangium of *Rhizopus stolonifer*. c) Merosporangium of *Kickxella alabastrina* d) Bifurcate septum with lenticular plug, *Coemansia*. e) Primary conidium of *Conidiobolus coronatus* with secondary microconidia. (Photos by K. O’Donnell, Zygomycetes in Culture.) f) Endogone flammicorona sporocarp, zygospores (inset)}\label{fig:ch1fig1}
+\end{figure}
+
+\begin{figure}
+
+{\centering \includegraphics[width=11.97in]{img/Ch1_Fig2} 
+
+}
+
+\caption{Fungal Tree of Life}\label{fig:ch1fig2}
+\end{figure}
+
+\begin{longtable}[]{@{}lll@{}}
+\caption{\label{tab:ch1tab1} Classification of Kingdom Fungi.}\tabularnewline
+\toprule
+\begin{minipage}[b]{0.32\columnwidth}\raggedright
+Phylum\strut
+\end{minipage} & \begin{minipage}[b]{0.28\columnwidth}\raggedright
+Subphylum\strut
+\end{minipage} & \begin{minipage}[b]{0.31\columnwidth}\raggedright
+Class\strut
+\end{minipage}\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+\begin{minipage}[b]{0.32\columnwidth}\raggedright
+Phylum\strut
+\end{minipage} & \begin{minipage}[b]{0.28\columnwidth}\raggedright
+Subphylum\strut
+\end{minipage} & \begin{minipage}[b]{0.31\columnwidth}\raggedright
+Class\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\textbf{Cryptomycota} M.D.M. Jones \& T.A. Richards 2011 (=Rozellomycota Doweld (2011))\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\textbf{Microsporidia }\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\textbf{Blastocladiomycota} T.Y. James (2007)\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Blastocladiomycetes Doweld (2001)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\textbf{Chytridiomycota} Hibbett et al.~(2007)\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Chytridiomycetes Caval.-Sm. (1998)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Monoblepharidomycetes J.H Schaffner (1909)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Neocallimastigomycetes M.J. Powell (2007)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\textbf{Zoopagomycota} Gryganski et al.~(2016)\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+Zoopagomycotina Benny (2007)\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+Kickxellomycotina Benny (2007)\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+Entomophthoromycotina Humber (2007)\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Basidiobolomycetes Doweld (2001)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Neozygitomycetes Humber (2012)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Entomophthoromycetes Humber (2012)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\textbf{Mucoromycota} Doweld (2001)\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+Glomeromycotina Spatafora \& Stajich (2016)\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Glomeromycetes Caval.-Sm. (1998)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+Mortierellomycotina Hoffm., K. Voigt \& P.M. Kirk (2011)\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Moretierellomycetes Caval.-Sm. (1998)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+Mucoromycotina Benny (2007)\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\textbf{Ascomycota} (Berk.) Caval.-Sm. (1998)\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+Pezizomycotina O.E. Erikss. \& Winka (1997)\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Arthoniomycetes O.E. Erikss. \& Winka (1997)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Coniocybomycetes M. Prieto \& Wedin (2013)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Dothideomycetes O.E. Erikss. \& Winka (1997)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Eurotiomycetes O.E. Erikss. \& Winka (1997)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Geoglossomycetes Zheng Wang, C.L.Schoch \& Spatafora (2009)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Laboulbeniomycetes Engler (1898)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Lecanoromycetes O.E. Erikss. \& Winka (1997)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Leotiomycetes O.E. Erikss. \& Winka (1997)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Lichinomycetes Reeb, Lutzoni \& Cl. Roux (2004)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Orbiliomycetes O.E. Erikss. \& Baral (2003)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Pezizomycetes O.E. Erikss. \& Winka (1997)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Sordariomycetes O.E. Erikss. \& Winka (1997)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Xylonomycetes Gazis \& P. Chaverri (2012)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+Saccharomycotina O.E. Erikss. \& Winka (1997)\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Saccharomycetes G. Winter (1880)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+Taphrinomycotina O.E. Erikss. \& Winka (1997)\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Archaeorhizomycetes Rosling \& T.Y. James (2011)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+Neolectomycetes O.E. Erikss. \& Winka (1997)\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Pneumocystidomycetes O.E. Erikss. \& Winka (1997)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Schizosaccharomycetes O.E. Erikss. \& Winka (1997)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Taphrinomycetes O.E. Erikss. \& Winka (1997)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\textbf{Basidiomycota} R.T. Moore (1980)\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+Agaricomycotina Doweld (2001)\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Agaricomycetes Doweld (2001)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Dacrymycetes Doweld (2001)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Tremellomycetes Doweld (2001)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Wallemiomycetes Zalar, de Hoog \& Schroers (2005)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+Pucciniomycotina R. Bauer, Begerow, J.P. Samp., M. Weiss \& Oberw. (2006)\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Agaricostilbomycetes R. Bauer, Begerow, J.P. Samp., M. Weiss \& Oberw. (2006)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Atractiellomycetes R. Bauer, Begerow, J.P. Samp., M. Weiss \& Oberw. (2006)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Classiculomycetes R. Bauer, Begerow, J.P. Samp., M. Weiss \& Oberw. (2006)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Cryptomycocolacomycetes R. Bauer, Begerow, J.P. Samp., M. Weiss \& Oberw. (2006)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Cystobasidiomycetes R. Bauer, Begerow, J.P. Samp., M. Weiss \& Oberw. (2006)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Microbotryomycetes R. Bauer, Begerow, J.P. Samp., M. Weiss \& Oberw. (2006)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Mixiomycetes R. Bauer, Begerow, J.P. Samp., M. Weiss \& Oberw. (2006)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Pucciniomycetes R. Bauer, Begerow, J.P. Samp., M. Weiss \& Oberw. (2006)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Tritirachiomycetes Aime \& Schell (2011)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+Ustilaginomycotina Doweld (2001)\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Exobasidiomycetes Begerow, M. Stoll \& R. Bauer 2007\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Malasseziomycetes Denchev \& T. Denchev 2014\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Moniliellomycetes Q.M. Wang, F.Y. Bai \& Boekhout (2014)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.32\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Ustilaginomycetes E. Warming (1884)\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{lab_zoopago}{%
+\chapter{A laboratory guide for the observation, isolation, and culturing of zygomycetes with an emphasis on selected taxa of Zoopagomycotina}\label{lab_zoopago}}
+
+\emph{Nicole Reynolds, Gerald Benny, and Matthew E. Smith}
+
+Department of Plant Pathology, University of Florida, Gainesville FL 32611
+
+\hypertarget{introduction}{%
+\section{Introduction}\label{introduction}}
+
+Zoopagomycotina (phylum Zoopagomycota (\citet{Spatafora_2016})) comprises endo- or ectoparasitic fungi that attack other fungi (mycoparasites) or small animals such as nematodes, rotifers, and amoebae (\citet{Hibbett_2007}). Most species can be obtained from soil or leaf litter, but some are found in herbivore dung. Ectoparasitic and predaceous species penetrate the host via a haustorium whereas endoparasitic species produce thalli directly inside the host. Predaceous taxa in the genera \emph{Acaulopage} and \emph{Zoophagus} utilize short lateral hyphae coated with a sticky adhesive to trap prey (\citet{Drechsler_1935A}; \citet{Sommerstorff_1911}). Others such as species of \emph{Amoebophilus} and \emph{Cochlonema} produce gluey spores that adhere to the host and later germinate and penetrate the host cuticle. Sexual reproduction is unknown for most species. Homothallic and heterothallic forms have been inferred based on observations of zygospore formation, but the mating system remains essentially unknown for this subphylum (\citet{Benjamin_1979}). Indeed, many aspects of the basic biology of these fungi such as dispersal mechanisms, host/parasite interactions, geographic distribution, and life cycle remain unclear (\citet{Benny_2016}).
+
+The subphylum Zoopagomycotina is among the least studied groups of fungi due in large part to the obligate nature of their parasitic associations. These fungi cannot be found unless the appropriate host organism is also present in the sample. Even if the host is present, it may take up to several months of incubation for some of these parasites to appear on culture plates (\citet{Drechsler_1938}; \citet{Duddington_1955}). Once obtained, maintenance of these co-cultures over time is labor intensive and often unsustainable due to the unknown nutritional or habitat requirements of the host organisms and/or the parasites. Furthermore, the majority of species have not been obtained in axenic culture which means that molecular phylogenetic studies are challenging for many taxa. As a result, although five families are named, the evolutionary relationships between taxa have not been tested. However, mycoparasitic members of the Piptocephalidaceae are some of the easiest to collect from soil or dung and also to grow in culture due to their association with common host fungi (\citet{Benny_2016}). The Piptocephalidaceae contains three genera (\emph{Kuzhuaea}, \emph{Piptocephalis}, and \emph{Syncephalis}) that are all haustorial mycoparasites of fungi (primarily members of the Mortierellomycotina and Mucoromycotina) (\citet{Benjamin_1979}; \citet{Benny_2005}). \emph{Piptocephalis} species can be recognized by the typically tall, aerial, dichotomously branched hyphae and sporophores. In contrast, \emph{Syncephalis} species usually form networks of thin, cobweb-like aerial hyphae that produce short, unbranched sporophores. \emph{Syncephalis} sporophores are generally more difficult to observe under the dissecting microscope relative to \emph{Piptocephalis} species, but the tufts of cottony hyphae are an easily recognized feature of \emph{Syncephalis}.
+
+In this exercise we provide information and guidance for obtaining fresh materials of Zoopagomycotina in the laboratory. Our methods emphasize common mycoparasitic taxa in the genera \_Piptocephalis \_and \emph{Syncephalis} because these are ubiquitous and may therefore be the easiest taxa in Zoopagomycotina to observe in a classroom laboratory setting. These fungi can also be co-cultured on their hosts and kept for a longer term than the predaceous species. However, some of the techniques outlined here may also be used to obtain predaceous Zoopagomycotina fungi that attack small animals such as nematodes, rotifers, and amoebae. Several other sources are helpful for methods and tips for growing zygomycete fungi in the lab and may be also be helpful for this laboratory. In particular, Benny (\citeyearpar{Benny_2008}) and Benny et al.~(\citet{Benny_2016}) contain figures and additional information on zygomycete culturing techniques as well as recipes for culture media and additional historical reference lists. For more complete information on nematode-trapping fungi and the zygomycete species that attack other small animals see Barron (\citet{Barron_2004}), Drechsler (\citet{Drechsler_1935A}) and Duddington (\citet{Duddington_1955}).
+
+Below we go over the process of collecting Zoopagomycotina fungi in four different sections:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Soil and Dung Collection
+\item
+  Incubation of Soil and Dung
+\item
+  Viewing and Identification of Mycoparasitic Fungi
+\item
+  Isolation of Fungi from Samples
+\end{enumerate}
+
+Two appendices are included to provide commonly used media recipes and methods for preserving dual cultures of mycoparasites for longer term storage. Preserved cultures are useful for creating culture collections that can be grown out and used as demonstration cultures for students to view as examples during laboratory activities.
+
+\hypertarget{supplies}{%
+\section{Supplies}\label{supplies}}
+
+Although the list of supplies may vary slightly depending on the species of Zoopagomycotina that you hope to see, below is the generic list of all supplies used for obtaining Zoopagomycotina from soil and dung:
+
+\begin{itemize}
+\tightlist
+\item
+  Deep plastic or glass petri dishes with lids (e.g.~100 x 80 mm Pyrex glass crystallizing dishes). If lids are not available, then clear plastic or glass plates or Parafilm may be used as covers
+\item
+  Standard size plastic and/or glass petri dishes
+\item
+  Sterile filter paper discs
+\item
+  Distilled water
+\item
+  Low nutrient agar media (see appendix)
+\item
+  Trowel, spoon, or similar device for scooping soil
+\item
+  Clean plastic and paper bags
+\item
+  Lab gloves
+\item
+  Antibacterial antibiotics and benomyl (see appendix)
+\item
+  Dissecting microscope
+\item
+  Light microscope
+\item
+  Bunsen burner or alcohol lamp
+\item
+  Sharpie or other permanent markers
+\item
+  Parafilm
+\item
+  Microscope slides and coverslips
+\item
+  Tissue stain for slide preparations, such as lactophenol cotton blue
+\item
+  70\% or 95\% ethanol for bench and tool sterilization
+\item
+  Some or all of these flame-resistant isolation tools: fine-tipped forceps, tungsten wire loop, insect minuten pin with handle, nichrome wire with handle, small metal spatula, scalpel (Fig. Fig. \ref{fig:ch2fig1})
+\end{itemize}
+
+\begin{figure}
+
+{\centering \includegraphics[width=6.83in]{img/Ch2_Fig1} 
+
+}
+
+\caption{ Tools used for isolating, transferring, and culturing microfungi.  From left to right: insect minuten pin with pin vice handle, two examples of fine-tipped forceps, a harpoon-like mini spatula with vice handle, nichrome wire with a vice handle, tungsten wire loop, metal-handled scalpel, and small spatula.  Fine-tipped forceps are useful for collecting segments of hyphae (e.g. for slide making or isolation in culture) whereas the insect minuten pin, nichrome wire, and loop may be used for transferring spores.  The scalpel or spatulas are needed for cutting agar plates.}\label{fig:ch2fig1}
+\end{figure}
+
+\hypertarget{soil-and-dung-collection}{%
+\section{Soil and Dung Collection}\label{soil-and-dung-collection}}
+
+Different taxa are commonly associated with different substrates (e.g.~soil vs.~litter vs.~dung) so multiple substrates can be used in order to maximize Zoopagomycotina diversity. For example, \emph{Syncephalis} species are more common from soil samples (\citet{Benny_2016}), whereas predaceous taxa like \emph{Zoopage} species may be more common in decaying leaf litter (\citet{Duddington_1955}).
+
+\hypertarget{soil-collection}{%
+\subsection{Soil Collection}\label{soil-collection}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Find a location to sample. Nutrient rich and moist locations such as a gardens, compost heaps, beneath trees or shrubs, etc. may yield better results. Mesic forest habitats often yield many species of Zoopagomycotina.
+\item
+  Use a clean spoon or trowel to scoop a small amount (up to 250 mL/1 cup) of topsoil and place in a small, clean plastic bag. If desired, also collect decaying leaf litter laying on the soil.
+\item
+  Keep soil and leaf litter refrigerated until ready to plate on media. (Although few studies have empirically tested the effects of refrigeration, anecdotal evidence suggests that fresher soil yields the highest diversity).
+\end{enumerate}
+
+\hypertarget{dung-collection}{%
+\subsection{Dung Collection}\label{dung-collection}}
+
+Rodent and rabbit dung are rich sources of \emph{Piptocephalis} and \emph{Syncephalis} species but isolates have also been obtained from the dung of horses, cows, raccoons, squirrels, goats, and bats. The most important aspect of dung collection is that it must be relatively fresh. The dung should still have moisture and have a shiny, brown appearance. Old dung is often drier, is white or green, and has a ``crusty'' appearance.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  The type of dung collected will depend on the surrounding habitat. Wooded areas are typically good for collecting dung from a variety of small mammals such as squirrel, deer, rabbit, raccoon, and mouse. Even arthropod dung (e.g.~cockroach or earwig) has produced some interesting Zoopagomycotina taxa and could be tested. Local farms with herbivores may be a valuable source as well. For identification of scats see Halfpenny (\citeyearpar{Halfpenny_2008}) or similar source.
+\item
+  Place the dung in an appropriate container and refrigerate until ready to place in a moist chamber. Firm dung (e.g.~mouse or rabbit pellets) should be kept in paper bags rather than in plastic bags.
+\end{enumerate}
+
+\begin{quote}
+Note:
+Field collected dung could potentially contain nematodes or other disease agents so it should be handled with laboratory gloves. In some areas of the USA (e.g.~the Southwest) rodents may act vectors for Hanta virus so it may not be appropriate to use rodent dung from all locations.
+\end{quote}
+
+\hypertarget{incubation-of-soil-and-dung}{%
+\section{Incubation of Soil and Dung}\label{incubation-of-soil-and-dung}}
+
+Two main approaches have been used to view and isolate Zoopagomycotina species from soil and dung, incubation and plating. These approaches are outlined briefly here.
+
+\hypertarget{soil-plating}{%
+\subsection{Soil Plating}\label{soil-plating}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Choose a low-nutrient media plate to use for isolation. The choice of plate will depend on the desired fungal groups. For mycoparasitic taxa it is typical to use plates that include antibacterial antibiotics and the anti-fungal compound benomyl to reduce growth by `molds' (e.g.~\emph{Aspergillus} and \emph{Penicillium} spp.). For predaceous fungi we recommend water agar plates without antibiotics or benomyl and with plenty of moisture. Host animals such as nematodes or amoeba are often more prolific if extra water is added to the plate (see Appendix below for agar and antibiotic recipes).
+\item
+  Use a spoon or small scoop to gather 1-2 grams of soil or litter and gently sprinkle evenly across one side of the plate (Fig. Fig. \ref{fig:ch2fig2}). One side of the plate is left clear of soil to enable easier viewing of the fungi.
+\item
+  Label the plate with the collection code, date, media type. Store in a dark cabinet or container for several days. Do {not} seal the plate with Parafilm.
+\item
+  The plates should be observed under a dissecting microscope to look for fungi.
+\end{enumerate}
+
+\begin{figure}
+
+{\centering \includegraphics{img/Ch2_Fig2} 
+
+}
+
+\caption{ Example of a soil sample sprinkled on an agar plate.  A small amount of soil spread on half of the plate helps to minimize overgrowth of fungi as well as enable easier visualization of fungi that grow out over the agar.  This example has a minimal amount of soil, but more could be used depending on the size and consistency of the soil particles.}\label{fig:ch2fig2}
+\end{figure}
+
+\hypertarget{dung-incubation-in-moist-chambers}{%
+\subsection{Dung Incubation in Moist Chambers}\label{dung-incubation-in-moist-chambers}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Plastic or glass petri dishes lined with filter paper are used for dung incubation. Standard size (i.e.~100 x 15 mm) petri dishes are too shallow for most types of dung, but may be appropriate for mouse or rat dung. Deeper dishes are better for allowing the growth of tall, aerial fungi and are best for larger dung like cow or horse (Fig. Fig. \ref{fig:ch2fig3}).
+\item
+  Divide the dung into smaller portions that will fit in the center of the dishes. For very small dung (e.g.~mouse), several pellets may be evenly spaced across the dish. The idea is to leave enough space around the dung for fungi of interest to grow out.
+\item
+  Wet the filter paper with enough distilled water to saturate the paper (but avoid having standing water in the bottom of the dish because this will promote bacterial growth). Do not parafilm the dishes.
+\item
+  Moist chambers can be incubated for several days before fungi appear, but they should be checked regularly to ensure the filter paper stays moist and to watch for overgrowth by other organisms (e.g.~bacteria, \emph{Aspergillus} and \emph{Penicillium} spp).
+\end{enumerate}
+
+\begin{figure}
+
+{\centering \includegraphics[width=6.83in]{img/Ch2_Fig3} 
+
+}
+
+\caption{Moist chamber set up for small (A) and larger (B) dung samples.  Several pellets of rat (A, left) and mouse (A, right) dung can be evenly spaced out on a standard size petri dish lined with filter paper(s).  Larger dung can be incubated in a tall glass container with a lid, also lined with filter paper(s) (B).  It is important to leave space around the dung pieces to allow room for air flow and fungal growth.  Filter papers should be wetted up to the point of saturation with distilled water and monitored to prevent dessication.  Do not Parafilm the dishes.}\label{fig:ch2fig3}
+\end{figure}
+
+\hypertarget{viewing-and-identification-of-mycoparasitic-fungi}{%
+\section{Viewing and Identification of Mycoparasitic Fungi}\label{viewing-and-identification-of-mycoparasitic-fungi}}
+
+\hypertarget{slide-preparation-to-examine-fungi}{%
+\subsection{Slide Preparation to Examine Fungi}\label{slide-preparation-to-examine-fungi}}
+
+Slides should be made of fungi of interest for identification purposes. Fungal hyphae can be collected with a sterilized fine instrument (e.g.~loop) and placed in a drop of distilled water or ethanol on a microscope slide. If using ethanol, a drop of 2\% KOH should be added to rehydrate the hyphae. A drop of stain such as lactophenol cotton blue may be placed next to the cover slip and allowed to diffuse across the sample. If slides are to be kept, excess liquid should be removed from the slide by placing a Kimwipe or paper towel beside the coverslip and allowing it to absorb the excess. Clear fingernail polish can be applied around the edges of the coverslip to create a seal. The area around the coverslip should be as clean and dry as possible to ensure the polish adheres.
+
+\hypertarget{morphological-features-of-mycoparasitic-genera}{%
+\subsection{Morphological Features of Mycoparasitic Genera}\label{morphological-features-of-mycoparasitic-genera}}
+
+\textbf{\emph{Piptocephalis}}: Common hosts: \emph{Cokeromyces, Umbelopsis, Mucor}, and \emph{Mortierella} (Fig. Fig. \ref{fig:ch2fig4})
+
+Morphology (Fig. Fig. \ref{fig:ch2fig5}): Hyphae and sporophores dichotomously branched; hyphae often tall and aerial (sometimes reaching the lid of the plate) and a buff to tan color; spores are produced in clusters on apical head cells; spores may be dry or suspended in a liquid drop; zygospores typically have an ornamented surface and are subtended by tongs-like suspensors. \emph{Piptocephalis} species are more common in herbivore dung samples.
+
+\textbf{\emph{Syncephalis}}: Common hosts: \emph{Mucor, Mortierella, Zygorhynchus}, and \emph{Rhizopus} (Fig. Fig. \ref{fig:ch2fig4})
+
+Morphology (Fig. Fig. \ref{fig:ch2fig6}): Typically forming networks of fine, aerial, cobweb-like hyphae; sporophores are short, unbranched, have rhizoids at the base, and often are formed in clusters; sporophores and hyphae are hyaline; spores are produced at the apex of the sporophores and are usually suspended in a liquid drop at maturity; galling of host hyphae may also be observed; zygospores have an ornamented surface and apposed suspensors. \emph{Syncephalis} species are more common in soil samples.
+
+\textbf{\emph{Kuzhuaea}}: Host: \emph{Umbelopsis} (Fig. Fig. \ref{fig:ch2fig4})
+
+Morphology (Fig. Fig. \ref{fig:ch2fig5}): Dichotomously branched hyphae; spores formed in zig-zag chains; zygospores ornamented with apposed suspensors.
+
+Molecular evidence suggests that the monotypic \emph{Kuzhuaea} is actually a species of \emph{Piptocephalis} (\citet{White_2006}).
+
+\begin{figure}
+
+{\centering \includegraphics[width=6.83in]{img/Ch2_Fig4} 
+
+}
+
+\caption{Examples of common hosts for *Piptocephalis* and *Syncephalis* species.  *Cokeromyces* (A), *Umbelopsis* (B), *Mucor* (C), and *Mortierella* (F, G) are often associated with *Piptocephalis* species while *Mucor* (C), *Zygorhynchus* (D), *Rhizopus* (E), and *Mortierella* (F, G) are frequently found with *Syncephalis* species.  Species from both genera of mycoparasites are able to grow on various different Mucoromycotina hosts, and occasionally may associate with ascomycetes (i.e. *Penicillium* or *Endomyces*).  Some *Mortierella* species require special conditions in order to sporulate in culture (e.g. limited nutrients), so they may appear as masses of undifferentiated hyaline hyphae (G).  However, *Mortierella* species frequently have a characteristic zonate growth pattern on media plates (F).}\label{fig:ch2fig4}
+\end{figure}
+
+\textbackslash begin\{figure\}
+
+\{\centering \includegraphics[width=6.83in]{img/Ch2_Fig5}
+
+\}
+
+\textbackslash caption\{\emph{Piptocephalis} (A, B) and \emph{Kuzhuaea} (C) under the dissecting microscope and \emph{Kuzuhaea} sporophores stained and viewed under the compound microscope (D). The dichotomous branching of these species is evident. \emph{Piptocephalis} species typically have longer, aerial hyphae (A) that are often honey or buff colored when mature. Some species produce spores in liquid drops when mature (B) whereas others remain dry. \emph{Kuzuhaea} hyphae (C) are smaller and produce spores in chains, which can be observed under a compound microscope (D).\}\label{fig:ch2fig5}
+\textbackslash end\{figure\}
+
+\begin{figure}
+
+{\centering \includegraphics[width=6.83in]{img/Ch2_Fig6} 
+
+}
+
+\caption{*Syncephalis* species in culture.  On media plates, the presence of a *Syncephalis* species may be indicated by the tufts of fine, cobweb-like hyphae that are formed over the host (A).  Under the dissecting microscope *Syncephalis* sporophores (B, C, D) are hyaline, relatively short compared to the host (and compared to *Piptocephalis*), typically unbranched (but may be curved as in B), and sometimes are produced in clusters (C).  Red arrows indicate immature (B, C) and mature (D) sporangia.  In most species, liquid drops will form around the spores on mature sporangia.  The green arrow indicates the rhizoids that attach the sporophores to the hyphae of the host fungus.  The yellow arrow shows the fine network of thin hyphae that are produced throughout cultures of *Syncephalis* species (D).  Note: the circular objects in B are water droplets.}\label{fig:ch2fig6}
+\end{figure}
+
+\hypertarget{isolation-of-fungi-from-soil-and-dung-samples}{%
+\section{Isolation of Fungi from Soil and Dung Samples}\label{isolation-of-fungi-from-soil-and-dung-samples}}
+
+If resources are available, students may try to isolate particular fungi of interest on culture media plates. These methods are optional and depend on the time and supplies allocated to these laboratory activities. Isolating and culturing of fungi enable students to learn sterile technique and further practice their microscopy skills as well as become more familiar with microfungi morphology.
+
+\hypertarget{isolation-from-soil-plates}{%
+\subsection{Isolation from Soil Plates}\label{isolation-from-soil-plates}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  For Zoopagomycotina taxa, it is necessary to include both host and parasite when culturing and transferring living material from one plate to another. Therefore, plates should be inspected under a dissecting microscope to locate a spot on the plate where both host and parasite are growing but contamination from other fungi is not observed. This may not always be possible, but if an appropriate site is found then a small section of the agar may be cut from the plate and placed on a new, clean plate.
+\item
+  Flame sterilize a small scalpel or spatula and allow to cool.\\
+\item
+  Carefully cut out a small square of agar where hyphae and spores of both the host and parasite are growing.
+\item
+  Using sterile technique, gently place the cut piece onto a clean media plate.
+\item
+  Try to minimize the amount of time that the lid is off the clean media plate in order to reduce the possibility of contamination. Remember to write the date and collection information on the new plate.
+\item
+  If there is no place on the plate where host and parasite are growing away from other fungi, it may be possible to isolate them using a loop tool or fine tipped forceps (Fig. Fig. \ref{fig:ch2fig2}).
+\item
+  Locate hyphae and spores of the host and parasite with the dissecting microscope.
+\item
+  Flame sterilize a tungsten wire loop or fine tipped forceps and allow to cool.
+\item
+  While looking at the fungi under the microscope, carefully touch the loop to the spores of the host and the parasite or grab a few hyphae/sporophores with the forceps.\\
+\item
+  Scrape the clean plate with the loop containing the spores and tissue. If there is difficulty in removing the tissue from the loop, it may be helpful to gently stab the agar with the loop. If using forceps, hold them vertically and stab them directly down into the agar. Try not to gouge or tear the agar.
+\end{enumerate}
+
+\hypertarget{isolation-from-incubated-dung}{%
+\subsection{Isolation from Incubated Dung}\label{isolation-from-incubated-dung}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  While looking at the sample under the dissecting microscope, use a flame sterilized insect minuten pin, nichrome wire, or tungsten loop (Fig. Fig. \ref{fig:ch2fig1}) to carefully collect spores from the fungus of interest. If it's a mycoparasite, make sure to gather spores of both host and parasite. Try not to touch any other fungus with the tool to avoid contamination.
+\item
+  Stab a clean agar plate with the tool to deposit the spores. Be careful not to tear or gouge the agar.
+\item
+  Alternatively, sterilized fine tipped forceps can be used to pluck sporophores and place them onto a clean plate.
+\end{enumerate}
+
+These methods work well for \emph{Piptocephalis} and \emph{Syncephalis} when they are growing on fungal hosts that grow rapidly in pure culture. However, Zoopagomycotina (e.g.~species of \emph{Acaulopage, Amoebophilus, Cochlonema, Endocochlus , Zoopage}) that attack small animal hosts (i.e.~amoebae, rotifers, nematodes) will be much more challenging to locate, identify, and maintain in dual cultures. The only successful cultures of these fungi have been obtained when cultures of the host nematodes or amoeba are maintained separately and inoculated (typically with soil or leaf litter as well). For example, cultures of the nematode \emph{Caenorhabditis elegans} may be purchased from Carolina Biological Supply. It is also important to remember that these fungi are often very small and may not appear on plates for weeks (or even months), so they may not be encountered over the timeframe of a classroom laboratory activity.
+
+\hypertarget{appendix-1---media-recipes}{%
+\section{Appendix 1 - Media Recipes}\label{appendix-1---media-recipes}}
+
+\hypertarget{benomyl-stock-solution}{%
+\subsection{Benomyl stock solution}\label{benomyl-stock-solution}}
+
+Also known as Benlate, this fungicide has low acute toxicity, but did produce teratogenic (\citet{Cummings_1992}) and carcinogenic effects (\citet{NRC_1987}) in rats and mice. Accordingly, personal protective equipment including gloves and lab coat are recommended when handling this substance. Benomyl is not soluble in water so the stock solution is colloidal and requires shaking to resuspend the compound prior to use.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Measure out 0.2 grams of Benomyl.
+\item
+  Add the Benomyl to 100 mL of sterile, distilled water. Keep the stock solution refrigerated. Shake or stir prior to use. (A sterile stir bar can be added into the bottom of the stock solution for easier and more even mixing of the compound).
+\end{enumerate}
+
+\hypertarget{nutrient-poor-media-recipes}{%
+\subsection{Nutrient-poor media recipes}\label{nutrient-poor-media-recipes}}
+
+Benomyl stock solution can be added at 2 mL per 1 L of media to any of the following recipes. Benomyl is autoclavable, so it can be added before or after sterilization. Typically, two different antibacterial antibiotics are added after sterilization. Chloramphenicol, streptomycin, and ampicillin are commonly used. Additional media recipes used for different zygomycetes can be found in Benny et al.~(\citeyearpar{Benny_2016}).
+
+{Clarified V8 juice medium} (CV8) (\citet{Benny_2016})
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Clarified V8 juice stock solution
+\item
+  Filter V8 juice through cheese cloth, Miracloth, or vacuum filter using filter paper to remove pulp.
+\item
+  Add powdered CaCO3 (calcium carbonate) at 3 g/L and mix.
+\item
+  Dilute cV8 solution with an equal volume of water.
+\item
+  CV8 stock solution may be aliquoted into 50 mL portions (e.g.~50 mL tubes) and frozen until use.
+\item
+  CV8 medium preparation (1 L)
+\item
+  Thaw one 50 mL portion of CV8 stock solution.
+\item
+  Measure and add 18 g agar.
+\item
+  Fill with 950 mL of water to reach 1 L volume.
+\item
+  Mix well and autoclave.
+\end{enumerate}
+
+{1/10 Wheat germ medium} (Wg10) (\citet{Benny_2016})
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Measure 3 g of wheat germ and add to 300 mL of distilled water.
+\item
+  Heat on hot plate or in microwave until boiling for ca. 30 seconds.
+\item
+  Filter solution through cheese cloth or Miracloth.
+\item
+  Add 0.5 g of dextrose (glucose) to the supernatant.
+\item
+  Add 18 g agar.
+\item
+  Fill to 1 L volume with distilled water, mix, and autoclave.
+\end{enumerate}
+
+{2\% Water agar medium} (WA) (\citet{Lichtwardt_1986})
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Measure 20 g agar.
+\item
+  Add 1 L distilled water and autoclave.
+\end{enumerate}
+
+Notes on media types and optimal usage: CV8 and Wg10 media with antibiotics and benomyl are commonly used for soil sprinkle plates and for isolation of fungi from mixed dung and soil cultures. These nutrient poor media are particularly useful for obtaining cultures of mycoparasitic Zoopagomycotina (e.g.~\emph{Piptocephalis} and \emph{Syncephalis}) because they allow for the growth of common hosts (e.g many species of Mucoromycotina) but impair common `molds' that belong to Ascomycota (\emph{Aspergillus} and \emph{Penicillium} spp). However, it is important to remember that most species of \emph{Piptocephalis} will not grow vigorously on Benomyl and the use of Benomyl also inhibits the growth of some fungi that are known hosts (e.g.~many \emph{Mortierella} spp.). WA is the optimum medium of choice for predaceous Zoopagomycotina fungi and the amount of agar can be modified as desired. The use of less agar creates a softer substrate that amoebae can move through more easily. It is also important to be aware of mites. Mites are common contaminates on culture plates containing soil and leaf litter, and they can spread very rapidly from plate to plate causing damage to the fungi you're trying to grow. To prevent contamination of axenic or dual cultures, soil plates should be kept in an entirely different container, cabinet, room, refrigerator, etc. from clean plates.
+
+\hypertarget{appendix-2---preservation-of-dual-host-parasite-cultures-for-later-use}{%
+\section{Appendix 2 - Preservation of Dual Host-Parasite Cultures for Later Use}\label{appendix-2---preservation-of-dual-host-parasite-cultures-for-later-use}}
+
+The following methods work well for medium to long-term preservation of saprophytic zygomycete cultures in general, but specifically for \emph{Piptocephalis} and \emph{Syncephalis} once a dual culture free from contaminating bacteria and fungi has been obtained. Preservation and maintenance of other Zoopagomycotina taxa that utilize small animal hosts will require alternate methods.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  {Water plugs -- we recommend water plugs at room temperature for medium-term preservation (1-2 years maximum)}(Supp. Fig. Fig. \ref{fig:ch2supfig1})
+\item
+  Fill culture slant tubes approximately half full with distilled water and autoclave.
+\item
+  Locate areas on the plate where both host and parasite are sporulating.
+\item
+  Using a flame sterilized small circular die punch (approximately 1 cm in diameter) or a small spatula tool, cut the agar containing host and parasite into approximately 1 cm by 1cm (or 1 cm diameter) pieces. Very small pieces tend to revive poorly but large chunks do not fit well in most tubes -- be sure to adjust the size of agar blocks to the aperature of the tubes you are using.
+\item
+  Use a flame sterilized spatula or other tool to scoop the agar chunks up and place them into the sterilized water tube. It is best not to overfill the water tube, so generally around 12- 20 chunks are sufficient, depending on the volume of the tube.
+\item
+  Flame sterilize the opening of the tube when finished adding the agar chunks.
+\item
+  Replace the lid on the tube. Parafilm is recommended around the lid.
+\item
+  Water plugs can be stored at room temperature or in a refrigerator until ready to use.
+\item
+  When ready to revive the culture, use a sterile tool to scoop out an agar chunk from the tube and place on a clean agar plate.
+\item
+  {10\% glycerol and -80 freezer preparation -- we recommend deep freezing for long-term preservation (2+ years up to 10 years)}
+\item
+  Make and autoclave a stock solution of glycerol (10\%) and distilled water (90\%).
+\item
+  Aliquot glycerol stock solution into sterile 2 mL microcentrifuge tubes. Fill tubes using only 1 mL of liquid.
+\item
+  Locate areas on the plate where both host and parasite are sporulating.
+\item
+  Using a sterilized spatula or similar tool, gently scrape the hyphae of both fungi from the surface of the agar. Be careful not to puncture or collect any of the agar on the spatula. Collect a pea-sized amount of tissue, making sure to collect spores from both the host and the parasite.
+\item
+  Deposit the collected tissue into the glycerol tube and immediately place in a -80 freezer.
+\item
+  When ready to revive the culture, thaw and place the contents of the tube into a nutrient rich liquid medium such as MEYE (recipe below).
+\item
+  Once the fungi start to grow in the liquid medium, the tissue can be transferred to an agar plate.
+\end{enumerate}
+
+{Malt extract-yeast extract (MEYE) (nutrient rich) liquid medium}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Measure 3 g malt extract, 3 g yeast extract, 5 g peptone, and 10 g dextrose.
+\item
+  Add 1 L distilled water and mix.
+\item
+  Aliquot liquid media into small slant culture tubes. Tubes need only be filled to approximately ½ volume.
+\item
+  Autoclave tubes of liquid media and store in the refrigerator until needed.
+\end{enumerate}
+
+\begin{figure}
+
+{\centering \includegraphics[width=6.83in]{img/SupFig1_Ch2} 
+
+}
+
+\caption{Preservation of axenic or dual cultures as water plugs.  Circular 'cork borers' (sometimes called 'die punches') (A) are helpful for cutting the agar into equally sized pieces, but a scalpel or spatula may be used instead.  Approximately 15-20 agar pieces should be cut from the culture (B) and each piece should include sporulating tissue of both host and parasite (if working with mycoparasites).  Agar chunks are placed into a labeled tube containing autoclaved distilled water and then sealed with Parafilm (C).  Water plugs may be stored at room temperature or in a refrigerator until needed. We recommend up to a maximum of two years of storage.}\label{fig:ch2supfig1}
+\end{figure}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\hypertarget{references}{%
+\section{References}\label{references}}
+
+\hypertarget{predatory}{%
+\chapter{Laboratory Guide to Predatory Zoopagomycota}\label{predatory}}
+
+\emph{Kevin R. Amses, William J. Davis, Timothy Y. James}
+
+University of Michigan, Department of Ecology and Evolutionary Biology, Ann Arbor, MI 48109
+
+\hypertarget{introduction-1}{%
+\section{Introduction}\label{introduction-1}}
+
+Zoopagomycota was erected to accommodate three lineages of the former Zygomycota: Zoopagomycotina, Kickxellomycotina, and Entomophthoromycotina (\citet{Spatafora_2016}). The Zoopagomycotina is of particular interest, because it contains several taxa that prey on rotifers, nematodes, and amoebae. Herein, we will give a brief overview of the predatory genera and focus on three exemplar species: \emph{Stylopage hadra} Drechsler, \emph{Acaulopage tetraceros} Dreschler, and \emph{Zoophagus insidians} Sommerstorff. The methods provided for these three can be used for many of the other taxa. More detailed instructions can be found in \emph{The Nematode-Destroying Fungi}, the chapter ``Fungal parasites and predators of rotifers, nematodes, and other invertebrates'' in \emph{Biodiversity of Fungi: Inventory and Monitoring Methods}, and Benny (\citeyearpar{Benny_2008}). Illustrations of some of these taxa can be found at zygomycetes.org and in George Barron's image collection (\url{https://atrium.lib.uoguelph.ca/xmlui/handle/10214/3956}).
+
+\hypertarget{stylopage-hadra-zoopagomycotina-laboratory}{%
+\section{\texorpdfstring{\emph{Stylopage hadra} (Zoopagomycotina) Laboratory}{Stylopage hadra (Zoopagomycotina) Laboratory}}\label{stylopage-hadra-zoopagomycotina-laboratory}}
+
+\hypertarget{establishing-mixed-cultures-of-nematode-trapping-species-of-stylopage-hadra}{%
+\subsection{\texorpdfstring{Establishing mixed cultures of nematode-trapping species of \emph{Stylopage hadra}}{Establishing mixed cultures of nematode-trapping species of Stylopage hadra}}\label{establishing-mixed-cultures-of-nematode-trapping-species-of-stylopage-hadra}}
+
+In this lab we will establish cultures of \emph{Stylopage hadra} from soil by baiting with living nematodes. To do so, forest or agricultural soils are sprinkled onto 0.25x Corn Meal Agar (CMA, see recipe below) to make a line of soil down the center of the plate, and the prey items are added. Culturing \emph{Stylopage hadra} requires more time and careful observation than it does involved techniques. Within 2--3 weeks, the reproductive propagules of predatory \emph{Stylopage hadra} (conidia) can be observed above the surface of the media. It's also important to note that not all soils will yield \emph{Stylopage hadra}, so when in need collect soils from as many different areas as you can, including those with current or past agricultural activity. Productive soils may yield \emph{Stylopage hadra} for at least six months after initial collection if stored in a sealed jar at 4°C. For the purposes of today's lab, we will be baiting \emph{Stylopage hadra} by using \emph{Caenorhabditis elegans} as prey.
+
+\hypertarget{materials}{%
+\subsection{Materials}\label{materials}}
+
+\begin{itemize}
+\tightlist
+\item
+  0.25x Corn Meal Agar (CMA) plates (see recipe below)
+\item
+  Nematode Growth Medium (NGM) plates containing \emph{Caenorhabditis elegans }(see recipe below)
+\item
+  Soils and/or leaf mold from forested or agricultural areas
+\item
+  P-1000 micropipettes
+\item
+  Sterile distilled water
+\item
+  Parafilm
+\end{itemize}
+
+\hypertarget{protocols}{%
+\subsection{Protocols}\label{protocols}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Acquire two 0.25x CMA plates.
+\item
+  Sprinkle soil particulates and/or leaf mold from provided jars of material onto plates to form a band of soil down the middle of the plate (about an inch thick). \textbf{NOTE:} Sterile technique is not very important here because we are literally sprinkling soil from nature onto plates.
+\item
+  Using the provided P-1000 micropipettes, pipette 1000 ul of sterile water onto a plate containing the nematode \emph{Caenorhabditis elegans}.
+\item
+  Swirl the plate around to distribute the water. Recollect the water by tipping the plate at a slight angle and pipetting up the water that accumulates at the lower edge of the plate. Pipette this water, now filled with nematodes, onto one of your 0.25x CMA plates.
+\item
+  Repeat step 3 for your other 0.25x CMA plate (i.e.~1000 ul of nematode water pipetted onto each 0.25x CMA plate).
+\item
+  Leave the plates open to allow water to evaporate before covering and parafilming.
+\item
+  That's it! By about three weeks after establishment, the cultures you just made should be evidencing characteristic growth of nematode-trapping species of \emph{Stylopage }(see following section for description and depiction of morphology).
+\end{enumerate}
+
+\hypertarget{media-recipes}{%
+\subsection{Media Recipes}\label{media-recipes}}
+
+{0.25x Corn Meal Agar (CMA) {[}from BD BBL Corn Meal Agar (Fisher Cat \# B11132){]}}
+
+\begin{itemize}
+\tightlist
+\item
+  4.25 g BD BBL Corn Meal Agar
+\item
+  11.25 g agar
+\item
+  1000 ml final volume in water
+\end{itemize}
+
+0.25x Corn Meal Agar (CMA) {[}from scratch{]}**
+
+\begin{itemize}
+\tightlist
+\item
+  0.5 g corn meal (infusion from solids)
+\item
+  15 g agar
+\item
+  1000 ml final volume in water
+\end{itemize}
+
+{Nematode Growth Media (NGM) (Corsi, Wightman, \& Chalfie, 2015)}
+
+\begin{itemize}
+\tightlist
+\item
+  3 g NaCl
+\item
+  2.5 g Peptone
+\item
+  17 g Agar
+\item
+  1 ml 1M CaCl2
+\item
+  1 ml 1M MgSO4
+\item
+  25 ml 1M KPO4
+\item
+  1 ml 5 mg/ml cholesterol
+\item
+  1000 ml final volume in water
+\end{itemize}
+
+\hypertarget{observing-predation-of-c.-elegans-by-stylopage-hadra-in-mixed-culture}{%
+\subsection{\texorpdfstring{Observing predation of \emph{C. elegans} by \emph{Stylopage} \emph{hadra} in mixed culture}{Observing predation of C. elegans by Stylopage hadra in mixed culture}}\label{observing-predation-of-c.-elegans-by-stylopage-hadra-in-mixed-culture}}
+
+For the purposes of today's lab, we have provided mixed cultures of \emph{Stylopage hadra}, a nematode-trapping member of the genus, that were prepared three weeks ago in the same way as you just did above. The goal here is to get an opportunity to look at \emph{S. hadra} capturing and consuming nematodes and to familiarize yourself with the few characteristic structures that \emph{S. hadra} forms in culture. Get a culture plate and notice the areas that are circled on the underside of the plate in red sharpie. These are areas where \emph{S. hadra} has been seen growing.
+
+Look around this area under a dissecting or compound microscope. You should be able to see the characteristic conidia that are produced by \emph{S. hadra}. \emph{S. hadra} produces relatively large ellipsoid conidia (\textasciitilde50 microns) that are borne either terminally or axially on aerial conidiophores. A single conidiophore can bear anywhere from one to a few of these conidia.
+
+Find an area where there are lots of \emph{S. hadra} conidiophores and focus instead on the agar surface. Do you see any captured nematodes? Depending on the stage of digestion, you may only be able to see the rough outline of what once was a nematode. Look around until you're confident that you've found a recently captured nematode.
+
+\textbackslash begin\{figure\}
+
+\{\centering \includegraphics[width=13.08in]{img/Ch3_Fig1}
+
+\}
+
+\textbackslash caption\{Line drawings adapted from \citet{Drechsler_1935B} and \citet{Drechsler_1937})that depict the conidial and conidiophore morphology of two genera of nematode-trapping ascomycetes (left and center) in comparison to \emph{Stylopage hadra} (right). Notice the grouping of uniseptate conidia in \_Arthrobotrys \_into large clusters. Also note the absence of internal septa in the conidia on \emph{S. hadra}.\}\label{fig:ch3fig1}
+\textbackslash end\{figure\}
+
+Now take the parafilm off of your plate and make a wet mount using the dissecting tools provided. Do your best to make sure that the captured prey item ends up on the slide. After locating the captured nematode on the microscope, take a look at it under high magnification (400x or 1000x with oil if possible). Are there aseptate hyphae attached to the nematode at any point? Can you see the characteristic swollen \emph{S. hadra} haustorium? Do you see hyphae inside the nematode body?
+
+Did you get any conidia onto your wet mount? If so, notice that they should lack internal septa. This is an important diagnostic difference in between species of \emph{Stylopage} and other species of nematode-trapping fungi in the Ascomycota (e.g.~\emph{Arthrobotrys} spp.\_ \emph{or \emph{Monacrosporium} spp.). Species of \emph{Arthrobotrys} are commonly-isolated from soils. They produce conidia with a single internal septum that are borne in large clusters on aerial conidiophores (see \citet{ref}(fig:ch3fig1) above). Species of \emph{Monacrosporium} bear a more striking resemblance to} S. hadra\_ on the dissecting microscope as a single conidium is borne apically on an aerial condiophore (see Figure 1 below). However, upon examination under the compound microscope, it should be obvious that conidia of \emph{Monacrosporium spp.} have multiple internal septa (see \citet{ref}(fig:ch3fig1) above). Additionally, species in the genera \emph{Arthrobotrys} and \emph{Monacrosporium} develop specialized trapping structures with varied morphology (e.g.~constricting rings, adhesive networks, adhesive pegs). Recall that \emph{S. hadra} does not produce specialized trapping structures, but instead captures prey items onto undifferentiated, but sticky, vegetative mycelium.
+
+\hypertarget{acaulopage-tertaceros-laboratory}{%
+\section{\texorpdfstring{\emph{Acaulopage tertaceros} Laboratory}{Acaulopage tertaceros Laboratory}}\label{acaulopage-tertaceros-laboratory}}
+
+\hypertarget{finding-a.-tetraceros-in-the-environment}{%
+\subsection{\texorpdfstring{Finding \emph{A. tetraceros} in the environment}{Finding A. tetraceros in the environment}}\label{finding-a.-tetraceros-in-the-environment}}
+
+\emph{Acaulopage tetraceros} is the most reported species of the genus (e.g., \citet{Jones_1959}; \citet{Park_1971}; \citet{Saikawa_2002}; \citet{Michel_2014}, \citeyearpar{Michel_2015}) and is easily distinguished from other members of the genus based on its four-horned spores (\citet{Drechsler_1935A}). It is readily recovered by plating moist soil onto weak cornmeal (\citet{Drechsler_1935B}) or 0.1\% sea salt water agar plates ( \citet{Michel_2014}, \citeyearpar{Michel_2015}) as done in the \emph{Stylopage} protocol. Drechsler recovered this species from agricultural soils containing decaying plant material (\citet{Drechsler_1935B}), but it seems any soil rich in organic matter is a candidate (\citet{Saikawa_2002}). Decaying dicot vegetable matter from streams is also a good source for a long-spored variety of this species (\citet{Jones_1959}; \citet{Park_1971}). Once the material is plated, parafilm and incubate the plates for a week. Begin checking the plate(s) daily inverted on a compound microscope or under a stereomicroscope with transillumination. You will first see trapped amoeba invaded with hyphae. Within a week of seeing such amoeba, you should begin to see spores.
+
+\hypertarget{establishing-a-mixed-culture}{%
+\subsubsection{Establishing a mixed culture}\label{establishing-a-mixed-culture}}
+
+This procedure is taken from Michel et al.~(\citeyearpar{Michel_2014}, \citeyearpar{Michel_2015}).
+
+\hypertarget{materials-1}{%
+\paragraph{Materials}\label{materials-1}}
+
+\begin{itemize}
+\tightlist
+\item
+  Amoeba culture
+\item
+  0.1\% sea salt water agar plates
+\item
+  Environmental sample with \emph{Acaulopage tetraceros}
+\end{itemize}
+
+\hypertarget{protocol}{%
+\subsubsection{Protocol}\label{protocol}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Streak 24 hr old amoeba culture onto a water agar plate.
+\item
+  Transfer \emph{Acaulopage tetraceros} hyphae and/or spores onto the plate.
+\item
+  Watch for growth of hyphae and the formation of new traps/newly trapped amoeba.
+\item
+  Aseptically transfer hyphae with newly trapped amoeba to a fresh water agar plate inoculated with amoeba.
+\item
+  Repeat until a xenic, mixed culture is established.
+\end{enumerate}
+
+\hypertarget{media-recipe}{%
+\subsubsection{Media recipe}\label{media-recipe}}
+
+{Amoeba media (SA agar from \citet{Saikawa_2002})}
+
+\begin{itemize}
+\tightlist
+\item
+  0.2 g KNO3
+\item
+  0.02 g MgSO4*7H2O
+\item
+  0.1 g KH2PO4
+\item
+  0.2 g K2HPO4
+\item
+  0.02 g NaHCO3
+\item
+  0.02g Na2SiO3
+\item
+  20 g agar
+\item
+  1 L water
+\end{itemize}
+
+{Water agar with 0.1\% sea salt}
+
+\begin{itemize}
+\tightlist
+\item
+  15 g agar
+\item
+  0.1g sea salt
+\item
+  1 L water
+\end{itemize}
+
+\hypertarget{zoophagus-insidians-laboratory}{%
+\section{\texorpdfstring{\emph{Zoophagus insidians} Laboratory}{Zoophagus insidians Laboratory}}\label{zoophagus-insidians-laboratory}}
+
+\hypertarget{finding-z.-insidians-in-the-environment}{%
+\subsection{\texorpdfstring{Finding \emph{Z. insidians} in the environment}{Finding Z. insidians in the environment}}\label{finding-z.-insidians-in-the-environment}}
+
+\emph{Zoophagus insidians} is the most common species in the genus. It can be usually found associated with decaying vegetable matter collected from ponds, streams, bogs, fens, etc. Additionally, it can occasionally be observed by baiting a water sample with hemp or sesame seeds; however, the baits will likely be overgrown with oomycetes and/or zoosporic fungi.
+
+\hypertarget{establishing-a-mixed-culture-1}{%
+\subsubsection{Establishing a mixed culture}\label{establishing-a-mixed-culture-1}}
+
+This procedure is taken from \citet{Tanabe_2000}
+
+\hypertarget{materials-2}{%
+\paragraph{Materials}\label{materials-2}}
+
+\begin{itemize}
+\tightlist
+\item
+  Environmental sample with \emph{Zoophagus insidians}
+\item
+  Rotifer culture (Can be purchased from Carolina Biological)
+\item
+  LE medium
+\item
+  Water agar plates
+\end{itemize}
+
+\hypertarget{protocol-1}{%
+\paragraph{Protocol}\label{protocol-1}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Overlay a water agar plate with LE medium.
+\item
+  Inoculate with rotifers.
+\item
+  ``Clean'' strands of \emph{Zoophagus insidians} by transferring them through a series of sterile water droplets.
+\item
+  Transfer to the rotifer-inoculated water agar plate.
+\item
+  Watch for new growth and entrapment of rotifers.
+\item
+  Repeat until the culture is free of contaminants.
+\end{enumerate}
+
+\hypertarget{media-recipe-1}{%
+\paragraph{Media recipe}\label{media-recipe-1}}
+
+{Water agar}
+
+\begin{itemize}
+\tightlist
+\item
+  15g agar
+\item
+  1L water
+\end{itemize}
+
+{LE medium from Wanabe and Hiroki (2004) pg. 58} \textbf{MISSING REF}
+
+L solution:
+1. Dry white part of lettuce at 90C for 16-18hrs without scorching.
+2. Add 300 mg dried lettuce to 100 mL boiling mixture of distilled and tap water (9:1).
+3. Boil for 30 mins, stirring occasionally.
+4. Filter the supernatant.
+
+E solution:
+1. Hard boil an egg.
+2. Crush the yolk of the hardboiled egg.
+3. Add 300 mg of crushed egg yolk to 100 mL mixture of distilled and tap water (9:1).
+4. Boil for 30 mins, stirring occasionally.
+5. Filter the supernatant.
+
+Combine L and E solutions in equal proportions. pH adjust to 6.7-7.0 with 1 N NaOH. Sterilize by autoclaving for at least 15 mins.
+
+\hypertarget{synopsis-of-predatory-genera}{%
+\section{Synopsis of Predatory Genera}\label{synopsis-of-predatory-genera}}
+
+\hypertarget{stylopage}{%
+\subsection{\texorpdfstring{\emph{Stylopage}}{Stylopage}}\label{stylopage}}
+
+The genus \emph{Stylopage} is comprised of putatively obligate predators of soil nematodes or amoebae. First described in 1935 by Charles Drechsler, the genus presently contains seventeen species and is based mostly on morphological traits (\citet{Barron_1977}; \citet{Drechsler_1935A}, \citeyearpar{Drechsler_1935B}, \citet{Drechsler_1939}; \citet{Duddington_1955}). As predatory fungi of amoebae and nematodes, species of \emph{Stylopage} physically trap prey items to a free-living vegetative mycelium prior to chemical digestion. Unlike some other trapping fungi that you may be familiar with, species of \emph{Stylopage} do not produce specialized trapping structures like rings, coils, or pegs to facilitate prey capture (\citet{Drechsler_1935A}, \citet{Drechsler_1937}). Species of \emph{Stylopage} are so far uncultured under axenic conditions, the reasons for which remain unclear but could be related to their reliance on trapping for nutrition. For this reason, isolation of species of \emph{Stylopage} must involve maintenance and purification of highly mixed cultures.
+
+\textbackslash begin\{figure\}
+
+\{\centering \includegraphics{img/Ch3_Fig2}
+
+\}
+
+\textbackslash caption\{Line drawing of the life cycle of \emph{Stylopage hadra} by George Barron (\url{http:/hdl.handle.net/10214/5530}). A. Aerial spores on conidiophores. B, C. Captured nematodes in different stages of digestion.\}\label{fig:ch3fig2}
+\textbackslash end\{figure\}
+
+\hypertarget{acaulopage}{%
+\subsection{\texorpdfstring{\emph{Acaulopage}}{Acaulopage}}\label{acaulopage}}
+
+The genus \emph{Acaulopage} was described in 1935 to include amoeba predators whose conidia are borne directly on the hyphae rather than on a conidiophore as in \emph{Stylopage} (\citet{Drechsler_1935B}). It contains approximately 26 species all of which prey on naked or testate amoeba. Similar to \emph{Stylopage}, amoeba are trapped on sticky patches along otherwise undifferentiated hyphae (\citet{Drechsler_1935B}). \emph{Acaulopage tetraceros} can be kept in mixed culture with amoebe and bacteria (Michel et al.~\citeyearpar{Michel_2014}, \citeyearpar{Michel_2015}).
+
+\textbackslash begin\{figure\}
+
+\{\centering \includegraphics{img/Ch3_Fig3}
+
+\}
+
+\textbackslash caption\{Line drawings of \emph{Acaulopage tetraceros} illustrating the distinctive conidia and a captured amoeba, by George Barron. (\url{http://hdl.handle.net/10214/5456}).\}\label{fig:ch3fig3}
+\textbackslash end\{figure\}
+
+\hypertarget{zoophagus}{%
+\subsection{\texorpdfstring{\emph{Zoophagus}}{Zoophagus}}\label{zoophagus}}
+
+This genus was described in 1911 based on \emph{Zoophagus insidians} (\citet{Sommerstorff_1911}). It includes approximately five species; all but one prey on rotifers using specialized trapping structures that are similar but different to those used by rotifer-trapping ascomycetes (\citet{Whisler_1974}, \citet{Morikawa_1993}). The genus was originally placed in Oomycota (\citet{Prowse_1954}) and was later moved into Zoopagles (Dick\_1990). Molecular phylogenies inferred using rDNA, however, consistently place \emph{Zoophagus insidians} as sister to the Kickxellomycotina (\citet{Tanabe_2000}, \citet{White_2006}). \emph{Zoophagus insidians} can be kept in mixed culture with rotifers (\citet{Tanabe_2000}).
+
+\textbackslash begin\{figure\}
+
+\{\centering \includegraphics{img/Ch3_Fig4}
+
+\}
+
+\textbackslash caption\{Phase contrast micrograph of \emph{Zoophagus insidians} by George Barron (\url{http://hdl.handle.net/10214/5598}).\}\label{fig:ch3fig4}
+\textbackslash end\{figure\}
+
+\hypertarget{cystopage}{%
+\subsection{\texorpdfstring{\emph{Cystopage}}{Cystopage}}\label{cystopage}}
+
+This genus, described in 1941, traps nematodes on sticky patches along otherwise undifferentiated hyphae (\citet{Drechsler_1941}). Chlamydospores are borne laterally or intercalaryly on hyphae. The genus contains approximately seven species. No species has been cultured, and molecular data does not exist.
+
+\textbackslash begin\{figure\}
+
+\{\centering \includegraphics[width=11.09in]{img/Ch3_Fig5}
+
+\}
+
+\textbackslash caption\{Line drawings of chlamydospores of \emph{Cystopage ovispora} based on Ho et al.~(2015). Chlamydospores can be borne on a short lateral branch (left), directly on the hyphae (center), or intercalary (right).\}\label{fig:ch3fig5}
+\textbackslash end\{figure\}
+
+\hypertarget{rhopalomyces}{%
+\subsection{\texorpdfstring{\emph{Rhopalomyces}}{Rhopalomyces}}\label{rhopalomyces}}
+
+The genus \emph{Rhopalomyces} contains approximately 11 species that prey on nematodes and rotifers.
+
+\textbackslash begin\{figure\}
+
+\{\centering \includegraphics{img/Ch3_Fig6}
+
+\}
+
+\textbackslash caption\{Line drawing of \emph{Rhopalomyces elegans} by George Barron (\url{http://hdl.handle.net/10214/6251}) depicting aerial sporangiophores (left), predation on a nematode egg (top right), and different stages of adult nematode predation (middle and bottom right).\}\label{fig:ch3fig6}
+\textbackslash end\{figure\}
+
+\hypertarget{verrucephalum}{%
+\subsection{\texorpdfstring{\emph{Verrucephalum}}{Verrucephalum}}\label{verrucephalum}}
+
+This monotypic genus was described in 2014 to accommodate a species observed trapping nematodes in bat dung (\citet{Degawa_2014}). The spores are darkly pigmented and borne subapically on the sporangiophore (\citet{Degawa_2014}). Nematodes are captured on enlarged appressoria (\citet{Degawa_2014}).
+
+\begin{figure}
+
+{\centering \includegraphics[width=12.99in]{img/Ch3_Fig7} 
+
+}
+
+\caption{Modified line drawing of figure 2 from Degawa (2014) depicting a sporangiophore with a dark spore mass (right) and a captured nematode (left).}\label{fig:ch3fig7}
+\end{figure}
+
+\hypertarget{helicocephalum}{%
+\subsection{\texorpdfstring{\emph{Helicocephalum}}{Helicocephalum}}\label{helicocephalum}}
+
+\emph{Helicocephalum} was described in 1891 by Thaxter to accommodate fungi that prey on adult nematodes and nematode eggs with spores borne in an apical spiral (\citet{Thaxter_1891}). The number of species in this genus is uncertain as species of this genus can be confused with ``helicosporus deuteromycetes'' (www.zygomycetes.org).
+
+\textbackslash begin\{figure\}
+
+\{\centering \includegraphics{img/Ch3_Fig8}
+
+\}
+
+\textbackslash caption\{Light micrograph of \emph{Helicocephalum oligosporum} depicting a young sporangiophore by George Barron (\url{http://hdl.handle.net/10214/5481}).\}\label{fig:ch3fig8}
+\textbackslash end\{figure\}
+
+\hypertarget{brachymyces}{%
+\subsection{\texorpdfstring{\emph{Brachymyces}}{Brachymyces}}\label{brachymyces}}
+
+This monotypic genus was described in 1980 based on \emph{Brachymyces megasporus} Barron. This species preys on rotifers and potentially amoeba. It was found by baiting garden soil with bdelloid rotifers. It can be distinguished by its large, brown, apically borne conidia held in clusters of 1-4 (\citet{Barron_1980}).
+
+\textbackslash begin\{figure\}
+
+\{\centering \includegraphics{img/Ch3_Fig9}
+
+\}
+
+\textbackslash caption\{Line drawings of \emph{Brachymyces megasporus} by George Barron (\url{http://hdl.handle.net/10214/6171}).\}\label{fig:ch3fig9}
+\textbackslash end\{figure\}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\hypertarget{references-1}{%
+\section{References}\label{references-1}}
+
+\hypertarget{Kickxellomycotina}{%
+\chapter{Zoopagomycota: Kickxellomycotina laboratory with an emphasis on trichomycetes}\label{Kickxellomycotina}}
+
+Yan Wang1, Nicole Reynolds2, Matthew E. Smith2, Merlin M. White3
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Department of Plant Pathology and Microbiology, University of California Riverside, Riverside CA\_92521; 2. Department of Plant Pathology, University of Florida, Gainesville FL\_32611; 3. Department of Biological Sciences, Boise State University, Boise ID\_83725
+\end{enumerate}
+
+\hypertarget{introduction-2}{%
+\section{Introduction}\label{introduction-2}}
+
+Kickxellomycotina includes several distinct groups of microscopic fungi. Fungi in this group are either saprobes, obligate symbionts of insects, or mycoparasites. The monophyly of this lineage was recently confirmed by an eight-gene molecular phylogeny (\citet{Tretter_2014}). Morphologically they are regularly ``septate'' with a disciform septal pore and a lenticular plug (\citet{Hibbett_2007}; \citet{Spatafora_2016}) and produce few-spored sporangia called merosporangia. Saprophytic species are mainly included in the order Kickxellales and may be cultured from dung or soil. Species of \emph{Coemansia} are most commonly encountered from these substrates and are recognizable by their yellow color and comb-like arrangement of sporocladia (a specialized branch of the sporophore bearing merosporangia) (Fig. \ref{fig:ch4fig1}). Most of the mycoparasitic species in Kickxellomycotina are members of Dimargaritales and are also found in dung and soil. Similar to some members of the Zoopagomycotina, species of Dimargaritales are haustorial parasites of mucoralean hosts such as \emph{Cokeromyces}. They are recognized by the dense clusters of white, two-spored merosporangia at the apex of the hyphae (Fig. \ref{fig:ch4fig1}). This lab is focused on the insect-associated species of Kickxellomycotina that belong to the order Harpellales. These fungi are also known as ``trichomycetes''. Trichomycetes was formerly a class of fungi that included four orders, but molecular evidence found that two of those orders were actually protists that are not closely related to fungi (\citet{Benny_2000}; \citet{Cafaro_2005}; \citet{Ustinova_2000}) (Table \ref{tab:ch4tab1}). Now the term ``trichomycetes'' is used to refer to the polyphyletic group of organisms (i.e.~fungi and protists) that inhabit the digestive tracts of arthropods and attach to the gut lining via a holdfast (Fig. \ref{fig:ch4fig1}). However, due to their morphological and ecological similarities, trichomycetologists still study both the fungal and the protist groups. Indeed, some hosts (e.g.~black fly larvae) may be simultaneously co-infected with protist and fungal trichomycetes. The trichomycetes are generally considered commensals (e.g.~having no negative impact on the host organism). However, some species have been reported to have insect biocontrol potential due to pathogenic effects observed on mosquito larvae by \emph{Smittium morbosum} as well as the development of cysts in the ovaries of some hosts (\citet{Sweeney_1981}; \citet{White_2006}). Recently, a comparative genomic study revealed an ancient horizontal gene transfer of a ubiquitin gene from mosquito hosts to their gut endosymbiont \emph{Zancudomyces culisetae} for unknown reasons (\citet{Wang_2016}). Several hypotheses are still under testing.
+
+The trichomycetes have been documented from almost every group of non-predaceous mandibulate arthropods including decapods (e.g.~crabs, crayfish, shrimp, etc.), amphipods (e.g.~sandhoppers), brachiopods (e.g.~water fleas), dipterans (e.g.~mosquito, black fly, and midge larvae), isopods (i.e.~pill bugs or rollie pollies), ephemeropteran (mayfly) and plecopteran (stonefly) nymphs, diplopods (i.e.~millipedes), coleopterans (i.e.~beetles), and collembolans (i.e.~springtails). They have also been collected from diverse habitats ranging from deep-sea hydrothermal vents (\citet{Van_Dover_1986}) to terrestrial caves (\citet{Manier_1964}; \citet{Reeves_2000}) and from tropical forests (\citet{White_2000}) to freshwater streams or lakes (\citet{Lichtwardt_2001}). Trichomycetes have been found within dissected arthropods essentially everywhere researchers have looked for them, including all continents except Antarctica (but no one has looked yet!).
+
+The arthropod gut is a distinctive microhabitat that has likely influenced the convergent evolution of some morphological features of fungal and protist trichomycetes -- e.g.~all of these organisms have a thallus-like growth form that includes a holdfast structure to attach to the gut lining. The lining of the arthropod gut is chitinous and is shed along with the exoskeleton during molting. This leaves a relatively short window of time for trichomycetes to colonize, grow, and reproduce in the host before they are shed with the gut (\citet{Lichtwardt_1986}).
+
+In insects, the gut is usually structurally divided into a foregut, midgut, and hindgut (Fig. \ref{fig:ch4fig2}). Between the midgut and hindgut are Malpighian tubules (that function like a kidney in mammals), which can help you distinguish the regions of the gut during dissections. Different species of trichomycetes inhabit different regions of the gut. For example, \emph{Stachylina} and \emph{Harpella} are genera found exclusively in the midgut, whereas \emph{Genistellospora} and \emph{Smittium} are only in the hindgut (\citet{Lichtwardt_1986}).
+
+\begin{longtable}[]{@{}lllll@{}}
+\caption{\label{tab:ch4tab1} Orders of fungal and protist trichomycetes and some of their features; Note that the protist trichomycetes were recently reclassified under a different taxonomic scheme (\citet{Reynolds_2017}), but the older fungal names (listed here in parentheses) are still used in the \href{http://www.nhm.ku.edu/~fungi/Monograph/Text/Mono.htm}{online trichomycete monograph} (\citet{Lichtwardt_2001}) and online \href{http://keyserver.lucidcentral.org/key-server/data/0b08020c-0f0c-4908-8807-030c020a0002/media/Html/home.htm\%5D(http://keyserver.lucidcentral.org/key-server/data/0b08020c-0f0c-4908-8807-030c020a0002/media/Html/home.htm)}{identification key}.}\tabularnewline
+\toprule
+\begin{minipage}[b]{0.17\columnwidth}\raggedright
+Order\strut
+\end{minipage} & \begin{minipage}[b]{0.17\columnwidth}\raggedright
+Host\strut
+\end{minipage} & \begin{minipage}[b]{0.17\columnwidth}\raggedright
+Asexual Spores\strut
+\end{minipage} & \begin{minipage}[b]{0.17\columnwidth}\raggedright
+Sexual Spores\strut
+\end{minipage} & \begin{minipage}[b]{0.17\columnwidth}\raggedright
+Morphology\strut
+\end{minipage}\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+\begin{minipage}[b]{0.17\columnwidth}\raggedright
+Order\strut
+\end{minipage} & \begin{minipage}[b]{0.17\columnwidth}\raggedright
+Host\strut
+\end{minipage} & \begin{minipage}[b]{0.17\columnwidth}\raggedright
+Asexual Spores\strut
+\end{minipage} & \begin{minipage}[b]{0.17\columnwidth}\raggedright
+Sexual Spores\strut
+\end{minipage} & \begin{minipage}[b]{0.17\columnwidth}\raggedright
+Morphology\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.17\columnwidth}\raggedright
+Harpellales\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+Larval aquatic Insecta\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+Trichospore\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+Zygospore (biconical)\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+Septate or aseptate; branched or unbranched; midgut or hindgut\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.17\columnwidth}\raggedright
+Asellariales\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+Isopoda or Collembola\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+Arthrospore or Sporangiospore\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+Zygospore (round)\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+Branched; septate; hindgut\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.17\columnwidth}\raggedright
+Eccrinida(Eccrinales)\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+Diplopoda, Crustacea, Insecta\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+Sporangiospore\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+?\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+Usually posterior portion of gut, but sometimes anterior; aseptate\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.17\columnwidth}\raggedright
+Eccrinida(Amoebidiales)\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+Aquatic Crustacea or Insecta\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+Cystospore; dispersal amoebae\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+?\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+Attached to the exoskeleton; aseptate\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+On the other hand, millipede and isopod guts are not as structurally divided, and appear more like a long, straight tube during dissection. Protist trichomycetes are associated with millipedes, whereas either protist or fungal trichomycetes (or both!) may be found in isopods. The most common protist trichomycete in millipedes is \emph{Enterobryus}, which usually has long thalli of consistent width with a curved base and rectangular-shaped spores. Protist trichomycete thalli are unbranched and aseptate (except at the tips of the hyphae where spores are being produced). The protist trichomycetes \emph{Amoebidium} and \emph{Paramoebidium} produce dispersal amoebae as part of their asexual lifecycle that crawl a short distance, encyst, and subsequently produce cystospores (\citet{Reynolds_2017}).
+
+\textbackslash begin\{figure\}
+
+\{\centering \includegraphics[width=12.08in]{img/Ch4_Fig1}
+
+\}
+
+\textbackslash caption\{Examples of species of Kickxellomycotina. \emph{Coemansia} (A) species belong to Kickxellales and have distinctive comb-like arrangement of their sporangia. \emph{Dispira} (B) species are mycoparasites in the Dimargaritales. They are typically collected from soil or dung. \emph{Genistellospora} (C) species are examples of fungal trichomycetes. They are collected from the hindguts of arthropod hosts. \emph{Paramoebidium} (D) species are protist trichomycetes that are also found in the hindgut of host arthropods.\}\label{fig:ch4fig1}
+\textbackslash end\{figure\}
+
+\begin{figure}
+
+{\centering \includegraphics[width=12.08in]{img/Ch4_Fig1} 
+
+}
+
+\caption{Example of an insect digestive tract.  This mosquito larva has a midgut region that is lined with a clear, chitinous peritrophic matrix.  The midgut is separated from the hindgut by the Malpighian tubules.  The hindgut also has a chitinous lining, but it is slightly more opaque than the midgut and surrounded by epithelial cells that need to be removed during dissection in order to see the trichomycetes inside the gut.  Some species of trichomycetes may grow out beyond the anus of the host and can be seen prior to dissection.}\label{fig:ch4fig2}
+\end{figure}
+
+\hypertarget{asexual-spores}{%
+\subsection{Asexual spores}\label{asexual-spores}}
+
+Trichomycetes produce specialized asexual spores of varying types, including arthrospores, trichospores, and cystospores. An arthrospore is a special type of asexual spore, with a rounded rectangular shape, that is formed by the disarticulation of the thallus branches (e.g.~the thallus is divided up into sections). Asellariales (an order of trichomycetes found in association with isopods or collembolans) is the only order in Kickxellomycotina known to produce arthrospores. Arthrospores have a similar shape and size compared to trichospores and are thought to be an equivalent form of generative cells (Fig. \ref{fig:ch4fig3}). Trichospores are an elongated ovoid shape with zero to many appendages that are attached to the end of the spore (Fig. \ref{fig:ch4fig3}). Cystospores are only found in the protist trichomycetes and are formed from an encysted dispersal amoeba (Fig. \ref{fig:ch4fig4}). The main function of asexual spores is to transmit the fungus from one individual to another and increase the population.
+
+\hypertarget{sexual-spores}{%
+\subsection{Sexual spores}\label{sexual-spores}}
+
+Zygospores of Kickxellomycotina species have not been observed consistently within groups and remain unknown for some species. The zygospores that have been observed have various shapes, from globose, lanceolate or biconical, to coiled. The fungal trichomycetes typically produce biconical zygospores (Fig. \ref{fig:ch4fig5}) that may or may not have appendages. The zygospores have a thick outer wall that is often pigmented. This tough outer wall is believed to be important for long term survival of Kickxellomycotina species during unfavorable conditions. Sexual reproduction and sexual spores in the protist trichomycetes have not been observed.
+
+\hypertarget{holdfast}{%
+\subsection{Holdfast}\label{holdfast}}
+
+The holdfast is either a specialized basal cell of the fungal thallus or secreted by the basal cell that attaches to the gut linings of arthropods for the trichomycetes. The shape of the holdfast varies from horseshoe-shaped, disk-like, to needle shaped, and sometimes glue is produced to secure the attachment (Fig. \ref{fig:ch4fig3}). The protist trichomycetes use a secreted glue to attach to the gut lining, which can sometimes form a cup-like or clamp-like structure (Fig. \ref{fig:ch4fig4}).
+
+\begin{figure}
+
+{\centering \includegraphics[width=4.71in]{img/Ch4_Fig3} 
+
+}
+
+\caption{Asexual spores (A-D) and holdfast (E) of fungal trichomycetes.  Arthrospores (A) are formed by the septation and subsequent fragmentation of thalli. Arthrospores are found in members of the Asellariales.  Trichospores (B-D) are the asexual spores of fungal trichomycetes. Trichospores often have appendages (B and C, black arrows) and a collar (C, white arrow).  The holdfast (E, circled) is found at the base of the thallus and may be formed by a separate cell or from a glue-like substance secreted from the thallus, or both.}\label{fig:ch4fig3}
+\end{figure}
+
+\begin{figure}
+
+{\centering \includegraphics[width=8.72in]{img/Ch4_Fig4} 
+
+}
+
+\caption{Stages of the asexual cycle (A-E) and the holdfast (F) of protist trichomycetes.  Species of Amoebidiales produce dispersal amoebae (A, circled) that encyst (B, C) to produce cystospores (D).  On the other hand, most members of the Eccrinales produce spores directly from the tips of the thallus (E).  The holdfast of protist trichomycetes is formed by secreted glue and may form a cup-like structure (F, arrow).}\label{fig:ch4fig4}
+\end{figure}
+
+\begin{figure}
+
+{\centering \includegraphics[width=12.03in]{img/Ch4_Fig5} 
+
+}
+
+\caption{Zygospores, the sexual spores of the fungal trichomycetes.  There are four types of zygospores produced by fungal trichomycetes, three of which are biconical (I-III), and one of which is spear-like (IV).  As with other Zoopagomycota, sexual spores are formed following the conjugation of two hyphae.  The shape of the zygospore is an important diagnostic feature for identification of fungal trichomycete species. However, zygospores have not been observed for some species.}\label{fig:ch4fig5}
+\end{figure}
+
+\hypertarget{laboratory}{%
+\section{Laboratory}\label{laboratory}}
+
+This lab will focus on methods of collecting and identifying the fungal and protist trichomycetes in the following sections:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Trichomycete Host Collection
+\item
+  Host Dissection
+\item
+  Slide Preparation and Identification of Trichomycetes
+\end{enumerate}
+
+An appendix on the axenic culturing of Kickxellales species (including fungal trichomycetes) is also provided to facilitate long-term storage of specimens.
+
+\textbf{Supplies }(Fig. \ref{fig:ch4fig6})
+
+\begin{itemize}
+\tightlist
+\item
+  Sorting pans (such as this white dishwashing tub)
+\item
+  Aquatic sampling nets
+\item
+  Chest fishing waders or tall rubber boots
+\item
+  Plastic disposable pipettes
+\item
+  Sterile containers (such as small plastic food containers with lids)
+\item
+  Ziplock bags
+\item
+  Dissecting microscope
+\item
+  Compound microscope
+\item
+  Distilled water in an eye-dropper container
+\item
+  Slides and coverslips
+\item
+  Lactophenol cotton blue stain
+\item
+  Clear nail polish
+\item
+  Fine-tip forceps (two pairs)
+\item
+  Micro dissecting needles with bent insect mounting pins (a pair)
+\end{itemize}
+
+\begin{figure}
+
+{\centering \includegraphics[width=8.72in]{img/Ch4_Fig6} 
+
+}
+
+\caption{Examples of equipment used for collection and dissection of arthropod hosts of trichomycetes. A white tub (A) is useful for sorting aquatic insect hosts because the light background enables easier visualization of insects.  Large and small nets (B) are used for scooping hosts and debris whereas plastic pipettes (C) are useful for sucking up small insects (such as midge larvae) during sorting.  Hosts of interest are sorted and placed into plastic containers (D) along with extra water to bring back to the lab.  Fine-tipped forceps (E) and micro dissecting needles mounted on handles (F) are used for dissecting hosts under a dissecting microscope.}\label{fig:ch4fig6}
+\end{figure}
+
+\hypertarget{trichomycete-host-arthropod-collection}{%
+\subsection{\texorpdfstring{\textbf{{Trichomycete Host Arthropod Collection}}}{Trichomycete Host Arthropod Collection}}\label{trichomycete-host-arthropod-collection}}
+
+Many species of fungal and protist trichomycetes are commonly found in non-predaceous immature aquatic insects -- e.g.~mayfly and stonefly nymphs and black fly, mosquito, and midge larvae. Other fungal and protist trichomycetes may be found in terrestrial arthropod hosts such as millipedes, isopods, and beetles.
+
+\hypertarget{aquatic-insect-collection}{%
+\subsubsection{Aquatic Insect Collection}\label{aquatic-insect-collection}}
+
+Insect larvae may be obtained from either lentic (i.e.~still water) or lotic (i.e.~fast flowing) aquatic environments using the aquatic sampling net. Insect larvae may hide underneath the rocks or on debris near the bank. A successful strategy to trap arthropod hosts is to kick the rocks before netting the hosts in the flowing water. One special habitat for black fly larvae is the surface of rocks and twigs around very rapidly flowing areas. Here are several additional suggestions:
+
+\begin{itemize}
+\tightlist
+\item
+  Scrape the rocks and sediment at the bottom of the water with your foot.
+\item
+  Hold the sampling net downstream to catch the debris.
+\item
+  Dump the contents of the net into a sorting pan with some clean water.
+\item
+  Look for host insects and sort them into smaller containers of water using a plastic pipette or forceps.
+\item
+  Mosquito larvae float near the surface of standing water pools and may be collected with a small net or scooped directly into a container.
+\end{itemize}
+
+Sorting pans are good to check the health and condition of the hosts and move the hosts of interest to containers using the pipettes. Care must be taken not to collect predaceous insects such as perlid stonefly nymphs or phantom midge larvae because they will eat your trichomycete hosts! Extra samples with water and debris can be stored in ziplock bags in 4˚C for future investigation (it's always good to dissect live hosts, since the dead gut can be degraded through time).
+
+\hypertarget{terrestrial-arthropod-collection}{%
+\subsubsection{Terrestrial Arthropod Collection}\label{terrestrial-arthropod-collection}}
+
+Moist, nutrient rich habitats such as landscaped gardens, compost piles, and thick leaf litter are good places to collect millipedes, collembolans, and isopods. Some beetles and their larvae are hosts to trichomycetes but they may be less commonly encountered.
+
+\begin{itemize}
+\tightlist
+\item
+  Using your fingers or forceps, gently pick up the host and place in a clean container.
+\item
+  Add some organic debris to the container.
+\item
+  Make sure to keep the lid loosely closed on the container or puncture holes in the lid for air flow.
+\item
+  Store hosts in a refrigerator or at room temperature and monitor them to prevent drying out until dissection.
+\end{itemize}
+
+\hypertarget{host-dissection}{%
+\subsection{\texorpdfstring{\textbf{{Host Dissection}}}{Host Dissection}}\label{host-dissection}}
+
+You will need two pairs of fine-tipped forceps, one in each hand. Dissections should be conducted under a dissecting microscope. A link to instructional videos about insect dissections is provided in the Additional Resources section below.
+
+\begin{itemize}
+\tightlist
+\item
+  Use the forceps in one hand to hold the host still and with the other forceps remove the head (Fig. \ref{fig:ch4fig7}, B).
+\item
+  In a drop of distilled water, use one forceps to gently grasp one of the posterior segments -- two or three segments above the anus. Use the other forceps to hold the anterior part of the body in place and gently pull the posterior segments away from the body. If you do this carefully, you can sometimes pull out the entire digestive tract intact! (Fig. \ref{fig:ch4fig7}, C)
+\item
+  Move the hindgut to a slide with a clean drop of distilled water. Use dissecting pins to gently tear the gut into small pieces (Fig. \ref{fig:ch4fig7}, D). If the gut is full of debris that is clouding visibility, you may need to transfer the gut pieces to a new, clean drop of distilled water for further dissecting.
+\item
+  Shred the gut into as small pieces as possible and inspect for clumps or strands of thalli and look for spores. Some trichomycetes grow in branched clusters of thalli that look like little trees or bouquets of flowers!
+\item
+  When trichomycetes are found, pick out and remove any large clumps of host tissue, as this will impede your vision of the slide on the compound microscope.
+\item
+  If dissecting a dipteran host (i.e.~fly larvae such as black flies, mosquitoes, midges, etc.) be sure to separate the midgut into a clean water drop on a fresh slide to look for trichomycetes. The peritrophic matrix of the midgut is a clear lining, so trichomycetes may be easily observed once the food debris is cleaned out. To remove the food particles, gently shake the gut lining in the water drop, and if needed, lift the gut in and out of the water several times to allow the food to wash out. Try to keep the peritrophic matrix intact if possible.
+\end{itemize}
+
+\begin{figure}
+
+{\centering \includegraphics[width=7.88in]{img/Ch4_Fig7} 
+
+}
+
+\caption{Schematic drawing of a mayfly nymph dissection.  First remove the head of the insect using the forceps (B).  Grasp the anterior portion of the body with one set of forceps and the posterior segments (star) with the other set of forceps and gently pull the posterior away from the body (C).  The digestive tract may come out in one whole piece, but if not, make sure to dissect the body of the host to get all the gut pieces.  Move the gut to a fresh drop of water on the slide and use the dissecting pins to tear the hindgut into pieces (D) to find trichomycetes.  If dissecting a dipteran host, be sure to collect and inspect the midgut separately from the hindgut.}\label{fig:ch4fig7}
+\end{figure}
+
+\hypertarget{slide-preparation-and-identification-of-trichomycetes}{%
+\subsection{\texorpdfstring{\textbf{{Slide Preparation and Identification of Trichomycetes}}}{Slide Preparation and Identification of Trichomycetes}}\label{slide-preparation-and-identification-of-trichomycetes}}
+
+\begin{itemize}
+\tightlist
+\item
+  Use forceps to grasp fungal tissue and put it in the center of a clean slide.
+\item
+  Add a drop of 95\% ethyl alcohol to wet the specimen and minimize air bubbles.
+\item
+  Add a drop of distilled water and carefully place a coverslip on top of the fungal specimen.
+\item
+  Place one drop of lactophenol cotton blue on the edge of the coverslip and let it infiltrate completely under the coverslip (10-30 min).
+\item
+  Seal the edge using the clear nail polish to store the slide permanently.
+\item
+  Trichomycetes may be identified using online interactive keys (\url{http://keyserver.lucidcentral.org/key-server/data/0b08020c-0f0c-4908-8807-030c020a0002/media/Html/home.htm}) based on information about features such as the host, spore size, holdfast type, and location in the digestive tract (i.e.~midgut vs.~hindgut). Protist trichomycetes will be aseptate and usually unbranched whereas fungal trichomycetes are septate and often branched.
+\end{itemize}
+
+\hypertarget{appendix-1-axenic-culturing}{%
+\section{Appendix 1: Axenic culturing}\label{appendix-1-axenic-culturing}}
+
+Axenic cultures are important to study the physiology, morphogenesis, phylogeny, and genomics of fungi. For teaching purposes it may be useful to create a small culture collection in order to have living material for students to view in class. Unfortunately not all taxa in Kickxellomycotina can be cultured based on our current knowledge and technology. Kickxellales species can be cultured on MEYE agar, Harpellales species favor the BHI or TGv agar and mycoparasites (Dimargaritales) can be grown on fungal hosts (typically Mucoromycota species) on plates with MEYE, PDA, or YpSs. It is worth noting that some mycoparasites (species of \emph{Dimargaritales}, \emph{Dispira}, and \emph{Tieghemiomyces}) can grow without a host on a protein-rich medium (e.g.~beef, egg, or swordfish) (\citet{Benny_2008}; Benny\_2016), but they will grow slowly and sporulate weakly. See Benny (\citeyearpar{Benny_2008}) and Benny et al.~(\citeyearpar{Benny_2016}) for additional media recipes and culturing techniques.
+
+The following recipes work well for culturing Kickxellomycotina species and should be supplemented with antibiotics such as ampicillin, chloramphenicol, or streptomycin (see \citet{Benny_2016}):
+
+\begin{itemize}
+\tightlist
+\item
+  BHIv/10---10 \% brain-heart infusion agar + vitamins: brain-heart infusion agar (Difco), 3.7 g; thiamine-HCl, 200 μg; biotin, 50 μg; 50 agar, 15 g; glass-distilled water, 1 l (\citet{Lichtwardt_1986}).
+\item
+  MEYE---malt extract-yeast extract agar: malt extract, 3 g; yeast extract, 3 g; peptone, 5 g; dextrose, 10 g; agar, 15 or 20 g; distilled water, 1 l (\citet{Benjamin_1958},\_1959; \citet{Benny_1975}).
+\item
+  PDA---potato dextrose agar: potatoes (peeled and cut), 200 g (boil extract 10 min in 700 ml distilled water, filter, adjust final volume to 1 l); dextrose, 20 g; agar, 15 g (Schipper\_1969---pH 6.6; Benjamin\_1958,\_1959---pH not mentioned).
+\item
+  TGv---tryptone-glucose medium + salts and vitamins: tryptone (Difco), 20 g; glucose, 5 g; KH2PO4, 0.28 g; K2HPO4, 0.35 g; (NH4)2SO4, 0.26 g; MgCl2•6H2O, 0.10 g; CaCl2•2H2O, 0.07 g; thiamine-HCl, 200 μg; biotin, 50 μg; 50 g agar, 15 g; glass-distilled water, 1 l (\citet{Lichtwardt_1986}).
+\item
+  YpSs---Emerson's yeast-phosphate-soluble starch agar: soluble starch, 15 g; yeast extract, 4 g; K2HPO4, 1.0 g; MgSO4•7H2O, 0.5 g; agar, 20 g \citep[15 g used later;][]{Benny_1975}; distilled water, 1 l (\citet{Benjamin_1959}).
+\end{itemize}
+
+\hypertarget{additional-resources}{%
+\section{Additional Resources:}\label{additional-resources}}
+
+\url{http://zygomycetes.org/} - descriptions and images of orders, families, and genera of zygomycetes.
+
+\url{http://www.nhm.ku.edu/~fungi/Monograph/Text/Mono.htm} - online version of the trichomycete monograph including information about life cycles, hosts, culturing, and taxonomy.
+
+\url{http://keyserver.lucidcentral.org/key-server/data/0b08020c-0f0c-4908-8807-030c020a0002/media/Html/home.htm} - interactive keys for trichomycete identification, including both fungal and protist species.
+
+\url{https://www.youtube.com/user/TrichoVideos} - a series of videos made by Dr.~Merlin White at Boise State University about the collection, dissection, and identification of trichomycetes.
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\hypertarget{references-2}{%
+\section{References}\label{references-2}}
+
+\hypertarget{Conidiobolus}{%
+\chapter{Zoopagomycota: Entomophthoromycotina: Conidiobolus}\label{Conidiobolus}}
+
+\emph{Joseph W. Spatafora}
+
+Department of Botany and Plant Pathology, Oregon State University, Corvallis, OR 97330
+
+\hypertarget{introduction-3}{%
+\section{Introduction}\label{introduction-3}}
+
+\emph{Conidiobolus} (Entomophthorales) is a genus of insect pathogenic fungi in Zoopagomycotina (\citet{King_1976}, \citet{King_1976B}, \citet{King_1977}). There are currently 46 described species (MycoBank; accessed June 29, 2017). It is closely related to \emph{Entomophthora} and the ``core'' Entomophthorales, but molecular, but genome-scale phylogenies do not support the monophyly of \emph{Conidiobolus} (\citet{Gryganskyi_2012}, \citet{Gryganskyi_2013}). It is commonly found in forest soils and leaf litter in subtropical and tropical ecosystems. It can be easily isolated on simple media (e.g., CMA, PDA, etc.), and thus is assumed to have a saprobic phase or as least saprobic potential in nature. It is also an opportunistic pathogen of mammals (e.g., dogs, horses, sheep; e.g., \citet{Humber_1989}, \citet{Vilela_2010}) and humans (\citet{Chander_2017}). Infections are most common in nasal cavities through inhalation of spores or parent soil material (\citet{Mackey_2015}, \citet{Jain_2015}).
+
+\emph{Conidiobolus}, as its name implies, produces ballistosporic conidia, which are the primary means of dispersal and which facilitate isolation into pure culture. The conidia are formed on conidiophores and the forcible ejection of the primary conidium is by eversion of a columella (Fig. \ref{fig:ch5fig1}). The everted columella gives the primary conidium a nose or beaked (pyriform-spherical) appearance (Fig. \ref{fig:ch5fig2}). The primary conidium has multiple germination/dispersal options that are environmentally regulated. They may germinate directly into hyphae (Fig. \ref{fig:ch5fig3}); germinate a conidiophore and produce a secondary conidium of approximately the same size (Fig. \ref{fig:ch5fig4}), or germinate to form multiple microconidia (Fig. \ref{fig:ch5fig5}). Some species, but not all, produce villose conidia or resting spores (Fig. \ref{fig:ch5fig6})). Zygospores production is known from about half the described species and they are globose, thick-walled, and smooth (Fig. \ref{fig:ch5fig7}).
+
+\hypertarget{isolation}{%
+\section{Isolation}\label{isolation}}
+
+\hypertarget{supplies-1}{%
+\subsection{Supplies}\label{supplies-1}}
+
+\begin{itemize}
+\tightlist
+\item
+  Hand trowel
+\item
+  Plastic ziplock bags
+\item
+  Marker
+\item
+  No.~10 Soil sieve
+\item
+  CMAP plates
+\item
+  Water mister
+\item
+  Moist chamber
+\end{itemize}
+
+\hypertarget{corn-meal-agar-with-peptone-cmap}{%
+\subsection{\texorpdfstring{{Corn meal agar with peptone (CMAP)}}{Corn meal agar with peptone (CMAP)}}\label{corn-meal-agar-with-peptone-cmap}}
+
+\begin{itemize}
+\tightlist
+\item
+  17g corn meal agar (Difco)
+\item
+  5 grams peptone (Becton-Dickerson)
+\item
+  1 L dH2O
+\end{itemize}
+
+\hypertarget{procedure}{%
+\section{Procedure}\label{procedure}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  CMAP plates. Pour plates to a shallow depth; just enough to cover the bottom of the plate one or two millimeters. This will help reduce contamination by other fungi, such as \emph{Mortierella} (see Lab \# 8), which may grow up and touch the agar surface. Antibiotics are typically not needed but can be added if desired. Note: Water agar or CMA can be substituted for CMAP.
+\item
+  Collect forest soil and leaf litter using a hand trowel. Keep soil and leaf litter separate so as to determine better the source of the inoculum.
+\item
+  Sieve both soil and leaf through a \#10 soil sieve to homogenize the particle size.
+\item
+  Label bottom of petri dish with name, date, experiment ID (e.g., soil, leaf litter, etc.).
+\item
+  Place approximately one tablespoon of sieved soil/leaf litter in the inverted lid of CMAP petri dish. Be sure the soil/leaf litter is evenly distributed and as low as possible. Mist the soil/leaf litter but do not over water. There should be no standing water and the soil/leaf litter should not become muddy or soupy.
+\item
+  Place the agar-containing petri dish bottom on top of the wetted soil/leaf litter agar surface down. Be sure the agar is not touching the soil/leaf litter.
+\item
+  Place the soil/leaf litter CMAP plates upside down in a moist chamber. A moist chamber can be made with simple sealable plastic box (e.g., tuperware) with wetted paper towels in the bottom. Again, do not over water.
+\item
+  Examine the agar for spore shoots and hyphal growth every 24 hrs. Primary conidia will have shot up from the soil/leaf litter and land on the agar surface. They will begin to germinate and appear as small points of germinating spore and hyphae; the equivalent of a colony forming unit.
+\item
+  Transfer spore shoots and hyphal growth to fresh CMAP plates using sterile technique, parafilm, and store at ambient temperature.
+\item
+  Once growth as commenced a fresh crop of primary conidia can be observed on the inside of the petri dish lid. Using sterile technique and a transfer loop, transfer material from the petri dish lid into a drop of water or cotton blue on a microscope slide, place a cover slip, and observed stages described above.
+\end{enumerate}
+
+\textbackslash begin\{figure\}
+
+\{\centering \includegraphics[width=5.28in]{img/Ch5_Fig1}
+
+\}
+
+\textbackslash caption\{Hyphae, conidiophores, and primary conidia. \url{http://www.ijpmonline.org/viewimage.asp?img=IndianJPatholMicrobiol_2015_58_3_402_162933_f2.jpg}\}\label{fig:ch5fig1}
+\textbackslash end\{figure\}
+
+\begin{figure}
+
+{\centering \includegraphics[width=4.75in]{img/Ch5_Fig2} 
+
+}
+
+\caption{Discharged primary conidium with nose or beak from eversion of columella. http://www.mycology.adelaide.edu.au/virtual/2006/ID2-Nov06.html}\label{fig:ch5fig2}
+\end{figure}
+
+\begin{figure}
+
+{\centering \includegraphics[width=4.69in]{img/Ch5_Fig3} 
+
+}
+
+\caption{Primary conidium germinating directly into hyphae. http://www.mycology.adelaide.edu.au/virtual/2006/ID2-Nov06.html}\label{fig:ch5fig3}
+\end{figure}
+
+\textbackslash begin\{figure\}
+
+\{\centering \includegraphics[width=5.33in]{img/Ch5_Fig4}
+
+\}
+
+\textbackslash caption\{Repetitive germination of primary conidium to form a secondary conidium, \emph{C. coronatus}. \url{http://www.naro.affrc.go.jp/org/fruit/epfdb/Zygomy/micro/NAJ005.gif}\}\label{fig:ch5fig4}
+\textbackslash end\{figure\}
+
+\textbackslash begin\{figure\}
+
+\{\centering \includegraphics[width=3.77in]{img/Ch5_Fig5}
+
+\}
+
+\textbackslash caption\{Multiplicative germination producing microconidia of \emph{C. coronatus}. \url{http://www.naro.affrc.go.jp/org/fruit/epfdb/Zygomy/micro/AJ003.gif}\}\label{fig:ch5fig5}
+\textbackslash end\{figure\}
+
+\textbackslash begin\{figure\}
+
+\{\centering \includegraphics[width=4.72in]{img/Ch5_Fig6}
+
+\}
+
+\textbackslash caption\{Villose conidia or resting spore of \emph{C. coronatus}. \url{http://www.naro.affrc.go.jp/org/fruit/epfdb/Zygomy/micro/AJ004.gif}\}\label{fig:ch5fig6}
+\textbackslash end\{figure\}
+
+\textbackslash begin\{figure\}
+
+\{\centering \includegraphics[width=12.24in]{img/Ch5_Fig7}
+
+\}
+
+\textbackslash caption\{\emph{C. lamprauges} zygospores stained in lactophenol cotton blue. A) Hyphae with numerous zygospores. B) Enlargement of smooth, thick-walled zygospores. (from Vilela\_2010).\}\label{fig:ch5fig7}
+\textbackslash end\{figure\}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\hypertarget{references-3}{%
+\section{References}\label{references-3}}
+
+\hypertarget{Basidiobolus}{%
+\chapter{Zoopagomycota: Entomophthoromycotina: Basidiobolus}\label{Basidiobolus}}
+
+\emph{Joseph W. Spatafora1, Jason E. Stajich2}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Department of Botany and Plant Pathology, Oregon State University, Corvallis, OR 97330; 2. Department of Plant Pathology \& Microbiology, University of California-Riverside, Riverside, CA 92521.
+\end{enumerate}
+
+\hypertarget{introduction-4}{%
+\section{Introduction}\label{introduction-4}}
+
+\emph{Basidiobolus} (Basidiobolomycetes, Basidiobolales) is a genus of fungi with an unusual combination of life history traits and morphologies (\citet{Humber_2012}). It is most commonly isolated from the dung of insectivorous amphibians and reptiles including frogs, geckos and lizards. Spores pass through the disgestive system of the animal and are dispersed with its dung. \emph{Basidiobolus}, as its name implies, produces forcibly discharged spores that are ejected from the dung. These spores are asexual, however, and are called primary conidia or blastoconidia (Fig. \ref{fig:ch6fig1}a). Blastoconidia are globose and have multiple germination options. They may germinate hyphae that are septate; they may undergoe repetitive germination to produce another blastoconidium, or produce a capilloconidium (Fig. \ref{fig:ch6fig1}b). Capilloconidia are not forcibly ejected; rather, they possess a sticky tip that adheres to small insects. The capilloconidia are then dispersed with the phoretic insect, and when the insect is consumed by an insectivorous amphibian or reptile, the life cycle begins anew (Fig. \ref{fig:ch6fig2}). Sexual reproduction is by gametangial conjugation and zygospore formation. Zygospores are typically smooth and thick-walled. The zygospore forms in one of the gametangia, however, typically giving zygospores a beaked appearance (Fig. \ref{fig:ch6fig1}c).
+
+\emph{Basidiobolus} is a member of the Zoopagomycota but its relationship to the other subphyla is poorly resolved (Spatafora \_\_2016). It is currently classified in the Entomphthoromycotina, but current molecular and genome scale phylogenies suggest that it might be best classified within its own subphylum (\citet{Gryganskyi_2013}).
+
+\emph{Basidiobolus} is considered a commensal with its amphibian or reptile host but its complete ecological role in nature is unknown. It can an opportunistic pathogen of mammals (basidiobolomycosis, \citet{Gugnani_1999}) resulting in subcutaneous infections (e.g., \citet{Anaparthy_2014}) and rare infections of the gastrointestinal tract (\citet{Geramizadeh_2015}).
+
+\textbackslash begin\{figure\}
+
+\{\centering \includegraphics[width=10.75in]{img/Ch6_Fig2}
+
+\}
+
+\textbackslash caption\{Life cycle of \emph{Basidiobolus ranarum} (Webster and Weber,\_2007).\}\label{fig:ch6fig2}
+\textbackslash end\{figure\}
+
+\hypertarget{materials-3}{%
+\section{Materials}\label{materials-3}}
+
+\hypertarget{water-agar}{%
+\subsection{\texorpdfstring{{Water agar}}{Water agar}}\label{water-agar}}
+
+\begin{itemize}
+\tightlist
+\item
+  20 g agar
+\item
+  1 L dH2O
+\end{itemize}
+
+\hypertarget{pda}{%
+\subsection{\texorpdfstring{{PDA}}{PDA}}\label{pda}}
+
+\begin{itemize}
+\tightlist
+\item
+  17 g Potato Dextrose Agar (Difco)
+\item
+  1 L H2O
+\end{itemize}
+
+\hypertarget{cma}{%
+\subsection{\texorpdfstring{{CMA}}{CMA}}\label{cma}}
+
+\begin{itemize}
+\tightlist
+\item
+  17 g Corn Agar (Difco)
+\item
+  1 L H2O
+\end{itemize}
+
+\hypertarget{isolation-1}{%
+\section{Isolation}\label{isolation-1}}
+
+Collect appropriate animal (e.g., frog, lizard, gecko) and hold in a container until it deficates. Containers should be a suitable size to hold the animal comfortably and humanely and allow for appropriate air exchange. Release animal after dung collection.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Prepare 2\% water agar plates.
+\item
+  Cut small piece (2x2 mm) of agar from water agar plates and mix with dung pellet using scapel or dissecting needles.
+\item
+  Place agar/dung mixture in the middle of the inner surface of petri dish lid.
+\item
+  Place agar containing petri dish bottom on top of the petri dish lid. Parafilm petri dish and store upside down to allow for primary conidia to be ejected on to agar surface. Examine every 24 hours for spore shoot and germination.
+\end{enumerate}
+
+Or
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Prepare 2\% water agar plates. Also pour a very thin layer of water agar in the lid half of the petri dish. Allow agar to solidify in petri dish lid then close petri dishes.
+\item
+  Place sterile filter paper on agar surface of petri dish lid. Moisten with dH2O but not enough to create standing water.
+\item
+  Using forceps, take a dung pellet and smear across the surface of the moistened filter paper.
+\item
+  Close petri dish, parafilm petri dish, and store upside down to allow for primary conidia to be ejected on to agar surface. Examine every 24 hours for spore shoot and germination.
+\item
+  When germination is observed, transfer germinating spore to nutrient rich agar medium (e.g., PDA)
+\item
+  Once colony has established (3-7 days depending on species) remove small amount of inoculum and place in water droplet or lactophenol cotton blue on microscope slide and gently cover with cover slip.
+\item
+  Observe the following traits: septate hyphae, conidiophore, primary blastoconidia, secondary capilloconidia, zygospores.
+\end{enumerate}
+
+\hypertarget{additional-resources-1}{%
+\section{Additional resources}\label{additional-resources-1}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=tyVJNsp-WbA\&list=PLEFF-Vc5lo2bxLDw7-rWF4lE9opWwb7fi}{Zygolife culturing techniques videos}
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\hypertarget{references-4}{%
+\section{References}\label{references-4}}
+
+\hypertarget{Glomeromycotina}{%
+\chapter{Mucoromycota: Glomeromycotina (arbuscular mycorrhizae)}\label{Glomeromycotina}}
+
+Matthew E. Smith1 and Joseph W. Spatafora2
+
+1.Department of Plant Pathology, University of Florida, Gainesville FL 32611; 2. Department of Botany and Plant Pathology, Oregon State University, Corvallis, OR 97330.
+
+\hypertarget{introduction-5}{%
+\section{Introduction}\label{introduction-5}}
+
+Arbuscular mycorrhizae (AM) of Glomeromycotina, Mucoromycota are the most common form of mycorrhizae on the planet. These fungi occur in all terrestrial ecosystems and form symbioses with \textasciitilde74\% of all plant species (\citet{Brundrett_2009}). Based on fossil data these fungi are an ancient group with early records from the Ordovician, approximately 460 million years ago (\citet{Redecker_2000}). Since the vast majority of vascular plant species form AM associations and they can also be found in many early-diverging and non-vascular plants, it is generally accepted that these fungi were present on the roots of the very earliest terrestrial plants. It has been hypothesized that the AM symbiosis likely facilitated the colonization of land by enhancing plant nutrition and enhancing survival (\citet{Brundrett_2009}; \citet{Bidartondo_2011}). AM associations are particularly dominant in grasslands and prairies in temperate ecosystems as well as in tropical ecosystems including forests. However, AM fungi can be difficult to observe due to their cryptic nature. In this lab you will learn basic techniques to isolate spores from soil (Fig. \ref{fig:ch7fig1}a) and also stain and observe arbuscles (Fig. \ref{fig:ch7fig1}b) and vesicles (Fig. \ref{fig:ch7fig1}c) of AM fungi directly in plant roots.
+
+\textbackslash begin\{figure\}
+
+\{\centering \includegraphics[width=12.99in]{img/Ch7_Fig1}
+
+\}
+
+\textbackslash caption\{a) \emph{Glomus}-type spore (photo from American Society for the Advancement of Science).. b) arbuscule (photo by K. Wex). c) vesicle (photo by K. Wex).\}\label{fig:ch7fig1}
+\textbackslash end\{figure\}
+
+\textbf{AM spores} are globose to subglobose and are produced terminal or subterminal, according to species, on specialized hyphae. The spores tend to be quite large (often larger than 100 μm) and they often have refractive contents inside. Sexual reproduction has never been documented in AM fungi and AM spores are assumed to be asexual propagules. For this reason they have been referred to as azygospores or chlamydospore-like. Spores are produced in the soil and typically in close proximity to the plant root.
+
+\textbf{Arbuscules} are specialized haustoria that are formed within the cortex cells of the fine roots of plants. \textbf{Hyphae} grow along the root surface where they penetrate and grow between epidermal cells through the production of \textbf{appressoria} (Fig. \ref{fig:ch7fig4}). A hypha will then penetrate the cell wall of cortex cells, but not the cell membrane, forming a highly branched, shrub or tree-like haustorium called an arbuscule. Arbuscules are produced by all AM fungi and are the sites of nutritional exchange between the fungus and plant. The fungus receives simple carbohydrates (glucose) from the plant and in exchange the plant receives water and nutrients (e.g., phosphorus, nitrogen, etc.) from the fungus.
+
+\textbf{Vesicles} are not produced by all AM fungi but are frequently observed in the roots of plant hosts. Vesicles are globose to oblong and stain a dark blue to black. They can be produced within or between the cells of fine roots. Vesicles are assumed to be storage organs whereby the fungus can retain nutrients inside of the plant (where they are safe from marauding soil organisms). However, the exact function of vesicles has not been definitively shown.
+
+\hypertarget{collection-of-host-plant-and-soil-for-observation-of-am-spores-arbuscules-and-vesicles.}{%
+\section{Collection of host plant and soil for observation of AM spores, arbuscules and vesicles.}\label{collection-of-host-plant-and-soil-for-observation-of-am-spores-arbuscules-and-vesicles.}}
+
+\hypertarget{materials-and-supplies}{%
+\subsection{Materials and supplies}\label{materials-and-supplies}}
+
+\begin{itemize}
+\tightlist
+\item
+  3 Soil Sieves: 850 um (No.~20), 250 um (No.~60) and 38 um (No.~60)
+\item
+  5 gal plastic bucket for washing into (optional: soil can clog drains if you are washing directly into a sink)
+\item
+  Centrifuges-Sorvall RC-2B or similar centrifuge
+\item
+  50 ml, round bottom tubes for Sorvall centrifuge
+\item
+  Water bottles with bent spout, filled with distilled water.
+\item
+  Beakers: 250 ml and 100 ml
+\item
+  Petri dishes
+\item
+  Rubber tube (long enough to attach to tap water faucet).
+\item
+  Compound microscopes
+\item
+  Dissecting microscopes
+\item
+  Microscope slides
+\item
+  Microscope cover slips
+\item
+  Dropper bottle with dH2O
+\item
+  Transfer loop
+\item
+  Plastic funnel (for washing materials into 50 ml tubes)
+\end{itemize}
+
+\hypertarget{recipes}{%
+\subsection{Recipes}\label{recipes}}
+
+\emph{50\% sucrose (w/w)} - 50 g. sucrose + distilled water to 100 ml
+
+\hypertarget{collect-an-am-host-plant-fig.-reffigch7fig5}{%
+\subsection{\texorpdfstring{\textbf{Collect an AM host plant} (Fig. \ref{fig:ch7fig5})}{Collect an AM host plant (Fig. \ref{fig:ch7fig5})}}\label{collect-an-am-host-plant-fig.-reffigch7fig5}}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Grass hosts}. Native or introduced grasses work well, but they will be colonized more heavily if collected from well-watered environments or during the rainy season. Use a shovel or trowel to dig up grass plants making sure to collect the fine root system and ample soil. Place the plant including roots and soil in a plastic bag and store in a refrigerator or cool place.
+\item
+  \emph{Onions}. Onions starts also work well for observing AM fungi. Grow onion starts in forest, grassland/prairie, or agricultural soils. Soils can be collected and used to grow onion starts in small plastic pots. Mycorrhizal inoculum can also be purchased at a local gardening store but it is not necessary. Onion starts will need to be grown for 1-2 months prior to staining.
+\item
+  \emph{Other hosts}. The vast majority of vascular plants form AM associations so you can look for AM spores, hyphae, vesicles and arbuscules with almost any host plant. If no grasses or onions are available just try a convenient plant to see what you find!
+\end{itemize}
+
+\hypertarget{soil-removal.}{%
+\subsection{\texorpdfstring{\emph{Soil removal.}}{Soil removal.}}\label{soil-removal.}}
+
+Remove the aerial portion of the plant and place the root system in a 2L beaker with tap water. Soak the root system to remove soil. Gently wash root system of onion/grass plant under running tap water to remove remaining soil debris. Do this gently so as to retain as much of the fine root system as possible. The soil:water mixture will be used for spore isolation and the cleaned root system will be stained for arbuscules and vesicles. Store roots in a plastic bag with a wet paper towel in a refrigerator until ready for use.
+
+\hypertarget{isolating-arbuscular-mycorrhizae-spores.}{%
+\section{Isolating Arbuscular Mycorrhizae spores.}\label{isolating-arbuscular-mycorrhizae-spores.}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Stack three soil sieves in order of 850 um (No.~20), 250 um (No.~60) and 38 um (No.~60) from top to bottom.
+\item
+  Stir the soil:water mixture and pour onto the 850 um sieve.
+\item
+  Wash the spores and finer soil particles through the 850 um sieve using tap water.
+\end{enumerate}
+
+\begin{quote}
+NOTE: Water will flow more slowly through the finer mesh sieves. Be sure not to allow water to overflow the finer mesh sieves. If needed remove and wash spores and finer soil particles through the 250 um sieve and then the 38 um sieves.
+\end{quote}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  Repeat until all the soil:water mixture has been filtered and wash water runs clear through 38 um sieve.
+\item
+  Collect the retained material (screening) from the 250 um and 38 um sieves into separate beakers with water from a squeeze bottle.
+\item
+  Place screenings into a 50ml round-bottom centrifuge tube and add tap water. Screening volume to tap water should be approximately 1:2. You will have two tubes corresponding to screenings from 250 um and 38 um screenings. Balance tubes and spin for 5 min at 4000 rpm. A gentle spray of water from a squirt bottle or faucet is useful to wash the screenings into the tube and a funnel is also helpful.
+\item
+  Discard supernatant (which tends to contain dead organic materials) and retain pellet (which will contain spores). Resuspend pellet in 50\% sucrose solution, mix well. Balance tubes and spin for 5 min at 4000 rpm.
+\item
+  The supernatent contains the AM spores. Pour the supernatant over 38 um sieve and rinse gently with water to remove the sucrose.
+\item
+  Collect washed spores using a Buchner funnel and filter paper or alternatively you can pour directly into a clean petri dish. NOTE: Perform separately for each screening so you will have two sets of filter paper, a \textgreater250 um and a \textgreater38-250 um. Store in petri dish.
+\item
+  Make a slide mount in water of spores from the filter paper using a transfer loop. Alternatively, for spores that are in water in a petri dish you can examine the entire contents of the dish in a dissecting microscope. A small suction pipette can be used to transfer individual spores to a slide for light microscopy.
+\end{enumerate}
+
+\hypertarget{troubleshooting}{%
+\subsubsection{Troubleshooting}\label{troubleshooting}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Be careful not to overflow water on finer mesh screens, you will lose spores.
+\item
+  Do not leave the spores in sucrose solution for too long -- they can rupture or become misshapen.
+\end{enumerate}
+
+\hypertarget{staining-for-arbuscular-mycorrhizae}{%
+\section{Staining for Arbuscular Mycorrhizae}\label{staining-for-arbuscular-mycorrhizae}}
+
+\hypertarget{supplies-2}{%
+\subsection{Supplies}\label{supplies-2}}
+
+\begin{itemize}
+\tightlist
+\item
+  Hot plates (preferably 2 or more with spinner bars)
+\item
+  2L glass beakers (3)
+\item
+  Screened root containers (1-2 per person)
+\item
+  1L 10\% KOH (weight/volume; 10 grams in 1 L dH2O)
+\item
+  50 ml Schaeffers black ink
+\item
+  1L household white vinegar
+\item
+  Hot pads/hot gloves
+\item
+  Forceps (2 per person)
+\item
+  Microscope slides
+\item
+  Microscope cover slips
+\item
+  Dropper bottle with dH2O
+\item
+  Safety goggles
+\item
+  Timer
+\item
+  Funnel
+\item
+  Metal spatula
+\item
+  Lab coat (to protect clothes from any errant drops of 10\% KOH)
+\end{itemize}
+
+\hypertarget{recipes.}{%
+\subsection{Recipes.}\label{recipes.}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \emph{10\% KOH.} Add 10 grams of KOH to 1 L of dH2O in 1L Pyrex Bottle. Dissolve by gentle agitation with stir bar on magnetic plate or repeated inversion.
+\item
+  \emph{5\% Schaeffers Black Ink solution.} Add 50 ml of Schaeffers Black Ink to 950 ml of standard household white vinegar in 1L Pyrex bottle. Mix gently be repeated inversion.
+\item
+  \emph{Acidified rinse water.} Place a few drops to a teaspoon of white vinegar in 2L beaker and fill with water. Place beaker under a very slowly running tap water faucet.
+\end{enumerate}
+
+\hypertarget{procedure-1}{%
+\subsection{Procedure}\label{procedure-1}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \emph{Loading root container.} Remove a small section of the fine root system with forceps and place in a screened, root container (Fig. \ref{fig:ch7fig6}). Do not over-pack root container, as the roots need to be accessible to the clearing and staining reagents. The screen will prevent the roots from being forced out of the openings of the root container.
+\item
+  \emph{Clearing root system} Place root containers in 2L beaker containing 10\% KOH solution and boil for 3 minutes. Occasionally stir with metal spatula to distribute root containers
+\item
+  \emph{Rinsing root system.} After 3 minutes of boilding, remove the root containers from the KOH using tongs and place them in a new 2L beaker. Rinse five times with tap water.
+\item
+  \emph{Staining root system}. Place rinsed root containers in 2L beaker containing 5\% Schaeffer Black ink solution and boil for 3 minutes. Occasionally stir with metal spatula to distribute root containers.
+\item
+  \_Destaining root system. \_Place stained root containers in 2L beaker containing acidified water. Rinse for 5 minutes, discard water and repeat 3 times. This rinse can be performed under a slow running tap or on a magnetic plate with a spinner bar. The destaining step will remove the ink from most of the plant cell but retaining it in fungal structures of hypha, arbuscules and vesicles. Occasionally stir with metal spatula to distribute root containers
+\item
+  \emph{Slide preparation.} After destaining, remove the roots from the root container and place on a piece of foil or paper towel. Spread the roots out with forceps and place a small amount of fine roots in a drop of water on microscope slide and slowly place cover slip avoiding the introduction of air bubbles. Gently press cover slip with blunt end of forceps.
+\item
+  \_Microscopy. \_Place the slide on the compound microscope stage. Starting with the 10X objective, find an area of roots that appears to possess concentrations of stain then adjust to higher magnification objectives as needed. Observe hyphae, appressoria, abuscules and vesicles.
+\end{enumerate}
+
+\hypertarget{troubleshooting-1}{%
+\subsection{Troubleshooting}\label{troubleshooting-1}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  For the sake of efficiency, start heating KOH and Ink:Vinegar solutions at the beginning of the exercise on individual hot plates.
+\item
+  The quality of the staining will vary from root to root and sample to sample, so be persistent and make numerous slides and examine multiple fine roots.
+\item
+  Arbuscules are dynamic structures and are constantly being formed and degraded in plant roots. Also, the clearing and staining procedure will be harsher for certain plants and roots. For these reasons some arbuscules will appear fuzzy, but be persistent and look at as many stained cortex cells as possible for well-defined arbuscules.
+\item
+  There will likely be numerous other fungi present in the roots of these plants. They will be typically observed as brown hyphae and other specialized cells such as hyphal coils. These are not AM fungi but are referred to as root endophytes. These are typically filamentous species of Ascomycota and their regular septa can sometimes been seen.
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\hypertarget{references-5}{%
+\section{References}\label{references-5}}
+
+\hypertarget{Mortierellomycotina}{%
+\chapter{\texorpdfstring{\href{https://mycorrhizas.info/download/pdf/3_9.pdf}{Mortierellomycotina (Soil Molds) Laboratory}}{Mortierellomycotina (Soil Molds) Laboratory}}\label{Mortierellomycotina}}
+
+Jesse Uehling1 and Greg Bonito2.
+
+1.Department of Biology, Duke University, Durham, NC 90338; 2. Department of Plant, Soil and Microbial Sciences, Michigan State University, East Lansing, MI 48824.
+
+\hypertarget{background}{%
+\section{Background}\label{background}}
+
+Mortierellomycotina, (Mucoromycota) are among the most common soil fungi on the planet, and occur on all continents and terrestrial ecosystems (\citet{Wagner_2013}). Divergence date estimates indicate these fungi comprise a lineage that split from AM fungi and other Mucoralean fungi between 358-508 million years ago during the Cambrian-Devonian geologic periods (\citet{Uehling_2017}). In addition to occurring in soils, Mortierellomycotina fungi can be cultured from plant rhizospheres. However, they do not form distinctive morphological structures on or within plant roots. Consequently, they have evaded morphological detection in studies on plant-fungal interactions, and their functional interaction with plants is still not well characterized. Given Mortierellomycotina fungi are readily culturable from soils and plant roots, they are well suited for lab study and experimentation.
+
+\textbackslash begin\{figure\}
+
+\{\centering \includegraphics{img/Ch8_Fig1}
+
+\}
+
+\textbackslash caption\{\emph{Mortierella} isolates exhibiting characteristic rosette like growth.\}\label{fig:ch8fig1}
+\textbackslash end\{figure\}
+
+Mortierellomycotina fungi are characterized by producing coenocytic hyphae, although septae are formed in old or damaged hyphae (\citet{Spatafora_2016}). Hydrophilic mycelium is favorable for soil bacteria activity (\citet{Kohlmeier_2005}), which use mycelial networks for transportation and dispersal. Many species within the Mortierellomycotina are known to harbor endobacteria within their hyphae. The origin and functioning of these endosymbiosis is still open to debate (\citet{Uehling_2017}).
+
+Mortierellomycotina fungi can be difficult to observe in nature due to the cryptic nature of these microfungi. However, species in this lineage can be readily isolated from soil, roots or dung for study. They often exhibit rapid growth making them suitable for laboratory and experimentation. Still some species within Mortierellomycotina have evaded isolation, or exhibit only limited growth. In this lab, you will learn basic techniques to isolate these fungi from soil and also stain, observe and study these fungi in pure culture and with microscopy.
+
+Here are some structures that you are likely to encounter:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Sporangium (Fig. \ref{fig:ch8fig2}) }(pl. sporangia) are enclosed vessels that produce asexually produced sporangiospores, and a born upon terminal hyphae known as sporangiophores. Single or multiple spores can be produced within a sporangium, and some species fail to produce sporangia (e.g.~\emph{M. chlamydospora}).
+\end{itemize}
+
+\textbackslash begin\{figure\}
+
+\{\centering \includegraphics{img/Ch8_Fig2}
+
+\}
+
+\textbackslash caption\{\emph{Mortierella elongata} sporangium illustrating no discernable collumella and sporangiospores.\}\label{fig:ch8fig2}
+\textbackslash end\{figure\}
+
+\begin{itemize}
+\item
+  \textbf{Columella (Fig. \ref{fig:ch8fig2})} is a sterile tissue found at the tip of a sporangiophore that forms a septum between the active protoplasm below and the developing spores inside the upper portion of the sporangial head. The columella of Mortierellomycotina fungi characteristically is flat or slightly convex.
+\item
+  \textbf{Sporangiospores (Fig. \ref{fig:ch8fig2}) } are globose to subglobose and elongated are produced terminal or subterminal, according to species, on specialized hyphae. Sporangiospores are mitotically produced and tend to be small (often larger than 2-10 μm). Spores are produced on sporangia in the soil.
+\item
+  \textbf{Chlamydospores (Fig. \ref{fig:ch8fig3}) } are asexually produced spores that form intercalary within or between hyphal cells, or sometimes on terminal hyphae. These structures are generally thick walled and serve as resting spores when resources become limited or conditions unfavorable.
+\end{itemize}
+
+\textbackslash begin\{figure\}
+
+\{\centering \includegraphics[width=12.11in]{img/Ch8_Fig3}
+
+\}
+
+\textbackslash caption\{Intercalary chlamydospores, image from \citet{Wagner_2013}.\}\label{fig:ch8fig3}
+\textbackslash end\{figure\}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Zygospores (Fig. \ref{fig:ch8fig4}) } are sexual spores produced by many species of Mortierellomycotina, yet zygospores are not frequently observed. Zygospores can be produced by homothallic species, or by heterothallic species when they mate. Mating appears to occur under low nutrient conditions.
+\end{itemize}
+
+\textbackslash begin\{figure\}
+
+\{\centering \includegraphics{img/Ch8_Fig4}
+
+\}
+
+\textbackslash caption\{Zygospore from \emph{Mortierella elongata} showing thick, pigmented wall structure.\}\label{fig:ch8fig4}
+\textbackslash end\{figure\}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Stylospores (Figure 5) } are highly ornamented, hyaline, asexual reproductive propagules.
+\end{itemize}
+
+\textbackslash begin\{figure\}
+
+\{\centering \includegraphics[width=6.72in]{img/Ch8_Fig5}
+
+\}
+
+\textbackslash caption\{Stylospores exhibiting hyaline, ornamented cell walls. Image from \citet{Wagner_2013}.\}\label{fig:ch8fig5}
+\textbackslash end\{figure\}
+
+\hypertarget{classroom-activities}{%
+\section{Classroom activities}\label{classroom-activities}}
+
+\hypertarget{supplies-3}{%
+\subsubsection{Supplies}\label{supplies-3}}
+
+\begin{itemize}
+\tightlist
+\item
+  Forceps
+\item
+  Petri plates
+\item
+  10/50 mL conicals for soils
+\item
+  Sterile razor blades
+\item
+  Congo red
+\item
+  Oil Red O (for lipid staining)
+\item
+  Nile blue
+\item
+  Slides
+\item
+  Cover slips
+\item
+  Kim wipes
+\item
+  Parafilm
+\item
+  Sterile crab / shrimp shells
+\item
+  Antibiotic stocks (or media containing) Streptomycin, Chloramphenicol, Ampicillin, or Tetracyclin (60ug/mL)
+\end{itemize}
+
+\hypertarget{recipes-1}{%
+\subsubsection{Recipes}\label{recipes-1}}
+
+\textbf{\emph{Malt extract media}}
+- 15 grams malt extract
+- 15 grams agar
+- 1 Liter water
+
+\textbf{\emph{Hay infusion agar media}. } for mating assays.
+- Bring 50g hay to boil in 1.5 L of water. Cool and use cheesecloth to filter particulate matter out
+- 15 grams agar
+
+\textbf{\emph{10\% KOH. }}
+- Add 10 grams of KOH to 1 L of dH2O in 1L Pyrex Bottle. Dissolve by gentle agitation with stir bar on magnetic plate or repeated inversion.
+
+\hypertarget{procedure-2}{%
+\subsubsection{Procedure}\label{procedure-2}}
+
+\hypertarget{smelling-and-observation-station}{%
+\subsection{Smelling and observation station}\label{smelling-and-observation-station}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Observe the morphological variation and aroma of different isolates of \_Mortierella \_either harboring or without bacterial endosymbionts. Collect a ballot and describe the smell of each fungal culture. We will compare and discuss the results as a class. This exercise can be modified for isolates that have not been analyzed for endobacterial presence, as \_Mortierella \_have a characteristic scent.
+\item
+  Observe the characteristic rosette like concentric rings of \emph{Mortierella} cultures. This growth form is characteristic for the group \textbf{(Fig. \ref{fig:ch8fig1}). }
+\end{enumerate}
+
+\hypertarget{collect-soils-dung-or-fresh-plant-roots-to-use-for-mortierella-isolation}{%
+\subsection{\texorpdfstring{Collect soils, dung, or fresh plant roots to use for \emph{Mortierella} isolation}{Collect soils, dung, or fresh plant roots to use for Mortierella isolation}}\label{collect-soils-dung-or-fresh-plant-roots-to-use-for-mortierella-isolation}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \emph{Soils}. Fresh or even dried soils work well for isolating \emph{Mortierella}. Use a spoon, knife or hand trowel to collect a handful of mineral soil below leaf litter. Place soil in a plastic, wax or paper bag. Soils can be air dried or stored in a refrigerator or cool place and later used for baiting experiments detailed below.
+\item
+  \emph{Dung}. \_Mortierella \_can be isolated from animal dung. Herbivore dung is preferable, but different species of these fungi can also be isolated from dung obtained from omnivores and frass obtained from insects. Fresh or air-dried dung samples can be used.
+\item
+  \emph{Roots \& non-vascular plants}. Use a shovel, trowel or rake to dig up plant roots taking care to collect fine roots. Non-vascular plants can also be collected. Place the plant or roots in a plastic bag together with some field soil or a wet paper towel to keep moist and store in a refrigerator or cool place until use.
+\end{enumerate}
+
+\hypertarget{isolation-of-mortierellomycotina.}{%
+\subsection{\texorpdfstring{\emph{Isolation of Mortierellomycotina.}}{Isolation of Mortierellomycotina.}}\label{isolation-of-mortierellomycotina.}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \emph{Substrate Baiting}. Many kinds of substrates can be used to bait \emph{Mortierella} out of soils. Because many species of \emph{Mortierella} are able to break down chitin, shrimp or crab exoskeletons works well for baiting \emph{Mortierella} out of soils. This approach is successful due to the expansion in gene families involved in chitinolytic metabolism (\citet{Uehling_2017}). Other substrates that have been used successfully to bait for \emph{Mortierella} include hibiscus hips and dried insects. Baits are first boiled in water and then autoclaved before use. Baits are then placed on top or gently nestled into moistened soil in a petri dish (\textbf{Figure 6).} Soil should be moistened just enough to promote growth, standing water will cultivate other microbial growth. Petri dishes are then sealed and incubated at room temperature. After 1 week, plates are open and shrimp skeletons are removed with forceps, rinsed under tap water, washed in 0.1\% solution of tween 20 and then surface sterilized by soaking in hydrogen peroxide for 1 minute. Inoculated and surface sterilized baits are then placed on fresh MEA plates, often with antibiotics (see trouble shooting below) and incubated at room temperature, upside down. that incubation temperature for \emph{Mortierella} isolation -- 5C is selective for many \emph{Mortierella} species. Conspecific isolates can be paired to produce zygospores, and often form asexual spores in monoculture conditions. Slides can be prepared by mounting tissues in water or KOH, and adding dyes such as Congo red or Nile blue to more easily visualize hyphae and spores.
+\end{enumerate}
+
+\textbackslash begin\{figure\}
+
+\{\centering \includegraphics{img/Ch8_Fig6}
+
+\}
+
+\textbackslash caption\{\emph{Mortierella} baiting with chitin rich crab shells..\}\label{fig:ch8fig6}
+\textbackslash end\{figure\}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  \emph{Soil particle isolation}. Many soil collections contain \emph{Mortierella} and related fungi. A particularly successful isolation technique is to use an inverted agar plate to catch spores ejected from fungi found in soil particles. A soil sample is sprinkled (\textasciitilde.25 grams fresh soil) is sprinkled on the inverted lid of a petri lid from a dish containing agar media. After \textasciitilde3 days the soil is removed and the plate sealed with parafilm to avoid contaminants.
+\end{enumerate}
+
+\hypertarget{cytoplasmic-streaming.}{%
+\subsubsection{\texorpdfstring{\emph{Cytoplasmic streaming}.}{Cytoplasmic streaming.}}\label{cytoplasmic-streaming.}}
+
+Prepare a slide of \emph{Mortierella} for live cell imaging by applying a thin layer of media on a microscope slide. Inoculate the edge with a small agar block and incubate overnight in a moist chamber. To view, remove agar block with a razor and gently apply a coverslip. At high magnification you can see vesicle trafficing. Which direction do vesicles flow? Do they cell contents stream at the same rate?
+
+\hypertarget{lipid-staining.}{%
+\subsubsection{\texorpdfstring{\emph{Lipid staining}.}{Lipid staining.}}\label{lipid-staining.}}
+
+Stain live \emph{Mortierella} slides with `Oil Red O' to observe lipid trafficking.
+
+\hypertarget{review}{%
+\subsection{Review}\label{review}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  **\_Mortierella \_isolation:** Selective techniques, media, \& culturing
+\item
+  \textbf{\emph{Mortierella} morphology:} Vegetative and reproductive structures
+\item
+  \textbf{Chemical ecology of \emph{Mortierella}:} Smelling station / volatiles
+\item
+  \textbf{Cellular characteristics:} Cytoplasmic streaming / Gravitropism / Phototrophism
+\end{enumerate}
+
+\hypertarget{discussion-questions}{%
+\subsection{Discussion questions}\label{discussion-questions}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  How does \textbf{spore} diversity and architecture influence species dispersal?
+\item
+  Why do soil fungi exhibit \textbf{phototropism}?
+\item
+  Describe the \textbf{odor} of \emph{Mortierella}. Does it differ between species, strains or if the isolate is infected with \textbf{endobacteria}?
+\item
+  What differences do you notice between cultures of \emph{Mortierella}, \textbf{strains} of a single species, or \textbf{isolates} with/without endobacteria?
+\item
+  What \textbf{chemical interactions} that may occur between Mortierellomycotinia fungi, plants and bacteria?
+\end{enumerate}
+
+\hypertarget{troubleshooting-2}{%
+\subsection{Troubleshooting}\label{troubleshooting-2}}
+
+Microscopic features are challenging to discern and sometimes hard to find in \emph{Mortierella} isolates, so be persistent and make numerous slides and examine multiple cultures.
+
+Soil bacteria often associated closely with \emph{Mortierella} species. To avoid plate containments, include one or more of the following antibiotics into your media; Streptomycin, Chloramphenicol, Ampicillin, or Tetracyclin (60ug/mL).
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\hypertarget{references-6}{%
+\section{References}\label{references-6}}
+
+\hypertarget{Pilobolus}{%
+\chapter{Pilobolus (Mucoromycotina, Mucoromycota)}\label{Pilobolus}}
+
+\emph{Joseph W. Spatafora}
+
+Department of Botany and Plant Pathology, Oregon State University, Corvallis, OR 97330.
+
+\hypertarget{introduction-6}{%
+\section{Introduction}\label{introduction-6}}
+
+\emph{Pilobolus }(pilos (Gr.) = felt, skullcap + bolus (Gr.) = ball) is a common coprophilous member of Mucorales that can be used to demonstrate phototropic sporangiophore and forcibly discharged sporangia. In this laboratory you will learn to setup a dung chamber, identify \emph{Pilobolus} and the main characters associated with its asexual reproduction, and establish cultures.
+
+\hypertarget{materials-and-recipes}{%
+\section{Materials and recipes}\label{materials-and-recipes}}
+
+\hypertarget{b-agar}{%
+\subsection{\texorpdfstring{{B-agar}}{B-agar}}\label{b-agar}}
+
+\begin{itemize}
+\tightlist
+\item
+  17g corn meal agar
+\item
+  2g dextrose
+\item
+  3g sucrose
+\item
+  1g yeast extract
+\item
+  1000ml dH2O
+\end{itemize}
+
+\hypertarget{simplified-hemin-agar-sha}{%
+\subsection{\texorpdfstring{{Simplified Hemin Agar (SHA)}}{Simplified Hemin Agar (SHA)}}\label{simplified-hemin-agar-sha}}
+
+\begin{itemize}
+\tightlist
+\item
+  10 mg Hemin (dissolved in 37.5 ml 0.1N NaOH)
+\item
+  10 g Sodium acetate (CH3COONa- 3H20)
+\item
+  10 mg thiamine-HCl
+\item
+  0.66 g (NH4)2SO4
+\item
+  1.0 g K2HPO4
+\item
+  0.5 g MgS04-7H20
+\item
+  15 g agar (omit for broth medium)
+\item
+  1 liter dH2O
+\end{itemize}
+
+\begin{quote}
+Note: if amending with antibiotics, cool to 55C after autoclaving and Streptomycin and Ampicillin for final concentrations of 30 ug/ml and 100 ug/ml, respectively.
+\end{quote}
+
+\hypertarget{dung-collection-1}{%
+\section{Dung collection}\label{dung-collection-1}}
+
+Just about any form of herbivore dung will work. I have had best results working with dung collected from wild deer, elk and rabbit, but horse also works well if they are grazing in pastures with \emph{Pilobolus}. Collect fresh dung that is still moist and not desiccated into a plastic ziplock bag. Use plastic gloves to collect the dung and label the bag with collection information (e.g., host, locality, date, collector). Place the dung into a refrigerator to keep cool or until you are able to setup the dung chambers. Typically dung is collected the day before so that storage is not more than 24 hours.
+
+\hypertarget{dung-chamber-set-up-and-incubation}{%
+\section{Dung chamber set up and incubation}\label{dung-chamber-set-up-and-incubation}}
+
+A dung chamber can be made from any available sealable container, such as a clean medium size plastic container in which you typically purchase cottage cheese, yogurt or salsa. The wider the mouth of the container the better, as it will make handling easier, and you want it tall enough to hold the dung, but not too tall to prevent examining under a dissecting scope. Fold a paper napkin into a shape so that it fits in the base of the container. Wet the napkin with tap water so that it is saturated but pour off any standing water. Place a small (60 mm) petri dish lid (or bottom) open side up, inside the container on the saturated paper napkin. The petri dish lid/bottom will serve as a stage to hold the dung. Place enough dung onto the Petri dish stage to fill it. This will typically be 3-5 pellets of deer dung or one piece of horse dung. Mist the dung with a small amount of water. Close lid and incubate at room temperature for 24-48 hours.
+
+\begin{figure}
+
+{\centering \includegraphics{img/Ch9_Fig2} 
+
+}
+
+\caption{Dung chamber.  Small plastic container, paper towel, and a 60mm petri dish lid or bottom.}\label{fig:ch9fig2}
+\end{figure}
+
+\hypertarget{pilobolus-observation.}{%
+\section{\texorpdfstring{\emph{Pilobolus} observation.}{Pilobolus observation.}}\label{pilobolus-observation.}}
+
+\emph{Pilobolus} sporangia are macroscopic and readily observed with the naked eye. Sporangiophores are erect and elevate the sporangium off the surface of the dung. Sporangiophores are typically 1-3 cm in length, but can be much longer in some cases. They are anchored in the dung by a swollen base called a trophocyst. The sporangiophore terminates in a subsporangial vescicle (SV); the sporangium is formed atop the SV and is the ``hat'' of \emph{Pilobolus}. At the junction between the sporangiophore and SV is a carotinoid ring (CR) that is used to detect light and orient the sporangium towards the light. The SV focuses the light increasing the turgor pressure within the SV, resulting in the sporangium being forcibly ejected from the tip of the SV. The sporangium is shot towards the light, and thus the light gap, increasing the efficiency of dispersal. Sporangia can be shot up to 2 meters and the sporangial flight represents some of the fastest speeds and strongest g-forces documented in nature (\citet{Yafetto_2008}; \url{https://www.youtube.com/watch?v=DEj8uidzP4I}). Sporangia stick onto vegetative, are consumed by grazing herbivores, pass through the digestive tract of the host animal, and are deposited with the dung starting the whole process over again, a phenomenon called gut-passage syndrome.
+
+\textbackslash begin\{figure\}
+
+\{\centering \includegraphics[width=3.67in]{img/Ch9_Fig3}
+
+\}
+
+\textbackslash caption\{ \emph{Pilobolus} sporangiophores with sporangia fruiting on dung surface. (\url{http://es.treknature.com/gallery/Europe/Netherlands/South/photo294436.htm}).\}\label{fig:ch9fig3}
+\textbackslash end\{figure\}
+
+\hypertarget{slide-preparation.}{%
+\section{Slide preparation.}\label{slide-preparation.}}
+
+Place a drop of water onto a standard glass microscope slide. Using a blunt dissecting needle, gently excavate the dung from around the base of the sporangiophore so that the trophocyst is exposed. Lift the sporangiophore from the dung and place it in the droplet of water on the microscope slide. Gently apply a cover slip and observe under a compound light microscope. Starting at the base of the structure observe the trophocyst, sporangiophore, carotenoid ring, subsporangial vesicle and sporangium. You will likely notice many sporangia that have been discharged and are stuck to the sides of the container. Using your dissecting needle pick a few and make a microscope slide as described above. Observe under a compound microscope and then break the sporangium by applying pressure to the cover slip with the eraser end of a pencil. Observe again to see the individual sporangiospores contained with each sporangium.
+
+\textbackslash begin\{figure\}
+
+\{\centering \includegraphics[width=15.45in]{img/Ch9_Fig4}
+
+\}
+
+\textbackslash caption\{ \emph{Pilobolus} sporangiophore/sporangium\}\label{fig:ch9fig4}
+\textbackslash end\{figure\}
+
+\hypertarget{isolation-and-culturing}{%
+\section{Isolation and culturing}\label{isolation-and-culturing}}
+
+Some species of \emph{Pilobolus} can be cultured on simple media such as B-agar but others require more complicated agar with dung, coprogen, or hemin (\citet{Hesseltine_1953}, \citet{Levetin_1976}). Also, the fact that \emph{Pilobolus} forcibly ejects its sporangia facilitates its isolation. Pick a sporangium from the walls of the dung chamber using a flame sterilized dissecting needle. Place the sporangium in 30\% H2O2 for 30 sec, then transfer the sporangium to sterile H2O for 30 sec.~Sterilization can be performed in large droplet on a plastic surface (e.g., parafilm) or in adjacent wells of a spot plate. Then transfer the surfaced sterilized sporangium with a flame sterilized dissecting needle to agar plates. To further avoid contamination by bacteria the agar plates can be amended with antibiotics, typically a combination of Streptomycin and Ampicillin. Observe daily for germination. The hyphae will appear to emerge from the sporangium but are actually germinating sporangiospores. Hyphae tend to be large diameter and sparse. Sporangia typically start to appear within one to two weeks of hyphal growth.
+
+\textbackslash begin\{figure\}
+
+\{\centering \includegraphics{img/Ch9_Fig5}
+
+\}
+
+\textbackslash caption\{\emph{Pilobolus} culture on B-agar.\}\label{fig:ch9fig5}
+\textbackslash end\{figure\}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\hypertarget{references-7}{%
+\section{References}\label{references-7}}
+
+\hypertarget{Mucoromycotina}{%
+\chapter{Mucoromycota: Mucoromycotina (Mating Phycomyces)}\label{Mucoromycotina}}
+
+Jason E. Stajich1, Joseph W. Spatafora2.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Department of Plant Pathology \& Microbiology, University of California-Riverside, Riverside, CA\_92521; 2.Department of Botany and Plant Pathology, Oregon State University, Corvallis, OR\_97330.
+\end{enumerate}
+
+\hypertarget{introduction.}{%
+\section{Introduction.}\label{introduction.}}
+
+Sexual reproduction in fungi was first described in zygomycetes (\citet{Blakeslee_1904}) and it is among the Mucorales that it is best studied. Species may be homothallic (selfing) or heterothallic (outcrossing), a term first coined by Blakeslee. In the heterothallic species mating occurs between isolates of the opposite mating type as determined by the mating type genes. In Mucorales this is determined by the presence of either sexP (+) or sexM (-) gene at the mating type locus (\citet{Alexopoulos_1996}). In homothallic species, both genes are presumed to be incorporated into the same genome.
+
+\textbackslash begin\{figure\}
+
+\{\centering \includegraphics[width=15.13in]{img/Ch10_Fig1}
+
+\}
+
+\textbackslash caption\{\emph{Phycomyces} life cycle from \citet{Bergman_1969}.\}\label{fig:ch10fig1}
+\textbackslash end\{figure\}
+
+Early studies demonstrated that sexual reproduction is under pheromonal control (\citet{Burgeff_1924}). Briefly, sexP (+) and sexM (-) strains release precursors of trisporic acid that are recognized by the opposite mating type and converted into trisporic acid. This initiates a positive feedback loop that involves the build up of trisporic acid and an increase is production of carotenoids, which results in the production of more trisporic acid precursors. The accumulation of trisporic acid inhibits asexual reproduction and induces zygospore formation. The products of sexP and sexM genes likely function in the regulation of numerous pathways that control sexual reproduction and it is speculated that it is mating-type specific pheromones control zygotropism.
+
+Sexual reproduction initiates with the transformation of hyphae into zygophores, which are modified, slightly curved hyphal tips that are often rich in β-carotene. Zygophores from + and -- mating types are zygotrophic, that is they grow towards each other. The tips of the zygophores enlarge and touch forming progametangia. The point at which the two progametangia meet and fuse is called the fusion septum (Fig. \ref{fig:ch10fig2}b). A gametangial septum forms near the tip of each progametangium resulting in the delimitation of a gametangium, the terminal cell of the zygophore, and a suspensor cell, the penultimate cell of the zygophore (Fig. \ref{fig:ch10fig2}b). The fusion septum dissolves resulting in plasmogamy of the + and -- gametangia and the formation of a multinucleate prozygosporangium (Fig. \ref{fig:ch10fig2}c). The prozygosporangium will enlarge and become pigmented and ornamented characteristic of the species (Fig. \ref{fig:ch10fig2}d). The zygospore forms inside of the zygosporangium and is the site of karyogamy and meiosis, ultimately form a germ sporangium with numerous sporangiospores.
+
+\hypertarget{materials-and-recipes-1}{%
+\section{Materials and recipes}\label{materials-and-recipes-1}}
+
+\hypertarget{cornmeal-agar--strength}{%
+\subsection{\texorpdfstring{{Cornmeal agar ½ strength}}{Cornmeal agar ½ strength}}\label{cornmeal-agar--strength}}
+
+\begin{itemize}
+\tightlist
+\item
+  8.5 g corn meal agar
+\item
+  8.5 g agar
+  -\_1000ml dH2O
+\end{itemize}
+
+\hypertarget{strains}{%
+\subsection{Strains}\label{strains}}
+
+\emph{Phycomyces blakesleeanus }(+) {[}item \#\_156180{]} and (-) {[}item \#\_156181{]} mating type strains from Carolina Biological Supply.
+
+\hypertarget{procedure-3}{%
+\section{Procedure}\label{procedure-3}}
+
+\emph{Phycomcyes blakeseeanus} is a dung fungus that forms pronounced, easily recognized sporangiophores, is highly light sensitive, and has been used as model system for studies of phototrophism, gravitropism, carotenoid synthesis, zygomycete cell biology \& sexual reproduction (\citet{Bergman_1969}). In this lab, you will mate + and -- minus strains of \emph{P. blakesleeanus} and observe the multiple stages of sexual reproduction. Mating in fungi is often affected by environmental factors such as nutrition and light. For this reason, we will perform matings on nutrient poor agar, half-strength corn meal agar, and incubate our mating pairs in the dark.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Prepare separate plates of + and -- strains as a source of inoculum. These can be maintained on a relatively nutrient rich agar such as PDA.
+\item
+  Prepare half-strength corn meal agar (1/2 CMA) plates.
+\item
+  Using a sterile loop or dissecting needles, inoculate + strain at the north and south quadrants of a ½ CMA plate. (Fig. \ref{fig:ch10fig3})
+\item
+  Using a sterile loop or dissecting needles, inoculate - strain at the east and west quadrants of a ½ CMA plate. (Fig. \ref{fig:ch10fig3})
+\end{enumerate}
+
+\begin{figure}
+
+{\centering \includegraphics[width=6.71in]{img/Ch10_Fig3} 
+
+}
+
+\caption{Schematic of mating inoculation plate. + strains inoculated in N and S quadrants; - strains inoculated in E and W quadrants.  After incubation in dark at room temperature, mating will demarcated by interaction lines between the two mating types.}\label{fig:ch10fig3}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  Seal plates with parafilm and place in dark at room temperature. Be sure that the container is a dark as possible.
+\item
+  After 3-5 days formation of gametangia and 7-10 days for zygospore formation can be observed at the interface where mycelium contacts opposite mating type at the boundary of a sector (Fig. \ref{fig:ch10fig2}a, Fig. \ref{fig:ch10fig3}). Use a dissecting microscope to observed the interaction zones between + and - mating types.
+\item
+  While looking through stereoscope and using forceps and needle extract gametangia from plate and place on slide. Place in droplet of water and gently place coverslip on top to observe under the compound scope.
+\item
+  You should be able to observe the following stages of sexual reproduction: zygophore, progametangium, gametangium, suspensor cell, fusion septum, gametangial septum, prozygosporangium, and zygosporangium.
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\hypertarget{references-8}{%
+\section{References}\label{references-8}}
+
+\hypertarget{References}{%
+\chapter{References}\label{References}}
+
+\bibliography{book.bib}
+
+
+\end{document}

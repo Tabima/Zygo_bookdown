@@ -42,10 +42,10 @@ Although the list of supplies may vary slightly depending on the species of Zoop
 *   Microscope slides and coverslips
 *   Tissue stain for slide preparations, such as lactophenol cotton blue
 *   70% or 95% ethanol for bench and tool sterilization
-*   Some or all of these flame-resistant isolation tools: fine-tipped forceps, tungsten wire loop, insect minuten pin with handle, nichrome wire with handle, small metal spatula, scalpel (Fig. \@ref(fig:ch2fig1))
+*   Some or all of these flame-resistant isolation tools: fine-tipped forceps, tungsten wire loop, insect minuten pin with handle, nichrome wire with handle, small metal spatula, scalpel (Fig. Fig. \@ref(fig:ch2fig1))
 
 ```{r ch2fig1, echo=FALSE, fig.align='center', fig.width = 12, fig.cap=" Tools used for isolating, transferring, and culturing microfungi.  From left to right: insect minuten pin with pin vice handle, two examples of fine-tipped forceps, a harpoon-like mini spatula with vice handle, nichrome wire with a vice handle, tungsten wire loop, metal-handled scalpel, and small spatula.  Fine-tipped forceps are useful for collecting segments of hyphae (e.g. for slide making or isolation in culture) whereas the insect minuten pin, nichrome wire, and loop may be used for transferring spores.  The scalpel or spatulas are needed for cutting agar plates."}
-knitr::include_graphics("img/Fig1_Ch2.png", dpi = 75)
+knitr::include_graphics("img/Ch2_Fig1.png", dpi = 75)
 ```
 
 
@@ -78,26 +78,26 @@ Two main approaches have been used to view and isolate Zoopagomycotina species f
 ### Soil Plating
 
 1. Choose a low-nutrient media plate to use for isolation. The choice of plate will depend on the desired fungal groups. For mycoparasitic taxa it is typical to use plates that include antibacterial antibiotics and the anti-fungal compound benomyl to reduce growth by 'molds' (e.g. _Aspergillus_ and _Penicillium_ spp.).  For predaceous fungi we recommend water agar plates without antibiotics or benomyl and with plenty of moisture. Host animals such as nematodes or amoeba are often more prolific if extra water is added to the plate (see Appendix below for agar and antibiotic recipes).
-2. Use a spoon or small scoop to gather 1-2 grams of soil or litter and gently sprinkle evenly across one side of the plate (Fig. \@ref(fig:ch2fig2)). One side of the plate is left clear of soil to enable easier viewing of the fungi. 
+2. Use a spoon or small scoop to gather 1-2 grams of soil or litter and gently sprinkle evenly across one side of the plate (Fig. Fig. \@ref(fig:ch2fig2)). One side of the plate is left clear of soil to enable easier viewing of the fungi. 
 3. Label the plate with the collection code, date, media type. Store in a dark cabinet or container for several days.  Do <span style="text-decoration:underline;">not</span> seal the plate with Parafilm.
 4. The plates should be observed under a dissecting microscope to look for fungi.
 
 
 ```{r ch2fig2, echo=FALSE, fig.align='center', fig.width = 12, fig.cap=" Example of a soil sample sprinkled on an agar plate.  A small amount of soil spread on half of the plate helps to minimize overgrowth of fungi as well as enable easier visualization of fungi that grow out over the agar.  This example has a minimal amount of soil, but more could be used depending on the size and consistency of the soil particles."}
-knitr::include_graphics("img/Fig2_Ch2.jpg", dpi = 75)
+knitr::include_graphics("img/Ch2_Fig2.jpg", dpi = 75)
 ```
 
 
 ### Dung Incubation in Moist Chambers
 
-1. Plastic or glass petri dishes lined with filter paper are used for dung incubation.  Standard size (i.e. 100 x 15 mm) petri dishes are too shallow for most types of dung, but may be appropriate for mouse or rat dung.  Deeper dishes are better for allowing the growth of tall, aerial fungi and are best for larger dung like cow or horse (Fig. \@ref(fig:ch2fig3)).
+1. Plastic or glass petri dishes lined with filter paper are used for dung incubation.  Standard size (i.e. 100 x 15 mm) petri dishes are too shallow for most types of dung, but may be appropriate for mouse or rat dung.  Deeper dishes are better for allowing the growth of tall, aerial fungi and are best for larger dung like cow or horse (Fig. Fig. \@ref(fig:ch2fig3)).
 2. Divide the dung into smaller portions that will fit in the center of the dishes.  For very small dung (e.g. mouse), several pellets may be evenly spaced across the dish.  The idea is to leave enough space around the dung for fungi of interest to grow out.
 3. Wet the filter paper with enough distilled water to saturate the paper (but avoid having standing water in the bottom of the dish because this will promote bacterial growth).  Do not parafilm the dishes.
 4. Moist chambers can be incubated for several days before fungi appear, but they should be checked regularly to ensure the filter paper stays moist and to watch for overgrowth by other organisms (e.g. bacteria, _Aspergillus_ and _Penicillium_ spp).
 
 
 ```{r ch2fig3, echo=FALSE, fig.align='center', fig.width = 12, fig.cap="Moist chamber set up for small (A) and larger (B) dung samples.  Several pellets of rat (A, left) and mouse (A, right) dung can be evenly spaced out on a standard size petri dish lined with filter paper(s).  Larger dung can be incubated in a tall glass container with a lid, also lined with filter paper(s) (B).  It is important to leave space around the dung pieces to allow room for air flow and fungal growth.  Filter papers should be wetted up to the point of saturation with distilled water and monitored to prevent dessication.  Do not Parafilm the dishes."}
-knitr::include_graphics("img/Fig3_Ch2.png", dpi = 75)
+knitr::include_graphics("img/Ch2_Fig3.png", dpi = 75)
 ```
 
 
@@ -109,33 +109,33 @@ Slides should be made of fungi of interest for identification purposes.  Fungal 
 
 ### Morphological Features of Mycoparasitic Genera
 
-**_Piptocephalis_**:  Common hosts: _Cokeromyces, Umbelopsis, Mucor_, and _Mortierella_ (Fig. \@ref(fig:ch2fig4))
+**_Piptocephalis_**:  Common hosts: _Cokeromyces, Umbelopsis, Mucor_, and _Mortierella_ (Fig. Fig. \@ref(fig:ch2fig4))
 
-Morphology (Fig. \@ref(fig:ch2fig5)): Hyphae and sporophores dichotomously branched; hyphae often tall and aerial (sometimes reaching the lid of the plate) and a buff to tan color; spores are produced in clusters on apical head cells; spores may be dry or suspended in a liquid drop; zygospores typically have an ornamented surface and are subtended by tongs-like suspensors. *Piptocephalis* species are more common in herbivore dung samples.
+Morphology (Fig. Fig. \@ref(fig:ch2fig5)): Hyphae and sporophores dichotomously branched; hyphae often tall and aerial (sometimes reaching the lid of the plate) and a buff to tan color; spores are produced in clusters on apical head cells; spores may be dry or suspended in a liquid drop; zygospores typically have an ornamented surface and are subtended by tongs-like suspensors. *Piptocephalis* species are more common in herbivore dung samples.
 
 
-**_Syncephalis_**:  Common hosts: _Mucor, Mortierella, Zygorhynchus_, and _Rhizopus_ (Fig. \@ref(fig:ch2fig4))
+**_Syncephalis_**:  Common hosts: _Mucor, Mortierella, Zygorhynchus_, and _Rhizopus_ (Fig. Fig. \@ref(fig:ch2fig4))
 
-Morphology (Fig. \@ref(fig:ch2fig6)): Typically forming networks of fine, aerial, cobweb-like hyphae; sporophores are short, unbranched, have rhizoids at the base, and often are formed in clusters; sporophores and hyphae are hyaline; spores are produced at the apex of the sporophores and are usually suspended in a liquid drop at maturity; galling of host hyphae may also be observed; zygospores have an ornamented surface and apposed suspensors. _Syncephalis_ species are more common in soil samples.
+Morphology (Fig. Fig. \@ref(fig:ch2fig6)): Typically forming networks of fine, aerial, cobweb-like hyphae; sporophores are short, unbranched, have rhizoids at the base, and often are formed in clusters; sporophores and hyphae are hyaline; spores are produced at the apex of the sporophores and are usually suspended in a liquid drop at maturity; galling of host hyphae may also be observed; zygospores have an ornamented surface and apposed suspensors. _Syncephalis_ species are more common in soil samples.
 
-**_Kuzhuaea_**:  Host: _Umbelopsis_ (Fig. \@ref(fig:ch2fig4))
+**_Kuzhuaea_**:  Host: _Umbelopsis_ (Fig. Fig. \@ref(fig:ch2fig4))
 
-Morphology (Fig. \@ref(fig:ch2fig5)): Dichotomously branched hyphae; spores formed in zig-zag chains; zygospores ornamented with apposed suspensors.
+Morphology (Fig. Fig. \@ref(fig:ch2fig5)): Dichotomously branched hyphae; spores formed in zig-zag chains; zygospores ornamented with apposed suspensors.
 
 Molecular evidence suggests that the monotypic _Kuzhuaea_ is actually a species of _Piptocephalis_ (@White_2006).
 
 
 ```{r ch2fig4, echo=FALSE, fig.align='center', fig.width = 12, fig.cap="Examples of common hosts for *Piptocephalis* and *Syncephalis* species.  *Cokeromyces* (A), *Umbelopsis* (B), *Mucor* (C), and *Mortierella* (F, G) are often associated with *Piptocephalis* species while *Mucor* (C), *Zygorhynchus* (D), *Rhizopus* (E), and *Mortierella* (F, G) are frequently found with *Syncephalis* species.  Species from both genera of mycoparasites are able to grow on various different Mucoromycotina hosts, and occasionally may associate with ascomycetes (i.e. *Penicillium* or *Endomyces*).  Some *Mortierella* species require special conditions in order to sporulate in culture (e.g. limited nutrients), so they may appear as masses of undifferentiated hyaline hyphae (G).  However, *Mortierella* species frequently have a characteristic zonate growth pattern on media plates (F)."}
-knitr::include_graphics("img/Fig4_Ch2.png", dpi = 75)
+knitr::include_graphics("img/Ch2_Fig4.png", dpi = 75)
 ```
 
 ```{r ch2fig5, echo=FALSE, fig.align='center', fig.width = 12, fig.cap="*Piptocephalis* (A, B) and *Kuzhuaea* (C) under the dissecting microscope and _Kuzuhaea_ sporophores stained and viewed under the compound microscope (D).  The dichotomous branching of these species is evident.  *Piptocephalis* species typically have longer, aerial hyphae (A) that are often honey or buff colored when mature.  Some species produce spores in liquid drops when mature (B) whereas others remain dry.  _Kuzuhaea_ hyphae (C) are smaller and produce spores in chains, which can be observed under a compound microscope (D)."}
-knitr::include_graphics("img/Fig5_Ch2.png", dpi = 75)
+knitr::include_graphics("img/Ch2_Fig5.png", dpi = 75)
 ```
 
 
 ```{r ch2fig6, echo=FALSE, fig.align='center', fig.width = 12, fig.cap="*Syncephalis* species in culture.  On media plates, the presence of a *Syncephalis* species may be indicated by the tufts of fine, cobweb-like hyphae that are formed over the host (A).  Under the dissecting microscope *Syncephalis* sporophores (B, C, D) are hyaline, relatively short compared to the host (and compared to *Piptocephalis*), typically unbranched (but may be curved as in B), and sometimes are produced in clusters (C).  Red arrows indicate immature (B, C) and mature (D) sporangia.  In most species, liquid drops will form around the spores on mature sporangia.  The green arrow indicates the rhizoids that attach the sporophores to the hyphae of the host fungus.  The yellow arrow shows the fine network of thin hyphae that are produced throughout cultures of *Syncephalis* species (D).  Note: the circular objects in B are water droplets."}
-knitr::include_graphics("img/Fig6_Ch2.png", dpi = 75)
+knitr::include_graphics("img/Ch2_Fig6.png", dpi = 75)
 ```
 
 
@@ -150,7 +150,7 @@ If resources are available, students may try to isolate particular fungi of inte
 2. Carefully cut out a small square of agar where hyphae and spores of both the host and parasite are growing.
 3. Using sterile technique, gently place the cut piece onto a clean media plate.
 4. Try to minimize the amount of time that the lid is off the clean media plate in order to reduce the possibility of contamination.  Remember to write the date and collection information on the new plate.
-2. If there is no place on the plate where host and parasite are growing away from other fungi, it may be possible to isolate them using a loop tool or fine tipped forceps (Fig. \@ref(fig:ch2fig2)).
+2. If there is no place on the plate where host and parasite are growing away from other fungi, it may be possible to isolate them using a loop tool or fine tipped forceps (Fig. Fig. \@ref(fig:ch2fig2)).
 1. Locate hyphae and spores of the host and parasite with the dissecting microscope.
 2. Flame sterilize a tungsten wire loop or fine tipped forceps and allow to cool.
 3. While looking at the fungi under the microscope, carefully touch the loop to the spores of the host and the parasite or grab a few hyphae/sporophores with the forceps.  
@@ -158,7 +158,7 @@ If resources are available, students may try to isolate particular fungi of inte
 
 ### Isolation from Incubated Dung
 
-1. While looking at the sample under the dissecting microscope, use a flame sterilized insect minuten pin, nichrome wire, or tungsten loop (Fig. \@ref(fig:ch2fig1)) to carefully collect spores from the fungus of interest.  If it's a mycoparasite, make sure to gather spores of both host and parasite.  Try not to touch any other fungus with the tool to avoid contamination.
+1. While looking at the sample under the dissecting microscope, use a flame sterilized insect minuten pin, nichrome wire, or tungsten loop (Fig. Fig. \@ref(fig:ch2fig1)) to carefully collect spores from the fungus of interest.  If it's a mycoparasite, make sure to gather spores of both host and parasite.  Try not to touch any other fungus with the tool to avoid contamination.
 2. Stab a clean agar plate with the tool to deposit the spores.  Be careful not to tear or gouge the agar.
 3. Alternatively, sterilized fine tipped forceps can be used to pluck sporophores and place them onto a clean plate.
 
@@ -212,7 +212,7 @@ The following methods work well for medium to long-term preservation of saprophy
 
 
 1. 
-<span style="text-decoration:underline;">Water plugs – we recommend water plugs at room temperature for medium-term preservation (1-2 years maximum)</span>(Supp. Fig. \@ref(fig:ch2supfig1))
+<span style="text-decoration:underline;">Water plugs – we recommend water plugs at room temperature for medium-term preservation (1-2 years maximum)</span>(Supp. Fig. Fig. \@ref(fig:ch2supfig1))
 
 
 1. Fill culture slant tubes approximately half full with distilled water and autoclave.
